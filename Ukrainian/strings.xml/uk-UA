@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="apn_source_service"></string>
-  <string name="app_label">Phone and Messaging Storage</string>
-  <string name="mms_provider_label">MMS</string>
-  <string name="mms_sms_provider_label">Messaging</string>
-  <string name="siminfo_default_name">SIM %d</string>
-  <string name="sms_provider_label">Messages</string>
+  <string name="app_name">Wfd Service</string>
+  <string name="channel_name">WFD Service</string>
+  <string name="notification_text">Screen Mirroring is on</string>
+  <string name="notification_title">Wireless Display</string>
+  <string name="perm_desc">Access Qualcomm WLAN Display Stack APIs</string>
+  <string name="perm_label">QC WLAN Display Stack</string>
 </resources>
