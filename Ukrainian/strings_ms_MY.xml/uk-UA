@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="air_quality0">\'AQI \'+#aqi</string>
-    <string name="air_quality1">\'AQI \'+#aqi</string>
-    <string name="air_quality2">\'AQI \'+#aqi</string>
-    <string name="air_quality3">\'AQI \'+#aqi</string>
-    <string name="air_quality4">\'AQI \'+#aqi</string>
-    <string name="air_quality5">\'AQI \'+#aqi</string>
     <string name="weather_null">Klik untuk mendapatkan info cuaca</string>
-    <string name="weather_location_null">Tiada maklumat lokasi</string>
+    <string name="date_format">EEEE, d MMMM</string>
+    <string name="today">Hari ini</string>
+    <string name="tomorrow">Esok</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
+    <string name="weather_type_null">'Tiada data'</string>
     <string name="weather_type_0">Cerah</string>
     <string name="weather_type_1">Mendung</string>
     <string name="weather_type_2">Jerebu</string>
@@ -19,7 +24,7 @@
     <string name="weather_type_8">Hujan renyai-renyai</string>
     <string name="weather_type_9">Hujan lebat</string>
     <string name="weather_type_10">Hujan</string>
-    <string name="weather_type_11">Hujan renyai</string>
+    <string name="weather_type_11">Hujan renyai-renyai</string>
     <string name="weather_type_12">Hujan beku</string>
     <string name="weather_type_13">Ribut salji</string>
     <string name="weather_type_14">Tompok-tompok salji</string>
