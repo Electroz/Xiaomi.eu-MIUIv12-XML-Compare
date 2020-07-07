@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_time">EEE, dd MMMM</string>
-    <string name="date_time_12">EEE, dd MMMM</string>
-    <string name="desc_date_format">EEEE, dd MMM</string>
-    <string name="desc_date_format_12">EEEE, dd MMM</string>
-    <string name="desc_time">'वर्तमान समय\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', घड़ी ऐप्प में प्रवेश करने के लिए दो बार टैप करें'</string>
+    <string name="weather_null">मौसम की जानकारी पाने के लिए टैप करें</string>
+    <string name="date_format">EEEE, d MMMM</string>
+    <string name="today">आज</string>
+    <string name="tomorrow">आनेवाला कल</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
     <string name="weather_type_null">'कोई डेटा नहीं'</string>
-    <string name="weather_type_0">साफ</string>
+    <string name="weather_type_0">खिली धूप</string>
     <string name="weather_type_1">बादल</string>
     <string name="weather_type_2">धुंधला</string>
     <string name="weather_type_3">कोहरा</string>
@@ -31,5 +38,4 @@
     <string name="weather_type_22">ओला</string>
     <string name="weather_type_23">अस्थायी धूल</string>
     <string name="weather_type_24">धुंध</string>
-    <string name="weather_type_25">हिम वर्षा</string>
 </resources>
