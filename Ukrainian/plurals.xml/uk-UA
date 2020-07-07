@@ -1,67 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="alert_dialog_exit_ecm">
-        <item quantity="other">The phone will be in Emergency Callback mode for %s minutes. While in this mode no applications using a data connection can be used. Do you want to exit now?</item>
-        <item quantity="one">The phone will be in Emergency Callback mode for %s minute. While in this mode no apps using a data connection can be used. Do you want to exit now?</item>
-        <item quantity="few">The phone will be in Emergency Callback mode for %s minutes. While in this mode no applications using a data connection can be used. Do you want to exit now?</item>
-        <item quantity="many">The phone will be in Emergency Callback mode for %s minutes. While in this mode no applications using a data connection can be used. Do you want to exit now?</item>
+    <plurals name="activity_main_update_time_in_one_day">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="one">%d hour ago</item>
+        <item quantity="few">%d hours ago</item>
+        <item quantity="many">%d hours ago</item>
     </plurals>
-    <plurals name="alert_dialog_not_avaialble_in_ecm">
-        <item quantity="other">"The selected action isn't available while in the Emergency Callback mode. The phone will be in this mode for %s minutes. Do you want to exit now?"</item>
-        <item quantity="one">"The selected action isn't available while in the Emergency Callback mode. The phone will be in this mode for %s minute. Do you want to exit now?"</item>
-        <item quantity="few">"The selected action isn't available while in the Emergency Callback mode. The phone will be in this mode for %s minutes. Do you want to exit now?"</item>
-        <item quantity="many">"The selected action isn't available while in the Emergency Callback mode. The phone will be in this mode for %s minutes. Do you want to exit now?"</item>
+    <plurals name="activity_main_update_time_in_one_hour">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">%d minute ago</item>
+        <item quantity="few">%d minutes ago</item>
+        <item quantity="many">%d minutes ago</item>
     </plurals>
-    <plurals name="auto_answer_summary_delay">
-        <item quantity="other">delay: %d seconds</item>
-        <item quantity="one">delay: %d second</item>
-        <item quantity="few">delay: %d seconds</item>
-        <item quantity="many">delay: %d seconds</item>
+    <plurals name="activity_main_update_time_one_day_ago">
+        <item quantity="other">%d days ago</item>
+        <item quantity="one">%d day ago</item>
+        <item quantity="few">%d days ago</item>
+        <item quantity="many">%d days ago</item>
     </plurals>
-    <plurals name="call_record_add_white_list_over_reminder">
-        <item quantity="other">You can add up to %s people, select again.</item>
-        <item quantity="one">You can add up to %s person, select again.</item>
-        <item quantity="few">You can add up to %s people, select again.</item>
-        <item quantity="many">You can add up to %s people, select again.</item>
+    <plurals name="aqi_all_city_cur_num">
+        <item quantity="other">Average of %1$s stations</item>
+        <item quantity="one">Average of %1$s station</item>
+        <item quantity="few">Average of %1$s stations</item>
+        <item quantity="many">Average of %1$s stations</item>
     </plurals>
-    <plurals name="call_record_auto_whitelist_summary">
-        <item quantity="other">%d numbers</item>
-        <item quantity="one">%d number</item>
-        <item quantity="few">%d numbers</item>
-        <item quantity="many">%d numbers</item>
+    <plurals name="daily_forcast_drawer_on_home">
+        <item quantity="other">%1$s-day forecast</item>
+        <item quantity="one">%1$s-day forecast</item>
+        <item quantity="few">%1$s-day forecast</item>
+        <item quantity="many">%1$s-day forecast</item>
     </plurals>
-    <plurals name="call_remove_exception_numbers_confirm">
-        <item quantity="other">%d numbers will be deleted.</item>
-        <item quantity="one">%d number will be deleted.</item>
-        <item quantity="few">%d numbers will be deleted.</item>
-        <item quantity="many">%d numbers will be deleted.</item>
+    <plurals name="daily_forcast_drawer_on_top">
+        <item quantity="other">%1$s-day forecast</item>
+        <item quantity="one">%1$s-day forecast</item>
+        <item quantity="few">%1$s-day forecast</item>
+        <item quantity="many">%1$s-day forecast</item>
     </plurals>
-    <plurals name="day">
-        <item quantity="other">%s days</item>
-        <item quantity="one">%s day</item>
-        <item quantity="few">%s days</item>
-        <item quantity="many">%s days</item>
+    <plurals name="feedback_result_interval_time_too_short_minute">
+        <item quantity="other">You can submit feedback again in %1$s minutes</item>
+        <item quantity="one">You can submit feedback again in %1$s minute</item>
+        <item quantity="few">You can submit feedback again in %1$s minutes</item>
+        <item quantity="many">You can submit feedback again in %1$s minutes</item>
     </plurals>
-    <plurals name="hour">
-        <item quantity="other">%s hours</item>
-        <item quantity="one">%s hour</item>
-        <item quantity="few">%s hours</item>
-        <item quantity="many">%s hours</item>
+    <plurals name="feedback_result_interval_time_too_short_second">
+        <item quantity="other">You can submit feedback again in %1$s seconds</item>
+        <item quantity="one">You can submit feedback again in %1$s second</item>
+        <item quantity="few">You can submit feedback again in %1$s seconds</item>
+        <item quantity="many">You can submit feedback again in %1$s seconds</item>
     </plurals>
-    <plurals name="pin_attempts">
-        <item quantity="other">"
-%d attempts remaining."</item>
-        <item quantity="one">"
-%d attempt remaining."</item>
-        <item quantity="few">"
-%d attempts remaining."</item>
-        <item quantity="many">"
-%d attempts remaining."</item>
+    <plurals name="no_vote_num">
+        <item quantity="other">%1$s people | </item>
+        <item quantity="one">%1$s person | </item>
+        <item quantity="few">%1$s people | </item>
+        <item quantity="many">%1$s people | </item>
     </plurals>
-    <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d devices connected</item>
-        <item quantity="one">%1$d device connected</item>
-        <item quantity="few">%1$d devices connected</item>
-        <item quantity="many">%1$d devices connected</item>
+    <plurals name="total_voted_num_text">
+        <item quantity="other">"&lt;font color='#20a7ff'&gt;%1$s&lt;/font&gt; people have voted"</item>
+        <item quantity="one">"&lt;font color='#20a7ff'&gt;%1$s&lt;/font&gt; person has voted"</item>
+        <item quantity="few">"&lt;font color='#20a7ff'&gt;%1$s&lt;/font&gt; people have voted"</item>
+        <item quantity="many">"&lt;font color='#20a7ff'&gt;%1$s&lt;/font&gt; people have voted"</item>
+    </plurals>
+    <plurals name="tts_report_temperature_high_centigrade">
+        <item quantity="other">Highest temperature: %1$s degrees Celsius</item>
+        <item quantity="one">Highest temperature: %1$s degree Celsius</item>
+        <item quantity="few">Highest temperature: %1$s degrees Celsius</item>
+        <item quantity="many">Highest temperature: %1$s degrees Celsius</item>
+    </plurals>
+    <plurals name="tts_report_temperature_high_fahrenheit">
+        <item quantity="other">Highest temperature: %1$s degrees Fahrenheit</item>
+        <item quantity="one">Highest temperature: %1$s degree Fahrenheit</item>
+        <item quantity="few">Highest temperature: %1$s degrees Fahrenheit</item>
+        <item quantity="many">Highest temperature: %1$s degrees Fahrenheit</item>
+    </plurals>
+    <plurals name="tts_report_temperature_low_centigrade">
+        <item quantity="other">Lowest temperature: %1$s degrees Celsius</item>
+        <item quantity="one">Lowest temperature: %1$s degree Celsius</item>
+        <item quantity="few">Lowest temperature: %1$s degrees Celsius</item>
+        <item quantity="many">Lowest temperature: %1$s degrees Celsius</item>
+    </plurals>
+    <plurals name="tts_report_temperature_low_fahrenheit">
+        <item quantity="other">Lowest temperature: %1$s degrees Fahrenheit</item>
+        <item quantity="one">Lowest temperature: %1$s degree Fahrenheit</item>
+        <item quantity="few">Lowest temperature: %1$s degrees Fahrenheit</item>
+        <item quantity="many">Lowest temperature: %1$s degrees Fahrenheit</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">Clear</item>
+        <item quantity="one">Clear</item>
+        <item quantity="few">Clear</item>
+        <item quantity="many">Clear</item>
+    </plurals>
+    <plurals name="yes_vote_num">
+        <item quantity="other"> | %1$s people</item>
+        <item quantity="one"> | %1$s person</item>
+        <item quantity="few"> | %1$s people</item>
+        <item quantity="many"> | %1$s people</item>
     </plurals>
 </resources>
