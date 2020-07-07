@@ -1,63 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="dialog_confirm_delete_downloads_message">
-        <item quantity="other">Delete %d downloads?</item>
-        <item quantity="one">Delete %d download?</item>
-        <item quantity="few">Delete %d downloads?</item>
-        <item quantity="many">Delete %d downloads?</item>
+    <plurals name="notif_summary_active">
+        <item quantity="other">%d files downloading</item>
+        <item quantity="one">%d file downloading</item>
+        <item quantity="few">%d files downloading</item>
+        <item quantity="many">%d files downloading</item>
     </plurals>
-    <plurals name="download_info_count_deleted_tasks">
-        <item quantity="other">Deleted %s downloads successfully</item>
-        <item quantity="one">Deleted %s download successfully</item>
-        <item quantity="few">Deleted %s downloads successfully</item>
-        <item quantity="many">Deleted %s downloads successfully</item>
+    <plurals name="notif_summary_waiting">
+        <item quantity="other">%d files waiting</item>
+        <item quantity="one">%d file waiting</item>
+        <item quantity="few">%d files waiting</item>
+        <item quantity="many">%d files waiting</item>
     </plurals>
-    <plurals name="durationDays">
-        <item quantity="other">%1$d days</item>
-        <item quantity="one">%1$d day</item>
-        <item quantity="few">%1$d days</item>
-        <item quantity="many">%1$d days</item>
-    </plurals>
-    <plurals name="durationHours">
-        <item quantity="other">%1$d hrs</item>
-        <item quantity="one">%1$d hr</item>
-        <item quantity="few">%1$d hrs</item>
-        <item quantity="many">%1$d hrs</item>
-    </plurals>
-    <plurals name="durationMinutes">
-        <item quantity="other">%1$d mins</item>
-        <item quantity="one">%1$d min</item>
-        <item quantity="few">%1$d mins</item>
-        <item quantity="many">%1$d mins</item>
-    </plurals>
-    <plurals name="durationSeconds">
-        <item quantity="other">%1$d secs</item>
-        <item quantity="one">%1$d sec</item>
-        <item quantity="few">%1$d secs</item>
-        <item quantity="many">%1$d secs</item>
-    </plurals>
-    <plurals name="numberOfItemsAvailable">
-        <item quantity="other">Delete %d items?</item>
-        <item quantity="one">Delete this item?</item>
-        <item quantity="few">Delete %d items?</item>
-        <item quantity="many">Delete %d items?</item>
-    </plurals>
-    <plurals name="number_items">
-        <item quantity="other">%s items</item>
-        <item quantity="one">%s item</item>
-        <item quantity="few">%s items</item>
-        <item quantity="many">%s items</item>
-    </plurals>
-    <plurals name="sniff_find_resource">
-        <item quantity="other">Found %d items</item>
-        <item quantity="one">Found 1 item</item>
-        <item quantity="few">Found %d items</item>
-        <item quantity="many">Found %d items</item>
-    </plurals>
-    <plurals name="sniff_find_result">
-        <item quantity="other">Found %d results</item>
-        <item quantity="one">Found 1 result</item>
-        <item quantity="few">Found %d results</item>
-        <item quantity="many">Found %d results</item>
+    <plurals name="notification_download_failed_more">
+        <item quantity="other">"Couldn't download %1$d items"</item>
+        <item quantity="one">"Couldn't download %1$d item"</item>
+        <item quantity="few">"Couldn't download %1$d items"</item>
+        <item quantity="many">"Couldn't download %1$d items"</item>
     </plurals>
 </resources>
