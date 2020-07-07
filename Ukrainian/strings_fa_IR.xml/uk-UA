@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="air_quality0">\'AQI \'+#aqi</string>
-    <string name="air_quality1">\'AQI \'+#aqi</string>
-    <string name="air_quality2">\'AQI \'+#aqi</string>
-    <string name="air_quality3">\'AQI \'+#aqi</string>
-    <string name="air_quality4">\'AQI \'+#aqi</string>
-    <string name="air_quality5">\'AQI \'+#aqi</string>
     <string name="weather_null">برای دریافت اطلاعات آب و هوا ضربه بزنید</string>
-    <string name="weather_location_null">بدون اطلاعات موقعیت مکانی</string>
+    <string name="date_format">EEEE، d MMMM</string>
+    <string name="today">امروز</string>
+    <string name="tomorrow">فردا</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
+    <string name="weather_type_null">'بدون داده'</string>
     <string name="weather_type_0">صاف</string>
     <string name="weather_type_1">ابری</string>
     <string name="weather_type_2">غبارآلود</string>
-    <string name="weather_type_3">مه آلود</string>
+    <string name="weather_type_3">مه‌آلود</string>
     <string name="weather_type_4">رگبار شدید</string>
     <string name="weather_type_5">رگبار</string>
     <string name="weather_type_6">بارش بسیار سنگین باران</string>
     <string name="weather_type_7">رعد و برق</string>
     <string name="weather_type_8">بارندگی</string>
-    <string name="weather_type_9">بارش باران‌ سنگین</string>
+    <string name="weather_type_9">بارش سنگین باران</string>
     <string name="weather_type_10">بارانی</string>
     <string name="weather_type_11">نم‌نم باران</string>
     <string name="weather_type_12">برف و باران</string>
