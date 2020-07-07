@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="delete_confirm_text">
-        <item quantity="other">Delete %1$d screen recordings?</item>
-        <item quantity="one">Delete %1$d screen recording?</item>
-        <item quantity="few">Delete %1$d screen recordings?</item>
-        <item quantity="many">Delete %1$d screen recordings?</item>
+    <plurals name="aod_dual_togother_city">
+        <item quantity="other">" %1$shours %2$s"</item>
+        <item quantity="one">" %1$shour %2$s"</item>
+        <item quantity="few">" %1$shours %2$s"</item>
+        <item quantity="many">" %1$shours %2$s"</item>
     </plurals>
-    <plurals name="home_title_selected">
-        <item quantity="other">Selected %1$d items</item>
-        <item quantity="one">Selected %1$d item</item>
-        <item quantity="few">Selected %1$d items</item>
-        <item quantity="many">Selected %1$d items</item>
+    <plurals name="count_selected">
+        <item quantity="other">Selected %d items</item>
+        <item quantity="one">Selected %d item</item>
+        <item quantity="few">Selected %d items</item>
+        <item quantity="many">Selected %d items</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+        <item quantity="few">%d new notifications</item>
+        <item quantity="many">%d new notifications</item>
     </plurals>
 </resources>
