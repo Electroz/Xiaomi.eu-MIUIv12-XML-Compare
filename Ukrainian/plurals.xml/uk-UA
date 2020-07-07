@@ -1,241 +1,213 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="app_usage_day">
-        <item quantity="other">"Haven't used for %d days"</item>
-        <item quantity="one">"Haven't used for %d day"</item>
-        <item quantity="few">"Haven't used for %d days"</item>
-        <item quantity="many">"Haven't used for %d days"</item>
+    <plurals name="backup_message_wechat_video">
+        <item quantity="other">"%1$d videos in WeChat conversations are about to expire. Back them up to your device's internal storage?"</item>
+        <item quantity="one">"%1$d video in WeChat conversations is about to expire. Back it up to your device's internal storage?"</item>
+        <item quantity="few">"%1$d videos in WeChat conversations are about to expire. Back them up to your device's internal storage?"</item>
+        <item quantity="many">"%1$d videos in WeChat conversations are about to expire. Back them up to your device's internal storage?"</item>
     </plurals>
-    <plurals name="app_usage_month">
-        <item quantity="other">"Haven't used for %d months"</item>
-        <item quantity="one">"Haven't used for %d month"</item>
-        <item quantity="few">"Haven't used for %d months"</item>
-        <item quantity="many">"Haven't used for %d months"</item>
+    <plurals name="clockin_day_count">
+        <item quantity="other">Checked in %1$s days in a row, keep going!</item>
+        <item quantity="one">Checked in %1$s day in a row, keep going!</item>
+        <item quantity="few">Checked in %1$s days in a row, keep going!</item>
+        <item quantity="many">Checked in %1$s days in a row, keep going!</item>
     </plurals>
-    <plurals name="app_usage_year">
-        <item quantity="other">"Haven't used for %d years"</item>
-        <item quantity="one">"Haven't used for %d year"</item>
-        <item quantity="few">"Haven't used for %d years"</item>
-        <item quantity="many">"Haven't used for %d years"</item>
+    <plurals name="clockin_days">
+        <item quantity="other">Checked in %1$s days in a row</item>
+        <item quantity="one">Checked in %1$s day in a row</item>
+        <item quantity="few">Checked in %1$s days in a row</item>
+        <item quantity="many">Checked in %1$s days in a row</item>
     </plurals>
-    <plurals name="clean_long_msg_p1">
-        <item quantity="other">"Cleaning %1$d files (%2$d%%)
-"</item>
-        <item quantity="one">"Cleaning %1$d file (%2$d%%)
-"</item>
-        <item quantity="few">"Cleaning %1$d files (%2$d%%)
-"</item>
-        <item quantity="many">"Cleaning %1$d files (%2$d%%)
-"</item>
+    <plurals name="clockin_new_chip">
+        <item quantity="other">You got &lt;font color=#faea47&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; points</item>
+        <item quantity="one">You got &lt;font color=#faea47&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; point</item>
+        <item quantity="few">You got &lt;font color=#faea47&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; points</item>
+        <item quantity="many">You got &lt;font color=#faea47&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; points</item>
     </plurals>
-    <plurals name="clean_long_msg_p2">
-        <item quantity="other">%1$d items per second | Remaining time: %2$s</item>
-        <item quantity="one">%1$d item per second | Remaining time: %2$s</item>
-        <item quantity="few">%1$d items per second | Remaining time: %2$s</item>
-        <item quantity="many">%1$d items per second | Remaining time: %2$s</item>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d days ago</item>
+        <item quantity="one">%1$d day ago</item>
+        <item quantity="few">%1$d days ago</item>
+        <item quantity="many">%1$d days ago</item>
     </plurals>
-    <plurals name="dc_group_title_normal">
-        <item quantity="other">Take %1$d steps to free up %2$s</item>
-        <item quantity="one">Take %1$d step to free up %2$s</item>
-        <item quantity="few">Take %1$d steps to free up %2$s</item>
-        <item quantity="many">Take %1$d steps to free up %2$s</item>
+    <plurals name="delete_files_confirm">
+        <item quantity="other">Delete %1$d files</item>
+        <item quantity="one">Delete %1$d file</item>
+        <item quantity="few">Delete %1$d files</item>
+        <item quantity="many">Delete %1$d files</item>
     </plurals>
-    <plurals name="dc_item_summary_apk">
-        <item quantity="other">&lt;Data&gt;You can delete &lt;font color=#0097FF&gt;%d&lt;/font&gt; installation packages&lt;/Data&gt;</item>
-        <item quantity="one">&lt;Data&gt;You can delete &lt;font color=#0097FF&gt;%d&lt;/font&gt; installation package&lt;/Data&gt;</item>
-        <item quantity="few">&lt;Data&gt;You can delete &lt;font color=#0097FF&gt;%d&lt;/font&gt; installation packages&lt;/Data&gt;</item>
-        <item quantity="many">&lt;Data&gt;You can delete &lt;font color=#0097FF&gt;%d&lt;/font&gt; installation packages&lt;/Data&gt;</item>
+    <plurals name="delete_folders_confirm">
+        <item quantity="other">" and %1$d folders?"</item>
+        <item quantity="one">" and %1$d folder?"</item>
+        <item quantity="few">" and %1$d folders?"</item>
+        <item quantity="many">" and %1$d folders?"</item>
     </plurals>
-    <plurals name="dc_item_summary_app_data">
-        <item quantity="other">&lt;Data&gt;You can clear the data for &lt;font color=#0097FF&gt;%d&lt;/font&gt; apps&lt;/Data&gt;</item>
-        <item quantity="one">&lt;Data&gt;You can clear the data for &lt;font color=#0097FF&gt;%d&lt;/font&gt; app&lt;/Data&gt;</item>
-        <item quantity="few">&lt;Data&gt;You can clear the data for &lt;font color=#0097FF&gt;%d&lt;/font&gt; apps&lt;/Data&gt;</item>
-        <item quantity="many">&lt;Data&gt;You can clear the data for &lt;font color=#0097FF&gt;%d&lt;/font&gt; apps&lt;/Data&gt;</item>
+    <plurals name="directory_item_count">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+        <item quantity="few">%d items</item>
+        <item quantity="many">%d items</item>
     </plurals>
-    <plurals name="dc_item_summary_image">
-        <item quantity="other">&lt;Data&gt;You can delete &lt;font color=#0097FF&gt;%d&lt;/font&gt; unnecessary photos&lt;/Data&gt;</item>
-        <item quantity="one">&lt;Data&gt;You can delete &lt;font color=#0097FF&gt;%d&lt;/font&gt; unnecessary photo&lt;/Data&gt;</item>
-        <item quantity="few">&lt;Data&gt;You can delete &lt;font color=#0097FF&gt;%d&lt;/font&gt; unnecessary photos&lt;/Data&gt;</item>
-        <item quantity="many">&lt;Data&gt;You can delete &lt;font color=#0097FF&gt;%d&lt;/font&gt; unnecessary photos&lt;/Data&gt;</item>
+    <plurals name="file_count">
+        <item quantity="other"> %1$d items</item>
+        <item quantity="one"> %1$d item</item>
+        <item quantity="few"> %1$d items</item>
+        <item quantity="many"> %1$d items</item>
     </plurals>
-    <plurals name="dc_item_summary_large_file">
-        <item quantity="other">&lt;Data&gt;You can delete &lt;font color=#0097FF&gt;%d&lt;/font&gt; big files&lt;/Data&gt;</item>
-        <item quantity="one">&lt;Data&gt;You can delete &lt;font color=#0097FF&gt;%d&lt;/font&gt; big file&lt;/Data&gt;</item>
-        <item quantity="few">&lt;Data&gt;You can delete &lt;font color=#0097FF&gt;%d&lt;/font&gt; big files&lt;/Data&gt;</item>
-        <item quantity="many">&lt;Data&gt;You can delete &lt;font color=#0097FF&gt;%d&lt;/font&gt; big files&lt;/Data&gt;</item>
+    <plurals name="follow_count">
+        <item quantity="other">&lt;font color=#fc7050&gt;%d&lt;/font&gt; followers</item>
+        <item quantity="one">&lt;font color=#fc7050&gt;%d&lt;/font&gt; follower</item>
+        <item quantity="few">&lt;font color=#fc7050&gt;%d&lt;/font&gt; followers</item>
+        <item quantity="many">&lt;font color=#fc7050&gt;%d&lt;/font&gt; followers</item>
     </plurals>
-    <plurals name="dc_item_summary_uninstall_app">
-        <item quantity="other">&lt;Data&gt;You can uninstall &lt;font color=#0097FF&gt;%d&lt;/font&gt; rarely used apps&lt;/Data&gt;</item>
-        <item quantity="one">&lt;Data&gt;You can uninstall &lt;font color=#0097FF&gt;%d&lt;/font&gt; rarely used app&lt;/Data&gt;</item>
-        <item quantity="few">&lt;Data&gt;You can uninstall &lt;font color=#0097FF&gt;%d&lt;/font&gt; rarely used apps&lt;/Data&gt;</item>
-        <item quantity="many">&lt;Data&gt;You can uninstall &lt;font color=#0097FF&gt;%d&lt;/font&gt; rarely used apps&lt;/Data&gt;</item>
+    <plurals name="found_new_files">
+        <item quantity="other">Found %1$d new files</item>
+        <item quantity="one">Found %1$d new file</item>
+        <item quantity="few">Found %1$d new files</item>
+        <item quantity="many">Found %1$d new files</item>
     </plurals>
-    <plurals name="dc_item_summary_video">
-        <item quantity="other">&lt;Data&gt;You can delete &lt;font color=#0097FF&gt;%d&lt;/font&gt; videos&lt;/Data&gt;</item>
-        <item quantity="one">&lt;Data&gt;You can delete &lt;font color=#0097FF&gt;%d&lt;/font&gt; video&lt;/Data&gt;</item>
-        <item quantity="few">&lt;Data&gt;You can delete &lt;font color=#0097FF&gt;%d&lt;/font&gt; videos&lt;/Data&gt;</item>
-        <item quantity="many">&lt;Data&gt;You can delete &lt;font color=#0097FF&gt;%d&lt;/font&gt; videos&lt;/Data&gt;</item>
+    <plurals name="gems">
+        <item quantity="other">%1$s gems</item>
+        <item quantity="one">%1$s gem</item>
+        <item quantity="few">%1$s gems</item>
+        <item quantity="many">%1$s gems</item>
     </plurals>
-    <plurals name="deepclean_apk_summary">
-        <item quantity="other">Found %d APKs, you can delete the unnecessary ones.</item>
-        <item quantity="one">Found %d APK, you can delete this one.</item>
-        <item quantity="few">Found %d APKs, you can delete the unnecessary ones.</item>
-        <item quantity="many">Found %d APKs, you can delete the unnecessary ones.</item>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d hours ago</item>
+        <item quantity="one">%1$d hour ago</item>
+        <item quantity="few">%1$d hours ago</item>
+        <item quantity="many">%1$d hours ago</item>
     </plurals>
-    <plurals name="deepclean_app_summary">
-        <item quantity="other">%d apps installed, you can delete rarely used apps</item>
-        <item quantity="one">%d app installed, you can delete this one</item>
-        <item quantity="few">%d apps installed, you can delete rarely used apps</item>
-        <item quantity="many">%d apps installed, you can delete rarely used apps</item>
+    <plurals name="items_picture">
+        <item quantity="other"> (%1$d items)</item>
+        <item quantity="one"> (%1$d item)</item>
+        <item quantity="few"> (%1$d items)</item>
+        <item quantity="many"> (%1$d items)</item>
     </plurals>
-    <plurals name="deepclean_cache_summary">
-        <item quantity="other">You can clear unimportant data for %d apps</item>
-        <item quantity="one">You can clear unimportant data for %d app</item>
-        <item quantity="few">You can clear unimportant data for %d apps</item>
-        <item quantity="many">You can clear unimportant data for %d apps</item>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$d minutes ago</item>
+        <item quantity="one">%1$d minute ago</item>
+        <item quantity="few">%1$d minutes ago</item>
+        <item quantity="many">%1$d minutes ago</item>
     </plurals>
-    <plurals name="deepclean_install_info_desc1">
-        <item quantity="other">%d apps installed</item>
-        <item quantity="one">%d app installed</item>
-        <item quantity="few">%d apps installed</item>
-        <item quantity="many">%d apps installed</item>
+    <plurals name="more_gems">
+        <item quantity="other">Collect &lt;font color=#fc7050&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; more gems to participate in the lucky draw.</item>
+        <item quantity="one">Collect &lt;font color=#fc7050&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; more gem to participate in the lucky draw.</item>
+        <item quantity="few">Collect &lt;font color=#fc7050&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; more gems to participate in the lucky draw.</item>
+        <item quantity="many">Collect &lt;font color=#fc7050&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; more gems to participate in the lucky draw.</item>
     </plurals>
-    <plurals name="deepclean_large_summary">
-        <item quantity="other">Found %d big files, you can delete the unimportant ones</item>
-        <item quantity="one">Found %d big file, you can delete this one</item>
-        <item quantity="few">Found %d big files, you can delete the unimportant ones</item>
-        <item quantity="many">Found %d big files, you can delete the unimportant ones</item>
+    <plurals name="numSelectedFile">
+        <item quantity="other">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+        <item quantity="few">%1$d selected</item>
+        <item quantity="many">%1$d selected</item>
     </plurals>
-    <plurals name="deepclean_similar_summary">
-        <item quantity="other">Found %d photos, you can delete duplicates or redundant images</item>
-        <item quantity="one">Found %d photo, you can delete duplicates or redundant images</item>
-        <item quantity="few">Found %d photos, you can delete duplicates or redundant images</item>
-        <item quantity="many">Found %d photos, you can delete duplicates or redundant images</item>
+    <plurals name="number_of_comment_flow">
+        <item quantity="other">%1$s comments</item>
+        <item quantity="one">%1$s comment</item>
+        <item quantity="few">%1$s comments</item>
+        <item quantity="many">%1$s comments</item>
     </plurals>
-    <plurals name="deepclean_video_summary">
-        <item quantity="other">Found %d videos, you can delete the unnecessary ones.​</item>
-        <item quantity="one">Found %d video, you can delete this one.</item>
-        <item quantity="few">Found %d videos, you can delete the unnecessary ones.​</item>
-        <item quantity="many">Found %d videos, you can delete the unnecessary ones.​</item>
+    <plurals name="original_user_days">
+        <item quantity="other">• &lt;font color=#fc7050&gt;%1$d&lt;/font&gt; days</item>
+        <item quantity="one">• &lt;font color=#fc7050&gt;%1$d&lt;/font&gt; day</item>
+        <item quantity="few">• &lt;font color=#fc7050&gt;%1$d&lt;/font&gt; days</item>
+        <item quantity="many">• &lt;font color=#fc7050&gt;%1$d&lt;/font&gt; days</item>
     </plurals>
-    <plurals name="dialog_content_delete_image_confirm">
-        <item quantity="other">Delete %d photos?</item>
-        <item quantity="one">Delete %d photo?</item>
-        <item quantity="few">Delete %d photos?</item>
-        <item quantity="many">Delete %d photos?</item>
+    <plurals name="original_user_fans">
+        <item quantity="other">• You got &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; followers!</item>
+        <item quantity="one">• You got &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; follower!</item>
+        <item quantity="few">• You got &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; followers!</item>
+        <item quantity="many">• You got &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; followers!</item>
     </plurals>
-    <plurals name="dialog_content_delete_image_from_all_devices_confirm">
-        <item quantity="other">Delete %1$s photos from all devices?</item>
-        <item quantity="one">Delete %1$s photo from all devices?</item>
-        <item quantity="few">Delete %1$s photos from all devices?</item>
-        <item quantity="many">Delete %1$s photos from all devices?</item>
+    <plurals name="original_user_play_1">
+        <item quantity="other">• You uploaded &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; videos.</item>
+        <item quantity="one">• You uploaded &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; video.</item>
+        <item quantity="few">• You uploaded &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; videos.</item>
+        <item quantity="many">• You uploaded &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; videos.</item>
     </plurals>
-    <plurals name="global_wa_clean_finish_audio">
-        <item quantity="other">&lt;Data&gt;Freed up &lt;big&gt;&lt;big&gt;&lt;font color=#01BB00 &gt;%1$s&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; (enough for &lt;big&gt;&lt;big&gt;&lt;font color=#01BB00 &gt;%2$d&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; songs)&lt;/Data&gt;</item>
-        <item quantity="one">&lt;Data&gt;Freed up &lt;big&gt;&lt;big&gt;&lt;font color=#01BB00 &gt;%1$s&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; (enough for &lt;big&gt;&lt;big&gt;&lt;font color=#01BB00 &gt;%2$d&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; song)&lt;/Data&gt;</item>
-        <item quantity="few">&lt;Data&gt;Freed up &lt;big&gt;&lt;big&gt;&lt;font color=#01BB00 &gt;%1$s&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; (enough for &lt;big&gt;&lt;big&gt;&lt;font color=#01BB00 &gt;%2$d&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; songs)&lt;/Data&gt;</item>
-        <item quantity="many">&lt;Data&gt;Freed up &lt;big&gt;&lt;big&gt;&lt;font color=#01BB00 &gt;%1$s&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; (enough for &lt;big&gt;&lt;big&gt;&lt;font color=#01BB00 &gt;%2$d&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; songs)&lt;/Data&gt;</item>
+    <plurals name="original_user_play_2">
+        <item quantity="other">You made &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; people happy!</item>
+        <item quantity="one">You made &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; person happy!</item>
+        <item quantity="few">You made &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; people happy!</item>
+        <item quantity="many">You made &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; people happy!</item>
     </plurals>
-    <plurals name="global_wa_clean_finish_picture">
-        <item quantity="other">&lt;Data&gt;Freed up &lt;big&gt;&lt;big&gt;&lt;font color=#01BB00 &gt;%1$s&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; (enough for &lt;big&gt;&lt;big&gt;&lt;font color=#01BB00 &gt;%2$d&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; photos)&lt;/Data&gt;</item>
-        <item quantity="one">&lt;Data&gt;Freed up &lt;big&gt;&lt;big&gt;&lt;font color=#01BB00 &gt;%1$s&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; (enough for &lt;big&gt;&lt;big&gt;&lt;font color=#01BB00 &gt;%2$d&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; photo)&lt;/Data&gt;</item>
-        <item quantity="few">&lt;Data&gt;Freed up &lt;big&gt;&lt;big&gt;&lt;font color=#01BB00 &gt;%1$s&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; (enough for &lt;big&gt;&lt;big&gt;&lt;font color=#01BB00 &gt;%2$d&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; photos)&lt;/Data&gt;</item>
-        <item quantity="many">&lt;Data&gt;Freed up &lt;big&gt;&lt;big&gt;&lt;font color=#01BB00 &gt;%1$s&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; (enough for &lt;big&gt;&lt;big&gt;&lt;font color=#01BB00 &gt;%2$d&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; photos)&lt;/Data&gt;</item>
+    <plurals name="remote_video_update">
+        <item quantity="other">Found %1$s new videos</item>
+        <item quantity="one">Found %1$s new video</item>
+        <item quantity="few">Found %1$s new videos</item>
+        <item quantity="many">Found %1$s new videos</item>
     </plurals>
-    <plurals name="global_wa_image">
-        <item quantity="other">%1$d items</item>
-        <item quantity="one">%1$d item</item>
-        <item quantity="few">%1$d items</item>
-        <item quantity="many">%1$d items</item>
+    <plurals name="search_head_hint_app">
+        <item quantity="other">App %1$s related files (%2$d items)</item>
+        <item quantity="one">App %1$s related files (%2$d item)</item>
+        <item quantity="few">App %1$s related files (%2$d items)</item>
+        <item quantity="many">App %1$s related files (%2$d items)</item>
     </plurals>
-    <plurals name="global_wa_video">
-        <item quantity="other">%1$d items</item>
-        <item quantity="one">%1$d item</item>
-        <item quantity="few">%1$d items</item>
-        <item quantity="many">%1$d items</item>
+    <plurals name="search_head_hint_file">
+        <item quantity="other">%1$s related files (%2$d items)</item>
+        <item quantity="one">%1$s related files (%2$d item)</item>
+        <item quantity="few">%1$s related files (%2$d items)</item>
+        <item quantity="many">%1$s related files (%2$d items)</item>
     </plurals>
-    <plurals name="global_wa_voice">
-        <item quantity="other">&lt;Data&gt;Found &lt;big&gt;&lt;big&gt;&lt;font size=20 color=#FF9000 &gt;%1$d&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; voice messages&lt;/Data&gt;</item>
-        <item quantity="one">&lt;Data&gt;Found &lt;big&gt;&lt;big&gt;&lt;font size=20 color=#FF9000 &gt;%1$d&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; voice message&lt;/Data&gt;</item>
-        <item quantity="few">&lt;Data&gt;Found &lt;big&gt;&lt;big&gt;&lt;font size=20 color=#FF9000 &gt;%1$d&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; voice messages&lt;/Data&gt;</item>
-        <item quantity="many">&lt;Data&gt;Found &lt;big&gt;&lt;big&gt;&lt;font size=20 color=#FF9000 &gt;%1$d&lt;/font&gt;&lt;/big&gt;&lt;/big&gt; voice messages&lt;/Data&gt;</item>
+    <plurals name="search_head_hint_tag">
+        <item quantity="other">Tag %1$s related files (%2$d items)</item>
+        <item quantity="one">Tag %1$s related files (%2$d item)</item>
+        <item quantity="few">Tag %1$s related files (%2$d items)</item>
+        <item quantity="many">Tag %1$s related files (%2$d items)</item>
     </plurals>
-    <plurals name="hint_similar_image_header_left">
-        <item quantity="other">%d groups</item>
-        <item quantity="one">%d group</item>
-        <item quantity="few">%d groups</item>
-        <item quantity="many">%d groups</item>
+    <plurals name="text_group_count">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+        <item quantity="few">%d items</item>
+        <item quantity="many">%d items</item>
     </plurals>
-    <plurals name="hour">
-        <item quantity="other">%1$d hours</item>
-        <item quantity="one">%1$d hour</item>
-        <item quantity="few">%1$d hours</item>
-        <item quantity="many">%1$d hours</item>
+    <plurals name="total_topic_num">
+        <item quantity="other">%1$s topics</item>
+        <item quantity="one">%1$s topic</item>
+        <item quantity="few">%1$s topics</item>
+        <item quantity="many">%1$s topics</item>
     </plurals>
-    <plurals name="minute">
-        <item quantity="other">%1$d minutes</item>
-        <item quantity="one">%1$d minute</item>
-        <item quantity="few">%1$d minutes</item>
-        <item quantity="many">%1$d minutes</item>
+    <plurals name="total_user_num">
+        <item quantity="other">%1$s people</item>
+        <item quantity="one">%1$s person</item>
+        <item quantity="few">%1$s people</item>
+        <item quantity="many">%1$s people</item>
     </plurals>
-    <plurals name="people">
-        <item quantity="other">Downloaded by %1$d people</item>
-        <item quantity="one">Downloaded by %1$d people</item>
-        <item quantity="few">Downloaded by %1$d people</item>
-        <item quantity="many">Downloaded by %1$d people</item>
+    <plurals name="user_sign_limt">
+        <item quantity="other">You can enter %d characters</item>
+        <item quantity="one">You can enter %d character</item>
+        <item quantity="few">You can enter %d characters</item>
+        <item quantity="many">You can enter %d characters</item>
     </plurals>
-    <plurals name="people_million">
-        <item quantity="other">Downloaded by %1$d people</item>
-        <item quantity="one">Downloaded by %1$d people</item>
-        <item quantity="few">Downloaded by %1$d people</item>
-        <item quantity="many">Downloaded by %1$d people</item>
+    <plurals name="video_ad_download_tip">
+        <item quantity="other"> Downloads</item>
+        <item quantity="one"> Download</item>
+        <item quantity="few"> Downloads</item>
+        <item quantity="many"> Downloads</item>
     </plurals>
-    <plurals name="resutl_function_install_app_summary">
-        <item quantity="other">&lt;Data&gt;\"&lt;font color=#ff0000 &gt;%d&lt;/font&gt; apps haven\'t been used for a long time, take a look.\"&lt;/Data&gt;</item>
-        <item quantity="one">&lt;Data&gt;\"&lt;font color=#ff0000 &gt;%d&lt;/font&gt; app hasn\'t been used for a long time, take a look.\"&lt;/Data&gt;</item>
-        <item quantity="few">&lt;Data&gt;\"&lt;font color=#ff0000 &gt;%d&lt;/font&gt; apps haven\'t been used for a long time, take a look.\"&lt;/Data&gt;</item>
-        <item quantity="many">&lt;Data&gt;\"&lt;font color=#ff0000 &gt;%d&lt;/font&gt; apps haven\'t been used for a long time, take a look.\"&lt;/Data&gt;</item>
+    <plurals name="video_count">
+        <item quantity="other">&lt;font color=#fc7050&gt;%d&lt;/font&gt; videos</item>
+        <item quantity="one">&lt;font color=#fc7050&gt;%d&lt;/font&gt; video</item>
+        <item quantity="few">&lt;font color=#fc7050&gt;%d&lt;/font&gt; videos</item>
+        <item quantity="many">&lt;font color=#fc7050&gt;%d&lt;/font&gt; videos</item>
     </plurals>
-    <plurals name="second">
-        <item quantity="other">%1$d seconds</item>
-        <item quantity="one">%1$d second</item>
-        <item quantity="few">%1$d seconds</item>
-        <item quantity="many">%1$d seconds</item>
+    <plurals name="video_items">
+        <item quantity="other"> %1$d items</item>
+        <item quantity="one"> %1$d item</item>
+        <item quantity="few"> %1$d items</item>
+        <item quantity="many"> %1$d items</item>
     </plurals>
-    <plurals name="view_num">
+    <plurals name="video_play_num">
         <item quantity="other">%1$s views</item>
         <item quantity="one">%1$s view</item>
         <item quantity="few">%1$s views</item>
         <item quantity="many">%1$s views</item>
     </plurals>
-    <plurals name="wechat_copy_video_failed_dialog_msg">
-        <item quantity="other">"Couldn't export %d videos. Free up space and try again"</item>
-        <item quantity="one">"Couldn't export %d video. Free up space and try again."</item>
-        <item quantity="few">"Couldn't export %d videos. Free up space and try again"</item>
-        <item quantity="many">"Couldn't export %d videos. Free up space and try again"</item>
-    </plurals>
-    <plurals name="wechat_empty_files">
-        <item quantity="other">(%1$d empty files)</item>
-        <item quantity="one">(%1$d empty file)</item>
-        <item quantity="few">(%1$d empty files)</item>
-        <item quantity="many">(%1$d empty files)</item>
-    </plurals>
-    <plurals name="wechat_video_time_p1">
-        <item quantity="other">%1$s:</item>
-        <item quantity="one">%1$s:</item>
-        <item quantity="few">%1$s:</item>
-        <item quantity="many">%1$s:</item>
-    </plurals>
-    <plurals name="wechat_video_time_p2">
-        <item quantity="other">%1$s</item>
-        <item quantity="one">%1$s</item>
-        <item quantity="few">%1$s</item>
-        <item quantity="many">%1$s</item>
-    </plurals>
-    <plurals name="whatsapp_delete_files">
-        <item quantity="other">Delete %1$d items?</item>
-        <item quantity="one">Delete %1$d item?</item>
-        <item quantity="few">Delete %1$d items?</item>
-        <item quantity="many">Delete %1$d items?</item>
+    <plurals name="video_publish_watchable_hint">
+        <item quantity="other">Get %1$d more followers to upgrade your status​</item>
+        <item quantity="one">Get %1$d more follower to upgrade your status</item>
+        <item quantity="few">Get %1$d more followers to upgrade your status​</item>
+        <item quantity="many">Get %1$d more followers to upgrade your status​</item>
     </plurals>
 </resources>
