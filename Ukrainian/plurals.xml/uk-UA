@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="choosed">
-        <item quantity="other">Selected %1$d items</item>
-        <item quantity="one">Selected %1$d item</item>
-        <item quantity="few">Selected %1$d items</item>
-        <item quantity="many">Selected %1$d items</item>
+    <plurals name="additional_permissions_more">
+        <item quantity="other">%1$d more</item>
+        <item quantity="one">%1$d more</item>
+        <item quantity="few">%1$d more</item>
+        <item quantity="many">%1$d more</item>
     </plurals>
-    <plurals name="monitoringHistory_deleteAlert">
-        <item quantity="one">确定要删除此%1$d条记录吗？</item>
-        <item quantity="few">确定要删除此%1$d条记录吗？</item>
-        <item quantity="many">确定要删除此%1$d条记录吗？</item>
-        <item quantity="other">确定要删除此%1$d条记录吗？</item>
+    <plurals name="miui_permission_detail">
+        <item quantity="other">%d permissions</item>
+        <item quantity="one">%d permission</item>
+        <item quantity="few">%d permissions</item>
+        <item quantity="many">%d permissions</item>
     </plurals>
 </resources>
