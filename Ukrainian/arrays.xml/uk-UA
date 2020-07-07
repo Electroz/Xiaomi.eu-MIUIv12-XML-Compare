@@ -1,391 +1,475 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string-array name="ai_scene_names">
-    <item>none</item>
-    <item>document</item>
-    <item>flower</item>
-    <item>food</item>
-    <item>ppt</item>
-    <item>sky</item>
-    <item>sunrise_sunset</item>
-    <item>cat</item>
-    <item>dog</item>
-    <item>green_plants</item>
-    <item>night</item>
-    <item>snow</item>
-    <item>ocean</item>
-    <item>autumn</item>
-    <item>candlelight</item>
-    <item>car</item>
-    <item>grass</item>
-    <item>maple_leaf</item>
-    <item>succulent</item>
-    <item>building</item>
-    <item>city</item>
-    <item>cloudy</item>
-    <item>overcast</item>
-    <item>back_light_portrait</item>
-    <item>silhouette</item>
-    <item>portrait</item>
-    <item>jewels</item>
-    <item>buddha</item>
-    <item>cow</item>
-    <item>curry</item>
-    <item>motorcycle</item>
-    <item>temple</item>
-    <item>beach</item>
-    <item>underwater</item>
-    <item>tower</item>
-    <item>moon</item>
-    <item>group_photo</item>
-    <item>statue</item>
-  </string-array>
-  <string-array name="beauty_level_list">
-    <item>@string/beauty_level_1</item>
-    <item>@string/beauty_level_2</item>
-    <item>@string/beauty_level_3</item>
-    <item>@string/beauty_level_4</item>
-    <item>@string/beauty_level_5</item>
-  </string-array>
-  <string-array name="dialog_camera_long_press_viewfinder_options">
-    <item>@string/dialog_google_lens_option_0</item>
-    <item>@string/pref_camera_long_pressing_viewfinder_entry_lock_ae_af</item>
-  </string-array>
-  <string-array name="live_filter_directory_name">
-    <item></item>
-    <item>LIVE-FAIR</item>
-    <item>LIVE-MOUSSE</item>
-    <item>LIVE-SOLAR</item>
-    <item>LIVE-BLUE</item>
-    <item>LIVE-CONTRAST</item>
-    <item>LIVE-YEARS</item>
-    <item>LIVE-DEEPBLACK</item>
-  </string-array>
-  <string-array name="live_filter_name">
-    <item>@string/color_effect_live_none</item>
-    <item>@string/color_effect_live_fair</item>
-    <item>@string/color_effect_live_mousse</item>
-    <item>@string/color_effect_live_solar</item>
-    <item>@string/color_effect_live_blue</item>
-    <item>@string/color_effect_live_contrast</item>
-    <item>@string/color_effect_live_years</item>
-    <item>@string/color_effect_live_deepblack</item>
-  </string-array>
-  <string-array name="pref_camera_antibanding_entries">
-    <item>@string/pref_camera_antibanding_entry_0</item>
-    <item>@string/pref_camera_antibanding_entry_1</item>
-    <item>@string/pref_camera_antibanding_entry_2</item>
-    <item>@string/pref_camera_antibanding_entry_3</item>
-  </string-array>
-  <string-array name="pref_camera_antibanding_entryvalues">
-    <item>@string/pref_camera_antibanding_entryvalue_off</item>
-    <item>@string/pref_camera_antibanding_entryvalue_50hz</item>
-    <item>@string/pref_camera_antibanding_entryvalue_60hz</item>
-    <item>@string/pref_camera_antibanding_entryvalue_auto</item>
-  </string-array>
-  <string-array name="pref_camera_autoexposure_entries">
-    <item>@string/pref_camera_autoexposure_entry_frameaverage</item>
-    <item>@string/pref_camera_autoexposure_entry_centerweighted</item>
-    <item>@string/pref_camera_autoexposure_entry_spotmetering</item>
-  </string-array>
-  <string-array name="pref_camera_autoexposure_entryvalues">
-    <item>@string/pref_camera_autoexposure_value_frameaverage</item>
-    <item>@string/pref_camera_autoexposure_value_centerweighted</item>
-    <item>@string/pref_camera_autoexposure_value_spotmetering</item>
-  </string-array>
-  <string-array name="pref_camera_contrast_entries">
-    <item>@string/pref_camera_multilevel_entry_lowest</item>
-    <item>@string/pref_camera_multilevel_entry_lower</item>
-    <item>@string/pref_camera_multilevel_entry_low</item>
-    <item>@string/pref_camera_multilevel_entry_normal</item>
-    <item>@string/pref_camera_multilevel_entry_high</item>
-    <item>@string/pref_camera_multilevel_entry_higher</item>
-    <item>@string/pref_camera_multilevel_entry_highest</item>
-  </string-array>
-  <string-array name="pref_camera_contrast_entryvalues">
-    <item>0</item>
-    <item>2</item>
-    <item>4</item>
-    <item>5</item>
-    <item>6</item>
-    <item>8</item>
-    <item>10</item>
-  </string-array>
-  <string-array name="pref_camera_iso_entryvalues">
-    <item>@string/pref_camera_iso_value_auto</item>
-    <item>@string/pref_camera_iso_value_iso100</item>
-    <item>@string/pref_camera_iso_value_iso200</item>
-    <item>@string/pref_camera_iso_value_iso400</item>
-    <item>@string/pref_camera_iso_value_iso800</item>
-    <item>@string/pref_camera_iso_value_iso1600</item>
-    <item>@string/pref_camera_iso_value_iso3200</item>
-  </string-array>
-  <string-array name="pref_camera_iso_entryvalues_new">
-    <item>@string/pref_camera_iso_value_auto</item>
-    <item>@string/pref_camera_iso_entry_iso50</item>
-    <item>@string/pref_camera_iso_entry_iso64</item>
-    <item>@string/pref_camera_iso_entry_iso80</item>
-    <item>@string/pref_camera_iso_value_iso100</item>
-    <item>@string/pref_camera_iso_entry_iso125</item>
-    <item>@string/pref_camera_iso_entry_iso160</item>
-    <item>@string/pref_camera_iso_value_iso200</item>
-    <item>@string/pref_camera_iso_entry_iso250</item>
-    <item>@string/pref_camera_iso_entry_iso320</item>
-    <item>@string/pref_camera_iso_value_iso400</item>
-    <item>@string/pref_camera_iso_entry_iso500</item>
-    <item>@string/pref_camera_iso_entry_iso640</item>
-    <item>@string/pref_camera_iso_value_iso800</item>
-    <item>@string/pref_camera_iso_entry_iso1000</item>
-    <item>@string/pref_camera_iso_entry_iso1250</item>
-    <item>@string/pref_camera_iso_value_iso1600</item>
-    <item>@string/pref_camera_iso_entry_iso2000</item>
-    <item>@string/pref_camera_iso_entry_iso2500</item>
-    <item>@string/pref_camera_iso_value_iso3200</item>
-    <item>@string/pref_camera_iso_entry_iso4000</item>
-    <item>@string/pref_camera_iso_entry_iso4500</item>
-    <item>@string/pref_camera_iso_entry_iso5000</item>
-    <item>@string/pref_camera_iso_entry_iso6400</item>
-    <item>@string/pref_camera_iso_entry_iso8000</item>
-    <item>@string/pref_camera_iso_entry_iso10000</item>
-    <item>@string/pref_camera_iso_entry_iso12800</item>
-  </string-array>
-  <string-array name="pref_camera_jpegquality_entries">
-    <item>@string/pref_camera_jpegquality_entry_high</item>
-    <item>@string/pref_camera_jpegquality_entry_normal</item>
-    <item>@string/pref_camera_jpegquality_entry_low</item>
-  </string-array>
-  <string-array name="pref_camera_jpegquality_entryvalues">
-    <item>@string/pref_camera_jpegquality_value_high</item>
-    <item>@string/pref_camera_jpegquality_value_normal</item>
-    <item>@string/pref_camera_jpegquality_value_low</item>
-  </string-array>
-  <string-array name="pref_camera_long_press_shutter_feature_entries">
-    <item>@string/pref_camera_long_pressing_burst_shooting_entry_record</item>
-    <item>@string/pref_camera_long_pressing_burst_shooting_entry_burst</item>
-    <item>@string/pref_camera_long_pressing_burst_shooting_entry_focus</item>
-  </string-array>
-  <string-array name="pref_camera_long_press_shutter_feature_entryvalues">
-    <item>@string/pref_camera_long_pressing_burst_shooting_entryvalue_record</item>
-    <item>@string/pref_camera_long_pressing_burst_shooting_entryvalue_burst</item>
-    <item>@string/pref_camera_long_pressing_burst_shooting_entryvalue_focus</item>
-  </string-array>
-  <string-array name="pref_camera_long_press_viewfinder_entries">
-    <item>@string/pref_camera_long_pressing_viewfinder_entry_google_lens</item>
-    <item>@string/pref_camera_long_pressing_viewfinder_entry_lock_ae_af</item>
-  </string-array>
-  <string-array name="pref_camera_long_press_viewfinder_entryvalues">
-    <item>@string/pref_camera_long_press_viewfinder_google_lens</item>
-    <item>@string/pref_camera_long_press_viewfinder_lock_ae_af</item>
-  </string-array>
-  <string-array name="pref_camera_saturation_entries">
-    <item>@string/pref_camera_multilevel_entry_lowest</item>
-    <item>@string/pref_camera_multilevel_entry_lower</item>
-    <item>@string/pref_camera_multilevel_entry_low</item>
-    <item>@string/pref_camera_multilevel_entry_normal</item>
-    <item>@string/pref_camera_multilevel_entry_high</item>
-    <item>@string/pref_camera_multilevel_entry_higher</item>
-    <item>@string/pref_camera_multilevel_entry_highest</item>
-  </string-array>
-  <string-array name="pref_camera_saturation_entryvalues">
-    <item>0</item>
-    <item>1</item>
-    <item>2</item>
-    <item>3</item>
-    <item>4</item>
-    <item>5</item>
-    <item>6</item>
-  </string-array>
-  <string-array name="pref_camera_sharpness_entries">
-    <item>@string/pref_camera_multilevel_entry_low</item>
-    <item>@string/pref_camera_multilevel_entry_normal</item>
-    <item>@string/pref_camera_multilevel_entry_high</item>
-  </string-array>
-  <string-array name="pref_camera_sharpness_entryvalues">
-    <item>0</item>
-    <item>1</item>
-    <item>2</item>
-  </string-array>
-  <string-array name="pref_camera_snap_entries">
-    <item>@string/pref_camera_snap_entry_take_picture</item>
-    <item>@string/pref_camera_snap_entry_take_movie</item>
-    <item>@string/pref_camera_snap_entry_off</item>
-  </string-array>
-  <string-array name="pref_camera_snap_entryvalues">
-    <item>@string/pref_camera_snap_value_take_picture</item>
-    <item>@string/pref_camera_snap_value_take_movie</item>
-    <item>@string/pref_camera_snap_value_off</item>
-  </string-array>
-  <string-array name="pref_camera_snap_labels">
-    <item>@string/pref_camera_snap_label_take_picture</item>
-    <item>@string/pref_camera_snap_label_take_movie</item>
-    <item>@string/pref_camera_snap_entry_off</item>
-  </string-array>
-  <string-array name="pref_camera_volumekey_function_entries">
-    <item>@string/pref_camera_volumekey_function_entry_shutter</item>
-    <item>@string/pref_camera_volumekey_function_entry_timer</item>
-    <item>@string/pref_camera_volumekey_function_entry_zoom</item>
-    <item>@string/pref_camera_volumekey_function_entry_volume</item>
-  </string-array>
-  <string-array name="pref_camera_volumekey_function_entryvalues">
-    <item>@string/pref_camera_volumekey_function_entryvalue_shutter</item>
-    <item>@string/pref_camera_volumekey_function_entryvalue_timer</item>
-    <item>@string/pref_camera_volumekey_function_entryvalue_zoom</item>
-    <item>@string/pref_camera_volumekey_function_entryvalue_volume</item>
-  </string-array>
-  <string-array name="pref_camera_volumekey_function_front_entries">
-    <item>@string/pref_camera_volumekey_function_entry_shutter</item>
-    <item>@string/pref_camera_volumekey_function_entry_volume</item>
-  </string-array>
-  <string-array name="pref_camera_volumekey_function_front_entryvalues">
-    <item>@string/pref_camera_volumekey_function_entryvalue_shutter</item>
-    <item>@string/pref_camera_volumekey_function_entryvalue_volume</item>
-  </string-array>
-  <string-array name="pref_camera_volumekey_function_night_entries">
-    <item>@string/pref_camera_volumekey_function_entry_shutter</item>
-    <item>@string/pref_camera_volumekey_function_entry_zoom</item>
-    <item>@string/pref_camera_volumekey_function_entry_volume</item>
-  </string-array>
-  <string-array name="pref_camera_volumekey_function_night_entryvalues">
-    <item>@string/pref_camera_volumekey_function_entryvalue_shutter</item>
-    <item>@string/pref_camera_volumekey_function_entryvalue_zoom</item>
-    <item>@string/pref_camera_volumekey_function_entryvalue_volume</item>
-  </string-array>
-  <string-array name="pref_camera_volumekey_function_portrait_entries">
-    <item>@string/pref_camera_volumekey_function_entry_shutter</item>
-    <item>@string/pref_camera_volumekey_function_entry_timer</item>
-    <item>@string/pref_camera_volumekey_function_entry_volume</item>
-  </string-array>
-  <string-array name="pref_camera_volumekey_function_portrait_entryvalues">
-    <item>@string/pref_camera_volumekey_function_entryvalue_shutter</item>
-    <item>@string/pref_camera_volumekey_function_entryvalue_timer</item>
-    <item>@string/pref_camera_volumekey_function_entryvalue_volume</item>
-  </string-array>
-  <string-array name="pref_front_mirror_entries">
-    <item>@string/pref_front_mirror_entry_on</item>
-    <item>@string/pref_front_mirror_entry_off</item>
-  </string-array>
-  <string-array name="pref_front_mirror_entryvalues">
-    <item>@string/pref_front_mirror_entryvalue_on</item>
-    <item>@string/pref_front_mirror_entryvalue_off</item>
-  </string-array>
-  <string-array name="pref_front_mirror_labels">
-    <item>@string/pref_front_mirror_entry_on</item>
-    <item>@string/pref_front_mirror_entry_off</item>
-  </string-array>
-  <string-array name="pref_live_volumekey_function_entries">
-    <item>@string/pref_camera_volumekey_function_entry_volume</item>
-    <item>@string/pref_camera_volumekey_function_entry_shutter</item>
-    <item>@string/pref_camera_volumekey_function_entry_zoom</item>
-  </string-array>
-  <string-array name="pref_live_volumekey_function_entryvalues">
-    <item>@string/pref_camera_volumekey_function_entryvalue_volume</item>
-    <item>@string/pref_camera_volumekey_function_entryvalue_shutter</item>
-    <item>@string/pref_camera_volumekey_function_entryvalue_zoom</item>
-  </string-array>
-  <string-array name="pref_pro_video_volumekey_function_entries">
-    <item>@string/pref_camera_volumekey_function_entry_shutter</item>
-    <item>@string/pref_camera_volumekey_function_entry_zoom</item>
-    <item>@string/pref_camera_volumekey_function_entry_volume</item>
-  </string-array>
-  <string-array name="pref_pro_video_volumekey_function_entryvalues">
-    <item>@string/pref_camera_volumekey_function_entryvalue_shutter</item>
-    <item>@string/pref_camera_volumekey_function_entryvalue_zoom</item>
-    <item>@string/pref_camera_volumekey_function_entryvalue_volume</item>
-  </string-array>
-  <string-array name="pref_video_encoder_entries">
-    <item>@string/pref_video_encoder_entry_h264</item>
-    <item>@string/pref_video_encoder_entry_h265</item>
-  </string-array>
-  <string-array name="pref_video_encoder_entryvalues">
-    <item>h264</item>
-    <item>h265</item>
-  </string-array>
-  <string-array name="pref_video_focusmode_entries">
-    <item>@string/pref_video_focusmode_entry_auto</item>
-    <item>@string/pref_video_focusmode_entry_continuous</item>
-  </string-array>
-  <string-array name="pref_video_focusmode_entryvalues">
-    <item>@string/pref_video_focusmode_entryvalue_auto</item>
-    <item>@string/pref_video_focusmode_entryvalue_continuous</item>
-  </string-array>
-  <string-array name="pref_video_hfr_entries">
-    <item>720p, 120fps</item>
-    <item>1080p, 120fps</item>
-    <item>720p, 240fps</item>
-    <item>1080p, 240fps</item>
-  </string-array>
-  <string-array name="pref_video_hfr_entryvalues">
-    <item>1280x720:120</item>
-    <item>1920x1080:120</item>
-    <item>1280x720:240</item>
-    <item>1920x1080:240</item>
-  </string-array>
-  <string-array name="pref_video_new_slow_motion_entries">
-    <item>@string/pref_new_slow_motion_video_quality_entry_1080p</item>
-    <item>@string/pref_new_slow_motion_video_quality_entry_720p</item>
-  </string-array>
-  <string-array name="pref_video_new_slow_motion_entryvalues">
-    <item>6</item>
-    <item>5</item>
-  </string-array>
-  <string-array name="pref_video_quality_default_values">
-    <item>@string/pref_video_quality_default</item>
-    <item>@string/pref_mtk_video_quality_default</item>
-  </string-array>
-  <string-array name="pref_video_quality_entries">
-    <item>@string/pref_video_quality_entry_4kuhd</item>
-    <item>@string/pref_video_quality_entry_4kuhd_60fps</item>
-    <item>@string/pref_video_quality_entry_1080p</item>
-    <item>@string/pref_video_quality_entry_1080p_60fps</item>
-    <item>@string/pref_video_quality_entry_720p</item>
-    <item>@string/pref_video_quality_entry_720p_60fps</item>
-  </string-array>
-  <string-array name="pref_video_quality_entryvalues">
-    <item>@string/pref_video_quality_entry_value_4kuhd</item>
-    <item>@string/pref_video_quality_entry_value_4kuhd_60fps</item>
-    <item>6</item>
-    <item>@string/pref_video_quality_entry_value_1080p_60fps</item>
-    <item>5</item>
-    <item>@string/pref_video_quality_entry_value_720p_60fps</item>
-  </string-array>
-  <string-array name="pref_video_time_lapse_frame_interval_entries">
-    <item>@string/pref_video_time_lapse_frame_interval_entry_2</item>
-    <item>@string/pref_video_time_lapse_frame_interval_entry_4</item>
-    <item>@string/pref_video_time_lapse_frame_interval_entry_10</item>
-    <item>@string/pref_video_time_lapse_frame_interval_entry_30</item>
-    <item>@string/pref_video_time_lapse_frame_interval_entry_60</item>
-    <item>@string/pref_video_time_lapse_frame_interval_entry_90</item>
-    <item>@string/pref_video_time_lapse_frame_interval_entry_120</item>
-    <item>@string/pref_video_time_lapse_frame_interval_entry_150</item>
-    <item>@string/pref_video_time_lapse_frame_interval_entry_240</item>
-    <item>@string/pref_video_time_lapse_frame_interval_entry_300</item>
-    <item>@string/pref_video_time_lapse_frame_interval_entry_450</item>
-    <item>@string/pref_video_time_lapse_frame_interval_entry_900</item>
-    <item>@string/pref_video_time_lapse_frame_interval_entry_1800</item>
-  </string-array>
-  <string-array name="pref_video_time_lapse_frame_interval_entryvalues">
-    <item>67</item>
-    <item>120</item>
-    <item>300</item>
-    <item>1000</item>
-    <item>2000</item>
-    <item>3000</item>
-    <item>4000</item>
-    <item>5000</item>
-    <item>8000</item>
-    <item>10000</item>
-    <item>15000</item>
-    <item>30000</item>
-    <item>60000</item>
-  </string-array>
-  <string-array name="pref_video_volumekey_function_entries">
-    <item>@string/pref_camera_volumekey_function_entry_shutter</item>
-    <item>@string/pref_camera_volumekey_function_entry_zoom</item>
-    <item>@string/pref_camera_volumekey_function_entry_volume</item>
-  </string-array>
-  <string-array name="pref_video_volumekey_function_entryvalues">
-    <item>@string/pref_camera_volumekey_function_entryvalue_shutter</item>
-    <item>@string/pref_camera_volumekey_function_entryvalue_zoom</item>
-    <item>@string/pref_camera_volumekey_function_entryvalue_volume</item>
-  </string-array>
+    <string-array name="alphabet_table">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="alphabet_table_with_starred">
+        <item>!</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="am_pms">
+        <item>@string/am</item>
+        <item>@string/pm</item>
+    </string-array>
+    <string-array name="chinese_days">
+        <item>@string/chinese_day_1</item>
+        <item>@string/chinese_day_2</item>
+        <item>@string/chinese_day_3</item>
+        <item>@string/chinese_day_4</item>
+        <item>@string/chinese_day_5</item>
+        <item>@string/chinese_day_6</item>
+        <item>@string/chinese_day_7</item>
+        <item>@string/chinese_day_8</item>
+        <item>@string/chinese_day_9</item>
+        <item>@string/chinese_day_10</item>
+        <item>@string/chinese_day_11</item>
+        <item>@string/chinese_day_12</item>
+        <item>@string/chinese_day_13</item>
+        <item>@string/chinese_day_14</item>
+        <item>@string/chinese_day_15</item>
+        <item>@string/chinese_day_16</item>
+        <item>@string/chinese_day_17</item>
+        <item>@string/chinese_day_18</item>
+        <item>@string/chinese_day_19</item>
+        <item>@string/chinese_day_20</item>
+        <item>@string/chinese_day_21</item>
+        <item>@string/chinese_day_22</item>
+        <item>@string/chinese_day_23</item>
+        <item>@string/chinese_day_24</item>
+        <item>@string/chinese_day_25</item>
+        <item>@string/chinese_day_26</item>
+        <item>@string/chinese_day_27</item>
+        <item>@string/chinese_day_28</item>
+        <item>@string/chinese_day_29</item>
+        <item>@string/chinese_day_30</item>
+    </string-array>
+    <string-array name="chinese_digits">
+        <item>@string/chinese_digit_zero</item>
+        <item>@string/chinese_digit_one</item>
+        <item>@string/chinese_digit_two</item>
+        <item>@string/chinese_digit_three</item>
+        <item>@string/chinese_digit_four</item>
+        <item>@string/chinese_digit_five</item>
+        <item>@string/chinese_digit_six</item>
+        <item>@string/chinese_digit_seven</item>
+        <item>@string/chinese_digit_eight</item>
+        <item>@string/chinese_digit_nine</item>
+        <item>@string/chinese_digit_ten</item>
+    </string-array>
+    <string-array name="chinese_leap_months">
+        <item>@string/empty</item>
+        <item>@string/chinese_leap</item>
+    </string-array>
+    <string-array name="chinese_months">
+        <item>@string/chinese_month_january</item>
+        <item>@string/chinese_month_february</item>
+        <item>@string/chinese_month_march</item>
+        <item>@string/chinese_month_april</item>
+        <item>@string/chinese_month_may</item>
+        <item>@string/chinese_month_june</item>
+        <item>@string/chinese_month_july</item>
+        <item>@string/chinese_month_august</item>
+        <item>@string/chinese_month_september</item>
+        <item>@string/chinese_month_october</item>
+        <item>@string/chinese_month_november</item>
+        <item>@string/chinese_month_december</item>
+    </string-array>
+    <string-array name="chinese_symbol_animals">
+        <item>@string/chinese_symbol_animals_mouse</item>
+        <item>@string/chinese_symbol_animals_cow</item>
+        <item>@string/chinese_symbol_animals_tiger</item>
+        <item>@string/chinese_symbol_animals_rabbit</item>
+        <item>@string/chinese_symbol_animals_dragon</item>
+        <item>@string/chinese_symbol_animals_snake</item>
+        <item>@string/chinese_symbol_animals_horse</item>
+        <item>@string/chinese_symbol_animals_sheep</item>
+        <item>@string/chinese_symbol_animals_monkey</item>
+        <item>@string/chinese_symbol_animals_chicken</item>
+        <item>@string/chinese_symbol_animals_dog</item>
+        <item>@string/chinese_symbol_animals_pig</item>
+    </string-array>
+    <string-array name="contact_infotype_entries">
+        <item>@string/name</item>
+        <item>@string/nickname</item>
+        <item>@string/phone</item>
+        <item>@string/email</item>
+        <item>@string/organization</item>
+        <item>@string/im</item>
+        <item>@string/sip_phone</item>
+        <item>@string/birthday</item>
+        <item>@string/website</item>
+        <item>@string/address</item>
+        <item>@string/note</item>
+    </string-array>
+    <string-array name="country_codes_5ghz_supported">
+        <item>AE</item>
+        <item>AR</item>
+        <item>AS</item>
+        <item>AU</item>
+        <item>BB</item>
+        <item>BF</item>
+        <item>BH</item>
+        <item>BM</item>
+        <item>BN</item>
+        <item>BR</item>
+        <item>BS</item>
+        <item>CA</item>
+        <item>CF</item>
+        <item>CI</item>
+        <item>CL</item>
+        <item>CN</item>
+        <item>CO</item>
+        <item>CR</item>
+        <item>CX</item>
+        <item>DM</item>
+        <item>DO</item>
+        <item>EC</item>
+        <item>FM</item>
+        <item>GD</item>
+        <item>GH</item>
+        <item>GU</item>
+        <item>HK</item>
+        <item>HN</item>
+        <item>HT</item>
+        <item>IN</item>
+        <item>JM</item>
+        <item>JO</item>
+        <item>KE</item>
+        <item>KN</item>
+        <item>KR</item>
+        <item>KY</item>
+        <item>LB</item>
+        <item>LC</item>
+        <item>LK</item>
+        <item>MH</item>
+        <item>MN</item>
+        <item>MP</item>
+        <item>MU</item>
+        <item>MV</item>
+        <item>MX</item>
+        <item>MY</item>
+        <item>NI</item>
+        <item>NP</item>
+        <item>NZ</item>
+        <item>PA</item>
+        <item>PE</item>
+        <item>PG</item>
+        <item>PH</item>
+        <item>PR</item>
+        <item>PW</item>
+        <item>PY</item>
+        <item>RU</item>
+        <item>RW</item>
+        <item>SG</item>
+        <item>SN</item>
+        <item>SV</item>
+        <item>TC</item>
+        <item>TH</item>
+        <item>TT</item>
+        <item>UA</item>
+        <item>UG</item>
+        <item>US</item>
+        <item>UY</item>
+        <item>VE</item>
+        <item>VI</item>
+        <item>VN</item>
+        <item>VU</item>
+        <item>ZA</item>
+        <item>AF</item>
+        <item>AI</item>
+        <item>AL</item>
+        <item>AM</item>
+        <item>AN</item>
+        <item>AT</item>
+        <item>AW</item>
+        <item>AZ</item>
+        <item>BA</item>
+        <item>BE</item>
+        <item>BG</item>
+        <item>BL</item>
+        <item>BT</item>
+        <item>BY</item>
+        <item>CH</item>
+        <item>CY</item>
+        <item>CZ</item>
+        <item>DE</item>
+        <item>DK</item>
+        <item>DZ</item>
+        <item>EE</item>
+        <item>EG</item>
+        <item>ES</item>
+        <item>ET</item>
+        <item>FI</item>
+        <item>FR</item>
+        <item>GB</item>
+        <item>GE</item>
+        <item>GF</item>
+        <item>GL</item>
+        <item>GP</item>
+        <item>GR</item>
+        <item>GT</item>
+        <item>HR</item>
+        <item>HU</item>
+        <item>IE</item>
+        <item>IL</item>
+        <item>IS</item>
+        <item>IT</item>
+        <item>JP</item>
+        <item>KH</item>
+        <item>KW</item>
+        <item>LI</item>
+        <item>LS</item>
+        <item>LT</item>
+        <item>LU</item>
+        <item>LV</item>
+        <item>MA</item>
+        <item>MC</item>
+        <item>MD</item>
+        <item>ME</item>
+        <item>MF</item>
+        <item>MK</item>
+        <item>MQ</item>
+        <item>MR</item>
+        <item>MT</item>
+        <item>MW</item>
+        <item>NL</item>
+        <item>NO</item>
+        <item>OM</item>
+        <item>PF</item>
+        <item>PL</item>
+        <item>PM</item>
+        <item>PT</item>
+        <item>RE</item>
+        <item>RO</item>
+        <item>RS</item>
+        <item>SA</item>
+        <item>SE</item>
+        <item>SI</item>
+        <item>SK</item>
+        <item>SR</item>
+        <item>TD</item>
+        <item>TG</item>
+        <item>TN</item>
+        <item>TR</item>
+        <item>UZ</item>
+        <item>VC</item>
+        <item>WF</item>
+        <item>WS</item>
+        <item>YT</item>
+        <item>ZW</item>
+        <item>BD</item>
+        <item>BO</item>
+        <item>BZ</item>
+        <item>GY</item>
+        <item>ID</item>
+        <item>IR</item>
+        <item>MO</item>
+        <item>NG</item>
+        <item>PK</item>
+        <item>QA</item>
+        <item>TW</item>
+        <item>TZ</item>
+    </string-array>
+    <string-array name="detailed_am_pms">
+        <item>@string/midnight</item>
+        <item>@string/early_morning</item>
+        <item>@string/morning</item>
+        <item>@string/noon</item>
+        <item>@string/afternoon</item>
+        <item>@string/evening</item>
+        <item>@string/night</item>
+    </string-array>
+    <string-array name="document_default_extensions">
+        <item>.doc</item>
+        <item>.docx</item>
+        <item>.xls</item>
+        <item>.xlsx</item>
+        <item>.ppt</item>
+        <item>.pptx</item>
+        <item>.pps</item>
+        <item>.pdf</item>
+        <item>.wps</item>
+        <item>.et</item>
+        <item>.ett</item>
+        <item>.dps</item>
+        <item>.rtf</item>
+    </string-array>
+    <string-array name="earthly_branches">
+        <item>@string/earthly_branches_zi</item>
+        <item>@string/earthly_branches_chou</item>
+        <item>@string/earthly_branches_yin</item>
+        <item>@string/earthly_branches_mao</item>
+        <item>@string/earthly_branches_chen</item>
+        <item>@string/earthly_branches_si</item>
+        <item>@string/earthly_branches_wu</item>
+        <item>@string/earthly_branches_wei</item>
+        <item>@string/earthly_branches_shen</item>
+        <item>@string/earthly_branches_you</item>
+        <item>@string/earthly_branches_xu</item>
+        <item>@string/earthly_branches_hai</item>
+    </string-array>
+    <string-array name="eras">
+        <item>@string/eras_bc</item>
+        <item>@string/eras_ad</item>
+    </string-array>
+    <string-array name="heavenly_stems">
+        <item>@string/heavenly_stems_jia</item>
+        <item>@string/heavenly_stems_yi</item>
+        <item>@string/heavenly_stems_bing</item>
+        <item>@string/heavenly_stems_ding</item>
+        <item>@string/heavenly_stems_wu</item>
+        <item>@string/heavenly_stems_ji</item>
+        <item>@string/heavenly_stems_geng</item>
+        <item>@string/heavenly_stems_xin</item>
+        <item>@string/heavenly_stems_ren</item>
+        <item>@string/heavenly_stems_gui</item>
+    </string-array>
+    <string-array name="months">
+        <item>@string/month_january</item>
+        <item>@string/month_february</item>
+        <item>@string/month_march</item>
+        <item>@string/month_april</item>
+        <item>@string/month_may</item>
+        <item>@string/month_june</item>
+        <item>@string/month_july</item>
+        <item>@string/month_august</item>
+        <item>@string/month_september</item>
+        <item>@string/month_october</item>
+        <item>@string/month_november</item>
+        <item>@string/month_december</item>
+    </string-array>
+    <string-array name="months_short">
+        <item>@string/month_january_short</item>
+        <item>@string/month_february_short</item>
+        <item>@string/month_march_short</item>
+        <item>@string/month_april_short</item>
+        <item>@string/month_may_short</item>
+        <item>@string/month_june_short</item>
+        <item>@string/month_july_short</item>
+        <item>@string/month_august_short</item>
+        <item>@string/month_september_short</item>
+        <item>@string/month_october_short</item>
+        <item>@string/month_november_short</item>
+        <item>@string/month_december_short</item>
+    </string-array>
+    <string-array name="months_shortest">
+        <item>@string/month_january_shortest</item>
+        <item>@string/month_february_shortest</item>
+        <item>@string/month_march_shortest</item>
+        <item>@string/month_april_shortest</item>
+        <item>@string/month_may_shortest</item>
+        <item>@string/month_june_shortest</item>
+        <item>@string/month_july_shortest</item>
+        <item>@string/month_august_shortest</item>
+        <item>@string/month_september_shortest</item>
+        <item>@string/month_october_shortest</item>
+        <item>@string/month_november_shortest</item>
+        <item>@string/month_december_shortest</item>
+    </string-array>
+    <string-array name="solar_terms">
+        <item>@string/empty</item>
+        <item>@string/solar_term_slight_cold</item>
+        <item>@string/solar_term_great_cold</item>
+        <item>@string/solar_term_spring_begins</item>
+        <item>@string/solar_term_the_rains</item>
+        <item>@string/solar_term_insects_awaken</item>
+        <item>@string/solar_term_vernal_equinox</item>
+        <item>@string/solar_term_clear_and_bright</item>
+        <item>@string/solar_term_grain_rain</item>
+        <item>@string/solar_term_summer_begins</item>
+        <item>@string/solar_term_grain_buds</item>
+        <item>@string/solar_term_grain_in_ear</item>
+        <item>@string/solar_term_summer_solstice</item>
+        <item>@string/solar_term_slight_heat</item>
+        <item>@string/solar_term_great_heat</item>
+        <item>@string/solar_term_autumn_begins</item>
+        <item>@string/solar_term_stopping_the_heat</item>
+        <item>@string/solar_term_white_dews</item>
+        <item>@string/solar_term_autumn_equinox</item>
+        <item>@string/solar_term_cold_dews</item>
+        <item>@string/solar_term_hoar_frost_falls</item>
+        <item>@string/solar_term_winter_begins</item>
+        <item>@string/solar_term_light_snow</item>
+        <item>@string/solar_term_heavy_snow</item>
+        <item>@string/solar_term_winter_solstice</item>
+    </string-array>
+    <string-array name="week_days">
+        <item>@string/sunday</item>
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+    </string-array>
+    <string-array name="week_days_short">
+        <item>@string/sunday_short</item>
+        <item>@string/monday_short</item>
+        <item>@string/tuesday_short</item>
+        <item>@string/wednesday_short</item>
+        <item>@string/thursday_short</item>
+        <item>@string/friday_short</item>
+        <item>@string/saturday_short</item>
+    </string-array>
+    <string-array name="week_days_shortest">
+        <item>@string/sunday_shortest</item>
+        <item>@string/monday_shortest</item>
+        <item>@string/tuesday_shortest</item>
+        <item>@string/wednesday_shortest</item>
+        <item>@string/thursday_shortest</item>
+        <item>@string/friday_shortest</item>
+        <item>@string/saturday_shortest</item>
+    </string-array>
 </resources>
