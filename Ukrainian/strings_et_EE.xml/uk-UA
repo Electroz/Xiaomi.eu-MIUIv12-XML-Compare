@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_time">EEE, dd. MMMM</string>
-    <string name="date_time_12">EEE, dd. MMMM</string>
-    <string name="desc_date_format">EEEE, dd. MMM</string>
-    <string name="desc_date_format_12">EEEE, dd. MMM</string>
-    <string name="desc_time">'praegune aeg\' + #hour12+’ifelse(#minute,#minute,\'\')+\', topelttokse kellarakendusse sisenemiseks'</string>
+    <string name="weather_null">Toksa ilmainfo saamiseks</string>
+    <string name="date_format">EEEE, d. MMMM</string>
+    <string name="today">Täna</string>
+    <string name="tomorrow">Homme</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
     <string name="weather_type_null">'Andmed puuduvad'</string>
     <string name="weather_type_0">Selge</string>
     <string name="weather_type_1">Pilvine</string>
@@ -12,10 +19,10 @@
     <string name="weather_type_3">Udune</string>
     <string name="weather_type_4">Tõsine vihmatorm</string>
     <string name="weather_type_5">Vihmatorm</string>
-    <string name="weather_type_6">Väga tugev sadu</string>
+    <string name="weather_type_6">Väga tugev vihmasadu</string>
     <string name="weather_type_7">Äikesetorm</string>
     <string name="weather_type_8">Sadu</string>
-    <string name="weather_type_9">Tugev sadu</string>
+    <string name="weather_type_9">Tugev vihmasadu</string>
     <string name="weather_type_10">Vihm</string>
     <string name="weather_type_11">Tibutamine</string>
     <string name="weather_type_12">Lörts</string>
@@ -31,5 +38,4 @@
     <string name="weather_type_22">Rahe</string>
     <string name="weather_type_23">Hõljuv udu</string>
     <string name="weather_type_24">Hägu</string>
-    <string name="weather_type_25">Külm vihm</string>
 </resources>
