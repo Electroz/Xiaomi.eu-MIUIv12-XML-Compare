@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="air_quality0">\'AQI \'+#aqi</string>
-    <string name="air_quality1">\'AQI \'+#aqi</string>
-    <string name="air_quality2">\'AQI \'+#aqi</string>
-    <string name="air_quality3">\'AQI \'+#aqi</string>
-    <string name="air_quality4">\'AQI \'+#aqi</string>
-    <string name="air_quality5">\'AQI \'+#aqi</string>
     <string name="weather_null">Πατήστε για να λάβετε πληροφορίες σχετικά με τον καιρό</string>
-    <string name="weather_location_null">Καμία πληροφορία τοποθεσίας</string>
+    <string name="date_format">EEEE, d MMMM</string>
+    <string name="today">Σήμερα</string>
+    <string name="tomorrow">Αύριο</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
+    <string name="weather_type_null">'Δεν υπάρχουν δεδομένα'</string>
     <string name="weather_type_0">Αίθριος</string>
     <string name="weather_type_1">Νεφελώδης</string>
     <string name="weather_type_2">Αιθαλομίχλη</string>
@@ -16,7 +21,7 @@
     <string name="weather_type_5">Νεροποντή</string>
     <string name="weather_type_6">Πολύ έντονη βροχόπτωση</string>
     <string name="weather_type_7">Καταιγίδα</string>
-    <string name="weather_type_8">Ψιλόβροχο</string>
+    <string name="weather_type_8">Μπόρα</string>
     <string name="weather_type_9">Έντονη βροχόπτωση</string>
     <string name="weather_type_10">Βροχή</string>
     <string name="weather_type_11">Ψιλόβροχο</string>
