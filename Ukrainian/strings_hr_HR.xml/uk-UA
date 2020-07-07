@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="air_quality0">\'AQI \'+#aqi</string>
-    <string name="air_quality1">\'AQI \'+#aqi</string>
-    <string name="air_quality2">\'AQI \'+#aqi</string>
-    <string name="air_quality3">\'AQI \'+#aqi</string>
-    <string name="air_quality4">\'AQI \'+#aqi</string>
-    <string name="air_quality5">\'AQI \'+#aqi</string>
     <string name="weather_null">Dodirnite za dobivanje informacija o vremenu</string>
-    <string name="weather_location_null">Nema informacija o lokaciji</string>
+    <string name="date_format">dd.MM. EEEE</string>
+    <string name="today">Danas</string>
+    <string name="tomorrow">Sutra</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
+    <string name="weather_type_null">'Nema podataka'</string>
     <string name="weather_type_0">Vedro</string>
     <string name="weather_type_1">Oblačno</string>
     <string name="weather_type_2">Maglovito</string>
@@ -17,7 +22,7 @@
     <string name="weather_type_6">Pljusak jačeg intenziteta</string>
     <string name="weather_type_7">Oluja</string>
     <string name="weather_type_8">Pljusak</string>
-    <string name="weather_type_9">Jak pljusak</string>
+    <string name="weather_type_9">Jaki pljuskovi</string>
     <string name="weather_type_10">Kiša</string>
     <string name="weather_type_11">Slaba kiša</string>
     <string name="weather_type_12">Kiša sa snijegom</string>
@@ -28,7 +33,7 @@
     <string name="weather_type_17">Lagani snijeg</string>
     <string name="weather_type_18">Jaka pješčana oluja</string>
     <string name="weather_type_19">Pješčana oluja</string>
-    <string name="weather_type_20">Slaba pješčana oluja</string>
+    <string name="weather_type_20">Lagana pješčana oluja</string>
     <string name="weather_type_21">Pješčana oluja</string>
     <string name="weather_type_22">Tuča</string>
     <string name="weather_type_23">Prašina u zraku</string>
