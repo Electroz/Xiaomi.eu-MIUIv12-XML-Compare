@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_time">EEEE, dd MMMM</string>
-    <string name="date_time_12">EEEE, dd MMMM</string>
-    <string name="location">Địa phương</string>
-    <string name="resident_city">Thành phố mặc định</string>
-    <string name="clock_local">Địa phương</string>
-    <string name="clock_city">Thành phố</string>
+    <string name="label_airplane_mode">Máy bay</string>
+    <string name="label_silent_mode">Im lặng</string>
+    <string name="label_reboot">Khởi động lại</string>
+    <string name="label_shutdown">Tắt nguồn</string>
+    <string name="label_alert_reboot">Chạm để khởi động lại</string>
+    <string name="label_alert_recovery">Chế độ Recovery</string>
+    <string name="label_alert_fastboot">Chế độ Fastboot</string>
+    <string name="label_alert_shutdown">Chạm để tắt nguồn</string>
+    <string name="label_blank">Quay lại</string>
 </resources>
