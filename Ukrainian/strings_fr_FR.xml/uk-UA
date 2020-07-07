@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="air_quality0">\'IQA \'+#aqi</string>
-    <string name="air_quality1">\'IQA \'+#aqi</string>
-    <string name="air_quality2">\'IQA \'+#aqi</string>
-    <string name="air_quality3">\'IQA \'+#aqi</string>
-    <string name="air_quality4">\'IQA \'+#aqi</string>
-    <string name="air_quality5">\'IQA \'+#aqi</string>
     <string name="weather_null">Appuyer pour obtenir les informations météo</string>
-    <string name="weather_location_null">Aucune information de localisation</string>
+    <string name="date_format">EEEE dd MMMM</string>
+    <string name="today">Aujourd\'hui</string>
+    <string name="tomorrow">Demain</string>
+    <string name="aqi_pure">\'IQA \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'IQA \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'IQA \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'IQA \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'IQA \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'IQA \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'IQA \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'IQA \'+#weather_aqilevel</string>
+    <string name="weather_type_null">'Aucune donnée'</string>
     <string name="weather_type_0">Dégagé</string>
     <string name="weather_type_1">Nuageux</string>
     <string name="weather_type_2">Couvert</string>
@@ -15,7 +20,7 @@
     <string name="weather_type_4">Fortes pluies</string>
     <string name="weather_type_5">Pluie torrentielle</string>
     <string name="weather_type_6">Orages</string>
-    <string name="weather_type_7">Orageux</string>
+    <string name="weather_type_7">Orage</string>
     <string name="weather_type_8">Pluie battante</string>
     <string name="weather_type_9">Fortes pluies</string>
     <string name="weather_type_10">Pluie</string>
