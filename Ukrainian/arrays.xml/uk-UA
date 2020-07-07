@@ -63,9 +63,31 @@
         <item>@string/am</item>
         <item>@string/pm</item>
     </string-array>
-    <string-array name="attachment_chooser">
-        <item>Camera</item>
-        <item>Gallery</item>
+    <string-array name="aritst_area_filter">
+        <item>@string/artist_area_all</item>
+        <item>@string/artist_area_china</item>
+        <item>@string/artist_area_korea</item>
+        <item>@string/artist_area_japan</item>
+        <item>@string/artist_area_europe_usa</item>
+    </string-array>
+    <string-array name="aritst_area_filter_api">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="aritst_gender_filter">
+        <item>@string/artist_gender_all</item>
+        <item>@string/artist_gender_male</item>
+        <item>@string/artist_gender_female</item>
+        <item>@string/artist_gender_group</item>
+    </string-array>
+    <string-array name="aritst_gender_filter_api">
+        <item>all</item>
+        <item>male</item>
+        <item>female</item>
+        <item>group</item>
     </string-array>
     <string-array name="chinese_days">
         <item>@string/chinese_day_1</item>
@@ -144,32 +166,6 @@
         <item>@string/chinese_symbol_animals_dog</item>
         <item>@string/chinese_symbol_animals_pig</item>
     </string-array>
-    <string-array name="contact_entries">
-        <item>Name</item>
-        <item>Nickname</item>
-        <item>Phone</item>
-        <item>E-mail</item>
-        <item>Company</item>
-        <item>IM</item>
-        <item>SIP Phone</item>
-        <item>Birthday</item>
-        <item>Website</item>
-        <item>Address</item>
-        <item>Note</item>
-    </string-array>
-    <string-array name="contact_values">
-        <item>vnd.android.cursor.item/name</item>
-        <item>vnd.android.cursor.item/nickname</item>
-        <item>vnd.android.cursor.item/phone_v2</item>
-        <item>vnd.android.cursor.item/email_v2</item>
-        <item>vnd.android.cursor.item/organization</item>
-        <item>vnd.android.cursor.item/im</item>
-        <item>vnd.android.cursor.item/sip_address</item>
-        <item>vnd.android.cursor.item/contact_event</item>
-        <item>vnd.android.cursor.item/website</item>
-        <item>vnd.android.cursor.item/postal-address_v2</item>
-        <item>vnd.android.cursor.item/note</item>
-    </string-array>
     <string-array name="detailed_am_pms">
         <item>@string/midnight</item>
         <item>@string/early_morning</item>
@@ -178,6 +174,32 @@
         <item>@string/afternoon</item>
         <item>@string/evening</item>
         <item>@string/night</item>
+    </string-array>
+    <string-array name="dirac_equalizer_preset_names">
+        <item>@string/eq_flat</item>
+        <item>@string/eq_rock</item>
+        <item>@string/eq_jazz</item>
+        <item>@string/eq_pop</item>
+        <item>@string/eq_classical</item>
+        <item>@string/eq_hiphop</item>
+        <item>@string/eq_blues</item>
+        <item>@string/eq_electronic</item>
+        <item>@string/eq_country</item>
+        <item>@string/eq_dance</item>
+        <item>@string/eq_metal</item>
+    </string-array>
+    <string-array name="dirac_equalizer_preset_values">
+        <item>0,0,0,0,0,0,0</item>
+        <item>4,2,-2,0,-2,-2,4</item>
+        <item>0,0,0,-2,-3,0,0</item>
+        <item>0,-3,-5,0,0,-3,0</item>
+        <item>0,0,0,0,3,6,6</item>
+        <item>3,3,-3,0,-3,0,2</item>
+        <item>2,4,-6,4,0,1,2</item>
+        <item>3,3,-1,0,-3,0,0</item>
+        <item>0,0,-2,-2,2,2,0</item>
+        <item>0,4,2,0,-2,-2,4</item>
+        <item>2,0,0,-2,-4,0,0</item>
     </string-array>
     <string-array name="earthly_branches">
         <item>@string/earthly_branches_zi</item>
@@ -197,34 +219,6 @@
         <item>@string/eras_bc</item>
         <item>@string/eras_ad</item>
     </string-array>
-    <string-array name="first_guide_contents">
-        <item>Welcome to Notes!</item>
-        <item>Take notes</item>
-        <item>You can use text, images, and voice recordings in your notes. A rich library of styles and fonts will make your simple scribbles look stunning.</item>
-        <item>Checklists and reminders come to help when you need basic and effective tools for planning your next trip or putting together a grocery list.</item>
-        <item>Share notes</item>
-        <item>You can create scrolling screenshots in Notes automatically, and then share them with your friends.</item>
-        <item>Create &amp; switch between folders</item>
-        <item>Press the arrow below to create a new folder or switch between existing ones.</item>
-    </string-array>
-    <string-array name="first_guide_images">
-        <item>guide_first_00</item>
-        <item>guide_first_01</item>
-        <item>guide_first_02</item>
-        <item>guide_first_03</item>
-        <item>guide_first_04</item>
-        <item></item>
-    </string-array>
-    <string-array name="folder_operations">
-        <item>Rename</item>
-        <item>Delete</item>
-    </string-array>
-    <string-array name="font_size_names">
-        <item>Small</item>
-        <item>Medium</item>
-        <item>Large</item>
-        <item>Huge</item>
-    </string-array>
     <string-array name="heavenly_stems">
         <item>@string/heavenly_stems_jia</item>
         <item>@string/heavenly_stems_yi</item>
@@ -236,6 +230,20 @@
         <item>@string/heavenly_stems_xin</item>
         <item>@string/heavenly_stems_ren</item>
         <item>@string/heavenly_stems_gui</item>
+    </string-array>
+    <string-array name="month_table">
+        <item>@string/January</item>
+        <item>@string/February</item>
+        <item>@string/March</item>
+        <item>@string/April</item>
+        <item>@string/March</item>
+        <item>@string/June</item>
+        <item>@string/July</item>
+        <item>@string/August</item>
+        <item>@string/September</item>
+        <item>@string/October</item>
+        <item>@string/November</item>
+        <item>@string/December</item>
     </string-array>
     <string-array name="months">
         <item>@string/month_january</item>
@@ -279,21 +287,14 @@
         <item>@string/month_november_shortest</item>
         <item>@string/month_december_shortest</item>
     </string-array>
-    <string-array name="note_sort_way">
-        <item>By creation date</item>
-        <item>By modification date</item>
-    </string-array>
-    <string-array name="second_guide_contents">
-        <item>Voice notes</item>
-        <item>Create notes using our built-in speech-to-text engine attaching the original recordings of your voice to the notes.</item>
-    </string-array>
-    <string-array name="second_guide_contents_pad_or_inter">
-        <item>Voice notes</item>
-        <item>You can create voice notes now. Just tap the icon, record your voice, and save the audio file inside the note.</item>
-    </string-array>
-    <string-array name="second_guide_images">
-        <item>guide_second_00</item>
-        <item></item>
+    <string-array name="recommendation_desc_week">
+        <item>Sunday recommendations</item>
+        <item>Monday recommendations</item>
+        <item>Tuesday recommendations</item>
+        <item>Wednesday recommendations</item>
+        <item>Thursday recommendations</item>
+        <item>Friday recommendations</item>
+        <item>Saturday recommendations</item>
     </string-array>
     <string-array name="solar_terms">
         <item>@string/empty</item>
