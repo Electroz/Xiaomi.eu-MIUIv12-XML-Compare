@@ -1,183 +1,201 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">1 hour ago</item>
-        <item quantity="few">1 hour ago</item>
-        <item quantity="many">1 hour ago</item>
-        <item quantity="other">1 hour ago</item>
+    <plurals name="actionbar_large_unread_count">
+        <item quantity="other">%1$d+ unread</item>
+        <item quantity="one">%1$d+ unread</item>
+        <item quantity="few">%1$d+ unread</item>
+        <item quantity="many">%1$d+ unread</item>
     </plurals>
-    <plurals name="abbrev_a_hour_ago">
-        <item quantity="one">1 hour ago</item>
-        <item quantity="few">1 hour ago</item>
-        <item quantity="many">1 hour ago</item>
-        <item quantity="other">1 hour ago</item>
+    <plurals name="actionbar_unread_messages">
+        <item quantity="other">%1$d unread</item>
+        <item quantity="one">%1$d unread</item>
+        <item quantity="few">%1$d unread</item>
+        <item quantity="many">%1$d unread</item>
     </plurals>
-    <plurals name="abbrev_half_hour_ago">
-        <item quantity="one">Half an hour ago</item>
-        <item quantity="few">Half an hour ago</item>
-        <item quantity="many">Half an hour ago</item>
-        <item quantity="other">Half an hour ago</item>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Archive these %1$d conversations?</item>
+        <item quantity="one">Archive this conversation?</item>
+        <item quantity="few">Archive these %1$d conversations?</item>
+        <item quantity="many">Archive these %1$d conversations?</item>
     </plurals>
-    <plurals name="abbrev_in_a_hour">
-        <item quantity="one">In 1 hour</item>
-        <item quantity="few">In 1 hour</item>
-        <item quantity="many">In 1 hour</item>
-        <item quantity="other">In 1 hour</item>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Delete these %1$d conversations?</item>
+        <item quantity="one">Delete this conversation?</item>
+        <item quantity="few">Delete these %1$d conversations?</item>
+        <item quantity="many">Delete these %1$d conversations?</item>
     </plurals>
-    <plurals name="abbrev_in_half_hour">
-        <item quantity="one">In half an hour</item>
-        <item quantity="few">In half an hour</item>
-        <item quantity="many">In half an hour</item>
-        <item quantity="other">In half an hour</item>
+    <plurals name="confirm_delete_conversation_with_sub">
+        <item quantity="other">These conversations contain merged items. Delete them anyway?</item>
+        <item quantity="one">This conversations contains merged items. Delete it anyway?</item>
+        <item quantity="few">These conversations contain merged items. Delete them anyway?</item>
+        <item quantity="many">These conversations contain merged items. Delete them anyway?</item>
     </plurals>
-    <plurals name="abbrev_in_less_than_one_minute">
-        <item quantity="one">Immediately</item>
-        <item quantity="few">Immediately</item>
-        <item quantity="many">Immediately</item>
-        <item quantity="other">Immediately</item>
+    <plurals name="confirm_delete_draft">
+        <item quantity="other">Delete %1$d drafts?</item>
+        <item quantity="one">Delete %1$d draft?</item>
+        <item quantity="few">Delete %1$d drafts?</item>
+        <item quantity="many">Delete %1$d drafts?</item>
     </plurals>
-    <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">in %d mins</item>
-        <item quantity="one">in 1 min</item>
-        <item quantity="few">in %d mins</item>
-        <item quantity="many">in %d mins</item>
+    <plurals name="contact_num_selected">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+        <item quantity="few">%d selected</item>
+        <item quantity="many">%d selected</item>
     </plurals>
-    <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="one">Just now</item>
-        <item quantity="few">Just now</item>
-        <item quantity="many">Just now</item>
-        <item quantity="other">Just now</item>
+    <plurals name="conversation_archived">
+        <item quantity="other">&lt;b&gt;%1$d&lt;/b&gt; archived.</item>
+        <item quantity="one">&lt;b&gt;%1$d&lt;/b&gt; archived.</item>
+        <item quantity="few">&lt;b&gt;%1$d&lt;/b&gt; archived.</item>
+        <item quantity="many">&lt;b&gt;%1$d&lt;/b&gt; archived.</item>
     </plurals>
-    <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d mins ago</item>
-        <item quantity="one">1 min ago</item>
-        <item quantity="few">%d mins ago</item>
-        <item quantity="many">%d mins ago</item>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&lt;b&gt;%1$d&lt;/b&gt; deleted.</item>
+        <item quantity="one">&lt;b&gt;%1$d&lt;/b&gt; deleted.</item>
+        <item quantity="few">&lt;b&gt;%1$d&lt;/b&gt; deleted.</item>
+        <item quantity="many">&lt;b&gt;%1$d&lt;/b&gt; deleted.</item>
     </plurals>
-    <plurals name="data_item_count">
-        <item quantity="other">%d items</item>
-        <item quantity="one">%d item</item>
-        <item quantity="few">%d items</item>
-        <item quantity="many">%d items</item>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Changed folders.</item>
+        <item quantity="one">Changed folder.</item>
+        <item quantity="few">Changed folders.</item>
+        <item quantity="many">Changed folders.</item>
     </plurals>
-    <plurals name="data_item_count_fail">
-        <item quantity="other">"Couldn't transfer %d items"</item>
-        <item quantity="one">"Couldn't transfer %d item"</item>
-        <item quantity="few">"Couldn't transfer %d items"</item>
-        <item quantity="many">"Couldn't transfer %d items"</item>
+    <plurals name="conversation_msg_header_count">
+        <item quantity="other">+%1$d other people</item>
+        <item quantity="one">+%1$d other person</item>
+        <item quantity="few">+%1$d other people</item>
+        <item quantity="many">+%1$d other people</item>
     </plurals>
-    <plurals name="data_item_count_pair">
-        <item quantity="other">%1$d/%2$d items</item>
-        <item quantity="one">%1$d/%2$d item</item>
-        <item quantity="few">%1$d/%2$d items</item>
-        <item quantity="many">%1$d/%2$d items</item>
+    <plurals name="conversation_muted">
+        <item quantity="other">&lt;b&gt;%1$d&lt;/b&gt; muted</item>
+        <item quantity="one">&lt;b&gt;%1$d&lt;/b&gt; muted.</item>
+        <item quantity="few">&lt;b&gt;%1$d&lt;/b&gt; muted</item>
+        <item quantity="many">&lt;b&gt;%1$d&lt;/b&gt; muted</item>
     </plurals>
-    <plurals name="half_hour_ago">
-        <item quantity="one">Half an hour ago</item>
-        <item quantity="few">Half an hour ago</item>
-        <item quantity="many">Half an hour ago</item>
-        <item quantity="other">Half an hour ago</item>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&lt;b&gt;%1$d&lt;/b&gt;\" messages removed from \'important\' folder\"</item>
+        <item quantity="one">&lt;b&gt;%1$d&lt;/b&gt;\" removed from \'important\' folder\"</item>
+        <item quantity="few">&lt;b&gt;%1$d&lt;/b&gt;\" messages removed from \'important\' folder\"</item>
+        <item quantity="many">&lt;b&gt;%1$d&lt;/b&gt;\" messages removed from \'important\' folder\"</item>
     </plurals>
-    <plurals name="hour">
-        <item quantity="other">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hours</item>
-        <item quantity="one">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hour</item>
-        <item quantity="few">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hours</item>
-        <item quantity="many">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hours</item>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&lt;b&gt;%1$d&lt;/b&gt;\" removed from \'spam\' folder\"</item>
+        <item quantity="one">&lt;b&gt;%1$d&lt;/b&gt;\" removed from \'spam\' folder\"</item>
+        <item quantity="few">&lt;b&gt;%1$d&lt;/b&gt;\" removed from \'spam\' folder\"</item>
+        <item quantity="many">&lt;b&gt;%1$d&lt;/b&gt;\" removed from \'spam\' folder\"</item>
     </plurals>
-    <plurals name="icloud_importing_title_count_desc">
-        <item quantity="other">Imported %d items</item>
-        <item quantity="one">Imported %d item</item>
-        <item quantity="few">Imported %d items</item>
-        <item quantity="many">Imported %d items</item>
+    <plurals name="conversation_phished">
+        <item quantity="other">&lt;b&gt;%1$d&lt;/b&gt; messages reported as spam</item>
+        <item quantity="one">&lt;b&gt;%1$d&lt;/b&gt; message reported as spam</item>
+        <item quantity="few">&lt;b&gt;%1$d&lt;/b&gt; messages reported as spam</item>
+        <item quantity="many">&lt;b&gt;%1$d&lt;/b&gt; messages reported as spam</item>
     </plurals>
-    <plurals name="in_a_hour">
-        <item quantity="one">In 1 hour</item>
-        <item quantity="few">In 1 hour</item>
-        <item quantity="many">In 1 hour</item>
-        <item quantity="other">In 1 hour</item>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&lt;b&gt;%1$d&lt;/b&gt; marked as spam</item>
+        <item quantity="one">&lt;b&gt;%1$d&lt;/b&gt; marked as spam</item>
+        <item quantity="few">&lt;b&gt;%1$d&lt;/b&gt; marked as spam</item>
+        <item quantity="many">&lt;b&gt;%1$d&lt;/b&gt; marked as spam</item>
     </plurals>
-    <plurals name="in_half_hour">
-        <item quantity="one">In half an hour</item>
-        <item quantity="few">In half an hour</item>
-        <item quantity="many">In half an hour</item>
-        <item quantity="other">In half an hour</item>
+    <plurals name="day">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+        <item quantity="few">%d days</item>
+        <item quantity="many">%d days</item>
     </plurals>
-    <plurals name="in_less_than_one_minute">
-        <item quantity="one">Immediately</item>
-        <item quantity="few">Immediately</item>
-        <item quantity="many">Immediately</item>
-        <item quantity="other">Immediately</item>
+    <plurals name="day_after">
+        <item quantity="other">In %d days</item>
+        <item quantity="one">In %d day</item>
+        <item quantity="few">In %d days</item>
+        <item quantity="many">In %d days</item>
     </plurals>
-    <plurals name="in_num_minutes">
-        <item quantity="other">in %d minutes</item>
-        <item quantity="one">in 1 minute</item>
-        <item quantity="few">in %d minutes</item>
-        <item quantity="many">in %d minutes</item>
+    <plurals name="day_before">
+        <item quantity="other">%d days ago</item>
+        <item quantity="one">%d day ago</item>
+        <item quantity="few">%d days ago</item>
+        <item quantity="many">%d days ago</item>
     </plurals>
-    <plurals name="items_selected">
-        <item quantity="other">%d items selected</item>
-        <item quantity="one">%d item selected</item>
-        <item quantity="few">%d items selected</item>
-        <item quantity="many">%d items selected</item>
+    <plurals name="draft">
+        <item quantity="other">Drafts</item>
+        <item quantity="one">Draft</item>
+        <item quantity="few">Drafts</item>
+        <item quantity="many">Drafts</item>
     </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Just now</item>
-        <item quantity="few">Just now</item>
-        <item quantity="many">Just now</item>
-        <item quantity="other">Just now</item>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d messages will be permanently deleted.</item>
+        <item quantity="one">%1$d message will be permanently deleted.</item>
+        <item quantity="few">%1$d messages will be permanently deleted.</item>
+        <item quantity="many">%1$d messages will be permanently deleted.</item>
     </plurals>
-    <plurals name="minute">
-        <item quantity="other">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minutes</item>
-        <item quantity="one">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minute</item>
-        <item quantity="few">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minutes</item>
-        <item quantity="many">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minutes</item>
+    <plurals name="hide_atts_remaining">
+        <item quantity="other">Hide %1$d attachments</item>
+        <item quantity="one">Hide %1$d attachment</item>
+        <item quantity="few">Hide %1$d attachments</item>
+        <item quantity="many">Hide %1$d attachments</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="other">%d minutes ago</item>
-        <item quantity="one">1 minute ago</item>
-        <item quantity="few">%d minutes ago</item>
-        <item quantity="many">%d minutes ago</item>
+    <plurals name="local_search_result">
+        <item quantity="other">%s results in synced messages</item>
+        <item quantity="one">%s result in synced messages</item>
+        <item quantity="few">%s results in synced messages</item>
+        <item quantity="many">%s results in synced messages</item>
     </plurals>
-    <plurals name="save_item_failed_summary_seg1">
-        <item quantity="other">"Imported %d items. "</item>
-        <item quantity="one">"Imported %d item. "</item>
-        <item quantity="few">"Imported %d items. "</item>
-        <item quantity="many">"Imported %d items. "</item>
+    <plurals name="month">
+        <item quantity="other">%d months</item>
+        <item quantity="one">%d month</item>
+        <item quantity="few">%d months</item>
+        <item quantity="many">%d months</item>
     </plurals>
-    <plurals name="save_item_failed_summary_seg2">
-        <item quantity="other">Import %d items again.</item>
-        <item quantity="one">Import %d item again.</item>
-        <item quantity="few">Import %d items again.</item>
-        <item quantity="many">Import %d items again.</item>
+    <plurals name="more_atts_remaining">
+        <item quantity="other">%1$d attachments remaining</item>
+        <item quantity="one">%1$d attachment remaining</item>
+        <item quantity="few">%1$d attachments remaining</item>
+        <item quantity="many">%1$d attachments remaining</item>
     </plurals>
-    <plurals name="save_item_saved_summary">
-        <item quantity="other">Imported and restored %d items</item>
-        <item quantity="one">Imported and restored %d item</item>
-        <item quantity="few">Imported and restored %d items</item>
-        <item quantity="many">Imported and restored %d items</item>
+    <plurals name="move_conversation">
+        <item quantity="other">Move %1$d conversations</item>
+        <item quantity="one">Move conversation</item>
+        <item quantity="few">Move %1$d conversations</item>
+        <item quantity="many">Move %1$d conversations</item>
     </plurals>
-    <plurals name="save_item_saving_summary">
-        <item quantity="other">Restored %d items</item>
-        <item quantity="one">Restored %d item</item>
-        <item quantity="few">Restored %d items</item>
-        <item quantity="many">Restored %d items</item>
+    <plurals name="new_incoming_messages_many">
+        <item quantity="other">Show %1$d new messages.</item>
+        <item quantity="one">Show %1$d new message.</item>
+        <item quantity="few">Show %1$d new messages.</item>
+        <item quantity="many">Show %1$d new messages.</item>
     </plurals>
-    <plurals name="select_item_summary">
-        <item quantity="other">%1$s | %2$d items</item>
-        <item quantity="one">%1$s | %2$d item</item>
-        <item quantity="few">%1$s | %2$d items</item>
-        <item quantity="many">%1$s | %2$d items</item>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d new messages</item>
+        <item quantity="one">%1$d new message</item>
+        <item quantity="few">%1$d new messages</item>
+        <item quantity="many">%1$d new messages</item>
     </plurals>
-    <plurals name="trans_time_format_hours">
-        <item quantity="other">%d hours</item>
-        <item quantity="one">%d hour</item>
-        <item quantity="few">%d hours</item>
-        <item quantity="many">%d hours</item>
+    <plurals name="num_selected">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+        <item quantity="few">%d selected</item>
+        <item quantity="many">%d selected</item>
     </plurals>
-    <plurals name="trans_time_format_minute">
-        <item quantity="other">%d minutes</item>
-        <item quantity="one">%d minute</item>
-        <item quantity="few">%d minutes</item>
-        <item quantity="many">%d minutes</item>
+    <plurals name="quick_reply_hint">
+        <item quantity="other">Reply to %1$d people</item>
+        <item quantity="one">Reply to %1$d person</item>
+        <item quantity="few">Reply to %1$d people</item>
+        <item quantity="many">Reply to %1$d people</item>
+    </plurals>
+    <plurals name="remote_search_result">
+        <item quantity="other">%s results in all accounts</item>
+        <item quantity="one">%s result in all accounts</item>
+        <item quantity="few">%s results in all accounts</item>
+        <item quantity="many">%s results in all accounts</item>
+    </plurals>
+    <plurals name="show_messages_read">
+        <item quantity="other">%1$d older messages</item>
+        <item quantity="one">%1$d older message</item>
+        <item quantity="few">%1$d older messages</item>
+        <item quantity="many">%1$d older messages</item>
+    </plurals>
+    <plurals name="unsent_messages_in_outbox">
+        <item quantity="other">%1$s unsent messages in %2$s</item>
+        <item quantity="one">%1$s unsent message in %2$s</item>
+        <item quantity="few">%1$s unsent messages in %2$s</item>
+        <item quantity="many">%1$s unsent messages in %2$s</item>
     </plurals>
 </resources>
