@@ -54,11 +54,41 @@
         <item quantity="few">%d mins ago</item>
         <item quantity="many">%d mins ago</item>
     </plurals>
+    <plurals name="data_item_count">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+        <item quantity="few">%d items</item>
+        <item quantity="many">%d items</item>
+    </plurals>
+    <plurals name="data_item_count_fail">
+        <item quantity="other">"Couldn't transfer %d items"</item>
+        <item quantity="one">"Couldn't transfer %d item"</item>
+        <item quantity="few">"Couldn't transfer %d items"</item>
+        <item quantity="many">"Couldn't transfer %d items"</item>
+    </plurals>
+    <plurals name="data_item_count_pair">
+        <item quantity="other">%1$d/%2$d items</item>
+        <item quantity="one">%1$d/%2$d item</item>
+        <item quantity="few">%1$d/%2$d items</item>
+        <item quantity="many">%1$d/%2$d items</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="one">Half an hour ago</item>
         <item quantity="few">Half an hour ago</item>
         <item quantity="many">Half an hour ago</item>
         <item quantity="other">Half an hour ago</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hours</item>
+        <item quantity="one">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hour</item>
+        <item quantity="few">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hours</item>
+        <item quantity="many">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hours</item>
+    </plurals>
+    <plurals name="icloud_importing_title_count_desc">
+        <item quantity="other">Imported %d items</item>
+        <item quantity="one">Imported %d item</item>
+        <item quantity="few">Imported %d items</item>
+        <item quantity="many">Imported %d items</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="one">In 1 hour</item>
@@ -84,22 +114,70 @@
         <item quantity="few">in %d minutes</item>
         <item quantity="many">in %d minutes</item>
     </plurals>
+    <plurals name="items_selected">
+        <item quantity="other">%d items selected</item>
+        <item quantity="one">%d item selected</item>
+        <item quantity="few">%d items selected</item>
+        <item quantity="many">%d items selected</item>
+    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="one">Just now</item>
         <item quantity="few">Just now</item>
         <item quantity="many">Just now</item>
         <item quantity="other">Just now</item>
     </plurals>
-    <plurals name="miui_guide_accessibility_page_current_count">
-        <item quantity="other">Page %1$d of %2$d</item>
-        <item quantity="one">Page %1$d of %2$d</item>
-        <item quantity="few">Page %1$d of %2$d</item>
-        <item quantity="many">Page %1$d of %2$d</item>
+    <plurals name="minute">
+        <item quantity="other">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minutes</item>
+        <item quantity="one">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minute</item>
+        <item quantity="few">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minutes</item>
+        <item quantity="many">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minutes</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutes ago</item>
         <item quantity="one">1 minute ago</item>
         <item quantity="few">%d minutes ago</item>
         <item quantity="many">%d minutes ago</item>
+    </plurals>
+    <plurals name="save_item_failed_summary_seg1">
+        <item quantity="other">"Imported %d items. "</item>
+        <item quantity="one">"Imported %d item. "</item>
+        <item quantity="few">"Imported %d items. "</item>
+        <item quantity="many">"Imported %d items. "</item>
+    </plurals>
+    <plurals name="save_item_failed_summary_seg2">
+        <item quantity="other">Import %d items again.</item>
+        <item quantity="one">Import %d item again.</item>
+        <item quantity="few">Import %d items again.</item>
+        <item quantity="many">Import %d items again.</item>
+    </plurals>
+    <plurals name="save_item_saved_summary">
+        <item quantity="other">Imported and restored %d items</item>
+        <item quantity="one">Imported and restored %d item</item>
+        <item quantity="few">Imported and restored %d items</item>
+        <item quantity="many">Imported and restored %d items</item>
+    </plurals>
+    <plurals name="save_item_saving_summary">
+        <item quantity="other">Restored %d items</item>
+        <item quantity="one">Restored %d item</item>
+        <item quantity="few">Restored %d items</item>
+        <item quantity="many">Restored %d items</item>
+    </plurals>
+    <plurals name="select_item_summary">
+        <item quantity="other">%1$s | %2$d items</item>
+        <item quantity="one">%1$s | %2$d item</item>
+        <item quantity="few">%1$s | %2$d items</item>
+        <item quantity="many">%1$s | %2$d items</item>
+    </plurals>
+    <plurals name="trans_time_format_hours">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+        <item quantity="few">%d hours</item>
+        <item quantity="many">%d hours</item>
+    </plurals>
+    <plurals name="trans_time_format_minute">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+        <item quantity="few">%d minutes</item>
+        <item quantity="many">%d minutes</item>
     </plurals>
 </resources>
