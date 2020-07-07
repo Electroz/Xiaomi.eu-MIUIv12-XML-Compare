@@ -1,117 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="backup_items_app_tailer">
-        <item quantity="other">%d app data files</item>
-        <item quantity="one">%d app data file</item>
-        <item quantity="few">%d app data files</item>
-        <item quantity="many">%d app data files</item>
+    <plurals name="fast_connect_headset_reset">
+        <item quantity="other">Press and hold the button on the box for %1$d seconds</item>
+        <item quantity="one">Press and hold the button on the box for %1$d second</item>
+        <item quantity="few">Press and hold the button on the box for %1$d seconds</item>
+        <item quantity="many">Press and hold the button on the box for %1$d seconds</item>
     </plurals>
-    <plurals name="backup_items_sysdata_tailer">
-        <item quantity="other">%d system data files</item>
-        <item quantity="one">%d system data file</item>
-        <item quantity="few">%d system data files</item>
-        <item quantity="many">%d system data files</item>
+    <plurals name="fast_connect_reset_air2_se">
+        <item quantity="other">Press and hold any touch sensitive area on the earphones for %1$d seconds</item>
+        <item quantity="one">Press and hold any touch sensitive area on the earphones for %1$d second</item>
+        <item quantity="few">Press and hold any touch sensitive area on the earphones for %1$d seconds</item>
+        <item quantity="many">Press and hold any touch sensitive area on the earphones for %1$d seconds</item>
     </plurals>
-    <plurals name="custom_progress">
-        <item quantity="other">%d items</item>
-        <item quantity="one">%d item</item>
-        <item quantity="few">%d items</item>
-        <item quantity="many">%d items</item>
+    <plurals name="fast_connect_reset_nzbt">
+        <item quantity="other">Press and hold the button for %1$s secs when the device is off</item>
+        <item quantity="one">Press and hold the button for %1$s sec when the device is off</item>
+        <item quantity="few">Press and hold the button for %1$s secs when the device is off</item>
+        <item quantity="many">Press and hold the button for %1$s secs when the device is off</item>
     </plurals>
-    <plurals name="data_item_count">
-        <item quantity="other">%d items</item>
-        <item quantity="one">%d item</item>
-        <item quantity="few">%d items</item>
-        <item quantity="many">%d items</item>
-    </plurals>
-    <plurals name="data_item_count_pair">
-        <item quantity="other">%1$d/%2$d items</item>
-        <item quantity="one">%1$d/%2$d item</item>
-        <item quantity="few">%1$d/%2$d items</item>
-        <item quantity="many">%1$d/%2$d items</item>
-    </plurals>
-    <plurals name="local_main_backup_manage_summary">
-        <item quantity="other">%1$s backups (%2$s)</item>
-        <item quantity="one">%1$s backup (%2$s)</item>
-        <item quantity="few">%1$s backups (%2$s)</item>
-        <item quantity="many">%1$s backups (%2$s)</item>
-    </plurals>
-    <plurals name="new_task_backup_failed">
-        <item quantity="other">"Backed up successfully. Couldn't back up %d items."</item>
-        <item quantity="one">"Backed up successfully. Couldn't back up %d item."</item>
-        <item quantity="few">"Backed up successfully. Couldn't back up %d items."</item>
-        <item quantity="many">"Backed up successfully. Couldn't back up %d items."</item>
-    </plurals>
-    <plurals name="new_task_restore_failed">
-        <item quantity="other">"Restored successfully. Couldn't restore %d items."</item>
-        <item quantity="one">"Restored successfully. Couldn't restore %d item."</item>
-        <item quantity="few">"Restored successfully. Couldn't restore %d items."</item>
-        <item quantity="many">"Restored successfully. Couldn't restore %d items."</item>
-    </plurals>
-    <plurals name="save_item_failed_summary_seg1">
-        <item quantity="other">"Imported %d items. "</item>
-        <item quantity="one">"Imported %d item. "</item>
-        <item quantity="few">"Imported %d items. "</item>
-        <item quantity="many">"Imported %d items. "</item>
-    </plurals>
-    <plurals name="save_item_failed_summary_seg2">
-        <item quantity="other">Import %d items again.</item>
-        <item quantity="one">Import %d item again.</item>
-        <item quantity="few">Import %d items again.</item>
-        <item quantity="many">Import %d items again.</item>
-    </plurals>
-    <plurals name="save_item_saved_summary">
-        <item quantity="other">Imported and restored %d items</item>
-        <item quantity="one">Imported and restored %d item</item>
-        <item quantity="few">Imported and restored %d items</item>
-        <item quantity="many">Imported and restored %d items</item>
-    </plurals>
-    <plurals name="save_item_saving_summary">
-        <item quantity="other">Restored %d items</item>
-        <item quantity="one">Restored %d item</item>
-        <item quantity="few">Restored %d items</item>
-        <item quantity="many">Restored %d items</item>
-    </plurals>
-    <plurals name="select_item_count_unit">
-        <item quantity="other">items</item>
-        <item quantity="one">item</item>
-        <item quantity="few">items</item>
-        <item quantity="many">items</item>
-    </plurals>
-    <plurals name="select_item_summary">
-        <item quantity="other">%1$s | %2$d items</item>
-        <item quantity="one">%1$s | %2$d item</item>
-        <item quantity="few">%1$s | %2$d items</item>
-        <item quantity="many">%1$s | %2$d items</item>
-    </plurals>
-    <plurals name="total_num">
-        <item quantity="other">%d items,</item>
-        <item quantity="one">%d item,</item>
-        <item quantity="few">%d items,</item>
-        <item quantity="many">%d items,</item>
-    </plurals>
-    <plurals name="trans_failed_summary">
-        <item quantity="other">"Couldn't transfer %d items. Tap to view details."</item>
-        <item quantity="one">"Couldn't transfer %d item. Tap to view details."</item>
-        <item quantity="few">"Couldn't transfer %d items. Tap to view details."</item>
-        <item quantity="many">"Couldn't transfer %d items. Tap to view details."</item>
-    </plurals>
-    <plurals name="trans_item_failed_summary">
-        <item quantity="other">"Couldn't transfer %d items."</item>
-        <item quantity="one">"Couldn't transfer %d item."</item>
-        <item quantity="few">"Couldn't transfer %d items."</item>
-        <item quantity="many">"Couldn't transfer %d items."</item>
-    </plurals>
-    <plurals name="trans_time_format_hours">
-        <item quantity="other">%d hours</item>
-        <item quantity="one">%d hour</item>
-        <item quantity="few">%d hours</item>
-        <item quantity="many">%d hours</item>
-    </plurals>
-    <plurals name="trans_time_format_minute">
-        <item quantity="other">%d minutes</item>
-        <item quantity="one">%d minute</item>
-        <item quantity="few">%d minutes</item>
-        <item quantity="many">%d minutes</item>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d devices connected</item>
+        <item quantity="one">%1$d device connected</item>
+        <item quantity="few">%1$d devices connected</item>
+        <item quantity="many">%1$d devices connected</item>
     </plurals>
 </resources>
