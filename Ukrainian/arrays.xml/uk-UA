@@ -1,49 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string-array name="dirac_equalizer_preset_names">
-    <item>@string/eq_flat</item>
-    <item>@string/eq_rock</item>
-    <item>@string/eq_jazz</item>
-    <item>@string/eq_pop</item>
-    <item>@string/eq_classical</item>
-    <item>@string/eq_hiphop</item>
-    <item>@string/eq_blues</item>
-    <item>@string/eq_electronic</item>
-    <item>@string/eq_country</item>
-    <item>@string/eq_dance</item>
-    <item>@string/eq_metal</item>
-  </string-array>
-  <string-array name="dirac_equalizer_preset_values">
-    <item>0,0,0,0,0,0,0</item>
-    <item>4,2,-2,0,-2,-2,4</item>
-    <item>0,0,0,-2,-3,0,0</item>
-    <item>0,-3,-5,0,0,-3,0</item>
-    <item>0,0,0,0,3,6,6</item>
-    <item>3,3,-3,0,-3,0,2</item>
-    <item>2,4,-6,4,0,1,2</item>
-    <item>3,3,-1,0,-3,0,0</item>
-    <item>0,0,-2,-2,2,2,0</item>
-    <item>0,4,2,0,-2,-2,4</item>
-    <item>2,0,0,-2,-4,0,0</item>
-  </string-array>
-  <string-array name="scenario_selector_titles">
-    <item>@string/music_headset_scenario_intelligent</item>
-    <item>@string/music_headset_scenario_music</item>
-    <item>@string/music_headset_scenario_video</item>
-    <item>@string/music_headset_scenario_vocal</item>
-  </string-array>
-  <string-array name="scenario_selector_values">
-    <item>4</item>
-    <item>1</item>
-    <item>2</item>
-    <item>3</item>
-  </string-array>
-  <string-array name="support_sound_version">
-    <item>4.1.2</item>
-    <item>4.21.2</item>
-    <item>4.11.2</item>
-    <item>4.29.2</item>
-    <item>4.19.2</item>
-    <item>4.9.2</item>
-  </string-array>
+    <string-array name="device_need_operating_mode">
+        <item>polaris</item>
+        <item>dipper</item>
+        <item>sirius</item>
+        <item>ursa</item>
+        <item>perseus</item>
+        <item>andromeda</item>
+        <item>cepheus</item>
+        <item>grus</item>
+        <item>equuleus</item>
+        <item>violet</item>
+        <item>gram</item>
+        <item>pyxis</item>
+        <item>davinci</item>
+        <item>davinciin</item>
+        <item>raphael</item>
+        <item>raphaelin</item>
+        <item>crux</item>
+        <item>tucana</item>
+        <item>phoenix</item>
+        <item>phoenixin</item>
+        <item>umi</item>
+        <item>cmi</item>
+        <item>lmi</item>
+        <item>lmiin</item>
+        <item>picasso</item>
+        <item>picassoin</item>
+        <item>curtanacn</item>
+        <item>curtana</item>
+        <item>excalibur</item>
+        <item>joyeuse</item>
+        <item>monet</item>
+        <item>monetin</item>
+        <item>vangogh</item>
+        <item>toco</item>
+        <item>tocoin</item>
+        <item>surya</item>
+        <item>karna</item>
+    </string-array>
+    <string-array name="device_use_cameraone">
+        <item>jason</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>whyred</item>
+        <item>nitrogen</item>
+        <item>wayne</item>
+        <item>ysl</item>
+        <item>sakura</item>
+        <item>clover</item>
+        <item>cactus</item>
+        <item>cereus</item>
+        <item>platina</item>
+        <item>tulip</item>
+        <item>sakura_india</item>
+        <item>lavender</item>
+        <item>lotus</item>
+        <item>laurus</item>
+        <item>olive</item>
+        <item>olivelite</item>
+        <item>pine</item>
+        <item>olivewood</item>
+        <item>willow</item>
+        <item>ginkgo</item>
+    </string-array>
+    <string-array name="device_use_resident_memory">
+        <item>jason</item>
+        <item>polaris</item>
+        <item>whyred</item>
+        <item>ysl</item>
+        <item>nitrogen</item>
+        <item>sakura</item>
+        <item>sirius</item>
+        <item>sagit</item>
+        <item>chiron</item>
+    </string-array>
+    <string-array name="retry_connect_camera">
+        <item>laurus</item>
+        <item>platina</item>
+        <item>willow</item>
+        <item>lavender</item>
+        <item>ginkgo</item>
+    </string-array>
 </resources>
