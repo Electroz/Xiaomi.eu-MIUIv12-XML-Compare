@@ -54,53 +54,59 @@
         <item quantity="few">%d mins ago</item>
         <item quantity="many">%d mins ago</item>
     </plurals>
-    <plurals name="alert_message_delete">
-        <item quantity="other">Delete %1$s items?</item>
-        <item quantity="one">Delete %1$s item?</item>
-        <item quantity="few">Delete %1$s items?</item>
-        <item quantity="many">Delete %1$s items?</item>
+    <plurals name="batch_delete_confirm_dialog_message">
+        <item quantity="other">Delete %1$s messages?</item>
+        <item quantity="one">Delete %1$s message?</item>
+        <item quantity="few">Delete %1$s messages?</item>
+        <item quantity="many">Delete %1$s messages?</item>
+    </plurals>
+    <plurals name="cloud_sms_count">
+        <item quantity="other">%d messages</item>
+        <item quantity="one">%d message</item>
+        <item quantity="few">%d messages</item>
+        <item quantity="many">%d messages</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
-        <item quantity="other">"%1$s items haven't been synced"</item>
-        <item quantity="one">"%1$s item hasn't been synced"</item>
-        <item quantity="few">"%1$s items haven't been synced"</item>
-        <item quantity="many">"%1$s items haven't been synced"</item>
+        <item quantity="other">"%d messages haven't been synced"</item>
+        <item quantity="one">"%d message hasn't been synced"</item>
+        <item quantity="few">"%d messages haven't been synced"</item>
+        <item quantity="many">"%d messages haven't been synced"</item>
     </plurals>
-    <plurals name="date_calculate_days_after">
-        <item quantity="other">%1$d days after</item>
-        <item quantity="one">%1$d day after</item>
-        <item quantity="few">%1$d days after</item>
-        <item quantity="many">%1$d days after</item>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Delete %1$s selected conversations?</item>
+        <item quantity="one">Delete %1$s selected conversation?</item>
+        <item quantity="few">Delete %1$s selected conversations?</item>
+        <item quantity="many">Delete %1$s selected conversations?</item>
     </plurals>
-    <plurals name="date_calculate_days_ago">
-        <item quantity="other">%1$d days before</item>
-        <item quantity="one">%1$d day before</item>
-        <item quantity="few">%1$d days before</item>
-        <item quantity="many">%1$d days before</item>
+    <plurals name="custom_select_title_items_selected">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+        <item quantity="few">%d selected</item>
+        <item quantity="many">%d selected</item>
     </plurals>
-    <plurals name="folder_terms">
-        <item quantity="other">%1$s folders</item>
-        <item quantity="one">%1$s folder</item>
-        <item quantity="few">%1$s folders</item>
-        <item quantity="many">%1$s folders</item>
+    <plurals name="delivery_toast_body_more_plurals">
+        <item quantity="other">Message received by %1$s and %2$d other people</item>
+        <item quantity="one">Message received by %1$s and %2$d other person</item>
+        <item quantity="few">Message received by %1$s and %2$d other people</item>
+        <item quantity="many">Message received by %1$s and %2$d other people</item>
     </plurals>
-    <plurals name="format_move_notes_out_folder">
-        <item quantity="other">Removed %1$s notes from the folder</item>
-        <item quantity="one">Removed %1$s note from the folder</item>
-        <item quantity="few">Removed %1$s notes from the folder</item>
-        <item quantity="many">Removed %1$s notes from the folder</item>
-    </plurals>
-    <plurals name="format_move_notes_to_folder">
-        <item quantity="other">Moved %1$s notes to %2$s</item>
-        <item quantity="one">Moved %1$s note to %2$s</item>
-        <item quantity="few">Moved %1$s notes to %2$s</item>
-        <item quantity="many">Moved %1$s notes to %2$s</item>
+    <plurals name="group_message_failed_title">
+        <item quantity="other">"Couldn't send to %d contacts"</item>
+        <item quantity="one">"Couldn't send to %d contact"</item>
+        <item quantity="few">"Couldn't send to %d contacts"</item>
+        <item quantity="many">"Couldn't send to %d contacts"</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="one">Half an hour ago</item>
         <item quantity="few">Half an hour ago</item>
         <item quantity="many">Half an hour ago</item>
         <item quantity="other">Half an hour ago</item>
+    </plurals>
+    <plurals name="hint_search_sms">
+        <item quantity="other">%d messages</item>
+        <item quantity="one">%d message</item>
+        <item quantity="few">%d messages</item>
+        <item quantity="many">%d messages</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="one">In 1 hour</item>
@@ -132,11 +138,23 @@
         <item quantity="many">Just now</item>
         <item quantity="other">Just now</item>
     </plurals>
-    <plurals name="note_terms">
-        <item quantity="other">%1$s notes</item>
-        <item quantity="one">%1$s note</item>
-        <item quantity="few">%1$s notes</item>
-        <item quantity="many">%1$s notes</item>
+    <plurals name="mark_number_dialog_subtitle">
+        <item quantity="other">Marked as %2$s by %1$d people</item>
+        <item quantity="one">Marked as %2$s by %1$d people</item>
+        <item quantity="few">Marked as %2$s by %1$d people</item>
+        <item quantity="many">Marked as %2$s by %1$d people</item>
+    </plurals>
+    <plurals name="message_count">
+        <item quantity="other">%1$s messages</item>
+        <item quantity="one">%1$s message</item>
+        <item quantity="few">%1$s messages</item>
+        <item quantity="many">%1$s messages</item>
+    </plurals>
+    <plurals name="notification_multiple">
+        <item quantity="other">"%s messages | "</item>
+        <item quantity="one">"%s message | "</item>
+        <item quantity="few">"%s messages | "</item>
+        <item quantity="many">"%s messages | "</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutes ago</item>
@@ -144,64 +162,58 @@
         <item quantity="few">%d minutes ago</item>
         <item quantity="many">%d minutes ago</item>
     </plurals>
-    <plurals name="record_last_ten_seconds_reminder">
-        <item quantity="other">%d seconds left</item>
-        <item quantity="one">%d second left</item>
-        <item quantity="few">%d seconds left</item>
-        <item quantity="many">%d seconds left</item>
+    <plurals name="rcs_group_notification_invitation_receive">
+        <item quantity="other">You received %d group chat invitations</item>
+        <item quantity="one">You received %d group chat invitation</item>
+        <item quantity="few">You received %d group chat invitations</item>
+        <item quantity="many">You received %d group chat invitations</item>
     </plurals>
-    <plurals name="toast_notes_hidden_count">
-        <item quantity="other">Hid %1$s notes successfully</item>
-        <item quantity="one">Hid %1$s note successfully</item>
-        <item quantity="few">Hid %1$s notes successfully</item>
-        <item quantity="many">Hid %1$s notes successfully</item>
+    <plurals name="recipient_count">
+        <item quantity="other">%1$s people</item>
+        <item quantity="one">%1$s person</item>
+        <item quantity="few">%1$s people</item>
+        <item quantity="many">%1$s people</item>
     </plurals>
-    <plurals name="toast_notes_unhidden_count">
-        <item quantity="other">Unhid %1$s notes successfully</item>
-        <item quantity="one">Unhid %1$s note successfully</item>
-        <item quantity="few">Unhid %1$s notes successfully</item>
-        <item quantity="many">Unhid %1$s notes successfully</item>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s results for \"%2$s\"</item>
+        <item quantity="one">%1$s result for \"%2$s\"</item>
+        <item quantity="few">%1$s results for \"%2$s\"</item>
+        <item quantity="many">%1$s results for \"%2$s\"</item>
     </plurals>
-    <plurals name="todo_N_days_after">
-        <item quantity="other">In %1$d days</item>
-        <item quantity="one">In %1$d day</item>
-        <item quantity="few">In %1$d days</item>
-        <item quantity="many">In %1$d days</item>
+    <plurals name="send_to_count">
+        <item quantity="other">Sent %1$s messages</item>
+        <item quantity="one">Sent %1$s message</item>
+        <item quantity="few">Sent %1$s messages</item>
+        <item quantity="many">Sent %1$s messages</item>
     </plurals>
-    <plurals name="todo_N_days_ago">
-        <item quantity="other">%1$d days ago</item>
-        <item quantity="one">%1$d day ago</item>
-        <item quantity="few">%1$d days ago</item>
-        <item quantity="many">%1$d days ago</item>
+    <plurals name="slide_audio_duration">
+        <item quantity="other">%d secs</item>
+        <item quantity="one">%d sec</item>
+        <item quantity="few">%d secs</item>
+        <item quantity="many">%d secs</item>
     </plurals>
-    <plurals name="todo_alert_message_delete">
-        <item quantity="other">Delete %1$s tasks?</item>
-        <item quantity="one">Delete %1$s task?</item>
-        <item quantity="few">Delete %1$s tasks?</item>
-        <item quantity="many">Delete %1$s tasks?</item>
+    <plurals name="slide_duration">
+        <item quantity="other">%d secs</item>
+        <item quantity="one">%d sec</item>
+        <item quantity="few">%d secs</item>
+        <item quantity="many">%d secs</item>
     </plurals>
-    <plurals name="todo_event_description_days_ago">
-        <item quantity="other">%1$d days ago</item>
-        <item quantity="one">%1$d day ago</item>
-        <item quantity="few">%1$d days ago</item>
-        <item quantity="many">%1$d days ago</item>
+    <plurals name="timed_message_expired_title">
+        <item quantity="other">"%d timed messages haven't been sent"</item>
+        <item quantity="one">"%d timed message haven't been sent"</item>
+        <item quantity="few">"%d timed messages haven't been sent"</item>
+        <item quantity="many">"%d timed messages haven't been sent"</item>
     </plurals>
-    <plurals name="todo_event_description_days_later">
-        <item quantity="other">In %1$d days</item>
-        <item quantity="one">In %1$d day</item>
-        <item quantity="few">In %1$d days</item>
-        <item quantity="many">In %1$d days</item>
+    <plurals name="timed_message_in_total">
+        <item quantity="other">(%d messages)</item>
+        <item quantity="one">(%d message)</item>
+        <item quantity="few">(%d messages)</item>
+        <item quantity="many">(%d messages)</item>
     </plurals>
-    <plurals name="todo_terms">
-        <item quantity="other">%1$s tasks</item>
-        <item quantity="one">%1$s task</item>
-        <item quantity="few">%1$s tasks</item>
-        <item quantity="many">%1$s tasks</item>
-    </plurals>
-    <plurals name="word_count">
-        <item quantity="other">%d characters</item>
-        <item quantity="one">%d character</item>
-        <item quantity="few">%d characters</item>
-        <item quantity="many">%d characters</item>
+    <plurals name="to_count">
+        <item quantity="other">%d recipients</item>
+        <item quantity="one">%d recipient</item>
+        <item quantity="few">%d recipients</item>
+        <item quantity="many">%d recipients</item>
     </plurals>
 </resources>
