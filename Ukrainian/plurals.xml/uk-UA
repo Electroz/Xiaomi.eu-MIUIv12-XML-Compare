@@ -1,259 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">1 hour ago</item>
-        <item quantity="few">1 hour ago</item>
-        <item quantity="many">1 hour ago</item>
-        <item quantity="other">1 hour ago</item>
+    <plurals name="backup_items_app_tailer">
+        <item quantity="other">%d app data files</item>
+        <item quantity="one">%d app data file</item>
+        <item quantity="few">%d app data files</item>
+        <item quantity="many">%d app data files</item>
     </plurals>
-    <plurals name="abbrev_a_hour_ago">
-        <item quantity="one">1 hour ago</item>
-        <item quantity="few">1 hour ago</item>
-        <item quantity="many">1 hour ago</item>
-        <item quantity="other">1 hour ago</item>
+    <plurals name="backup_items_sysdata_tailer">
+        <item quantity="other">%d system data files</item>
+        <item quantity="one">%d system data file</item>
+        <item quantity="few">%d system data files</item>
+        <item quantity="many">%d system data files</item>
     </plurals>
-    <plurals name="abbrev_half_hour_ago">
-        <item quantity="one">Half an hour ago</item>
-        <item quantity="few">Half an hour ago</item>
-        <item quantity="many">Half an hour ago</item>
-        <item quantity="other">Half an hour ago</item>
+    <plurals name="custom_progress">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+        <item quantity="few">%d items</item>
+        <item quantity="many">%d items</item>
     </plurals>
-    <plurals name="abbrev_in_a_hour">
-        <item quantity="one">In 1 hour</item>
-        <item quantity="few">In 1 hour</item>
-        <item quantity="many">In 1 hour</item>
-        <item quantity="other">In 1 hour</item>
+    <plurals name="data_item_count">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+        <item quantity="few">%d items</item>
+        <item quantity="many">%d items</item>
     </plurals>
-    <plurals name="abbrev_in_half_hour">
-        <item quantity="one">In half an hour</item>
-        <item quantity="few">In half an hour</item>
-        <item quantity="many">In half an hour</item>
-        <item quantity="other">In half an hour</item>
+    <plurals name="data_item_count_pair">
+        <item quantity="other">%1$d/%2$d items</item>
+        <item quantity="one">%1$d/%2$d item</item>
+        <item quantity="few">%1$d/%2$d items</item>
+        <item quantity="many">%1$d/%2$d items</item>
     </plurals>
-    <plurals name="abbrev_in_less_than_one_minute">
-        <item quantity="one">Immediately</item>
-        <item quantity="few">Immediately</item>
-        <item quantity="many">Immediately</item>
-        <item quantity="other">Immediately</item>
+    <plurals name="local_main_backup_manage_summary">
+        <item quantity="other">%1$s backups (%2$s)</item>
+        <item quantity="one">%1$s backup (%2$s)</item>
+        <item quantity="few">%1$s backups (%2$s)</item>
+        <item quantity="many">%1$s backups (%2$s)</item>
     </plurals>
-    <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">in %d mins</item>
-        <item quantity="one">in 1 min</item>
-        <item quantity="few">in %d mins</item>
-        <item quantity="many">in %d mins</item>
+    <plurals name="new_task_backup_failed">
+        <item quantity="other">"Backed up successfully. Couldn't back up %d items."</item>
+        <item quantity="one">"Backed up successfully. Couldn't back up %d item."</item>
+        <item quantity="few">"Backed up successfully. Couldn't back up %d items."</item>
+        <item quantity="many">"Backed up successfully. Couldn't back up %d items."</item>
     </plurals>
-    <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="one">Just now</item>
-        <item quantity="few">Just now</item>
-        <item quantity="many">Just now</item>
-        <item quantity="other">Just now</item>
+    <plurals name="new_task_restore_failed">
+        <item quantity="other">"Restored successfully. Couldn't restore %d items."</item>
+        <item quantity="one">"Restored successfully. Couldn't restore %d item."</item>
+        <item quantity="few">"Restored successfully. Couldn't restore %d items."</item>
+        <item quantity="many">"Restored successfully. Couldn't restore %d items."</item>
     </plurals>
-    <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d mins ago</item>
-        <item quantity="one">1 min ago</item>
-        <item quantity="few">%d mins ago</item>
-        <item quantity="many">%d mins ago</item>
+    <plurals name="save_item_failed_summary_seg1">
+        <item quantity="other">"Imported %d items. "</item>
+        <item quantity="one">"Imported %d item. "</item>
+        <item quantity="few">"Imported %d items. "</item>
+        <item quantity="many">"Imported %d items. "</item>
     </plurals>
-    <plurals name="comment_detail_title">
-        <item quantity="other">%d replies</item>
-        <item quantity="one">%d reply</item>
-        <item quantity="few">%d replies</item>
-        <item quantity="many">%d replies</item>
+    <plurals name="save_item_failed_summary_seg2">
+        <item quantity="other">Import %d items again.</item>
+        <item quantity="one">Import %d item again.</item>
+        <item quantity="few">Import %d items again.</item>
+        <item quantity="many">Import %d items again.</item>
     </plurals>
-    <plurals name="comment_hour_ago">
-        <item quantity="other">%d hours ago</item>
-        <item quantity="one">%d hour ago</item>
-        <item quantity="few">%d hours ago</item>
-        <item quantity="many">%d hours ago</item>
+    <plurals name="save_item_saved_summary">
+        <item quantity="other">Imported and restored %d items</item>
+        <item quantity="one">Imported and restored %d item</item>
+        <item quantity="few">Imported and restored %d items</item>
+        <item quantity="many">Imported and restored %d items</item>
     </plurals>
-    <plurals name="comment_look_all">
-        <item quantity="other">View %d comments</item>
-        <item quantity="one">View %d comment</item>
-        <item quantity="few">View %d comments</item>
-        <item quantity="many">View %d comments</item>
+    <plurals name="save_item_saving_summary">
+        <item quantity="other">Restored %d items</item>
+        <item quantity="one">Restored %d item</item>
+        <item quantity="few">Restored %d items</item>
+        <item quantity="many">Restored %d items</item>
     </plurals>
-    <plurals name="comment_minute_ago">
-        <item quantity="other">%d minutes ago</item>
-        <item quantity="one">%d minute ago</item>
-        <item quantity="few">%d minutes ago</item>
-        <item quantity="many">%d minutes ago</item>
+    <plurals name="select_item_count_unit">
+        <item quantity="other">items</item>
+        <item quantity="one">item</item>
+        <item quantity="few">items</item>
+        <item quantity="many">items</item>
     </plurals>
-    <plurals name="comment_selected">
-        <item quantity="other">Selected %d reasons</item>
-        <item quantity="one">Selected %d reason</item>
-        <item quantity="few">Selected %d reasons</item>
-        <item quantity="many">Selected %d reasons</item>
+    <plurals name="select_item_summary">
+        <item quantity="other">%1$s | %2$d items</item>
+        <item quantity="one">%1$s | %2$d item</item>
+        <item quantity="few">%1$s | %2$d items</item>
+        <item quantity="many">%1$s | %2$d items</item>
     </plurals>
-    <plurals name="half_hour_ago">
-        <item quantity="one">Half an hour ago</item>
-        <item quantity="few">Half an hour ago</item>
-        <item quantity="many">Half an hour ago</item>
-        <item quantity="other">Half an hour ago</item>
+    <plurals name="total_num">
+        <item quantity="other">%d items,</item>
+        <item quantity="one">%d item,</item>
+        <item quantity="few">%d items,</item>
+        <item quantity="many">%d items,</item>
     </plurals>
-    <plurals name="hot_word_hot_count">
-        <item quantity="other">%d views</item>
-        <item quantity="one">%d view</item>
-        <item quantity="few">%d views</item>
-        <item quantity="many">%d views</item>
+    <plurals name="trans_failed_summary">
+        <item quantity="other">"Couldn't transfer %d items. Tap to view details."</item>
+        <item quantity="one">"Couldn't transfer %d item. Tap to view details."</item>
+        <item quantity="few">"Couldn't transfer %d items. Tap to view details."</item>
+        <item quantity="many">"Couldn't transfer %d items. Tap to view details."</item>
     </plurals>
-    <plurals name="in_a_hour">
-        <item quantity="one">In 1 hour</item>
-        <item quantity="few">In 1 hour</item>
-        <item quantity="many">In 1 hour</item>
-        <item quantity="other">In 1 hour</item>
+    <plurals name="trans_item_failed_summary">
+        <item quantity="other">"Couldn't transfer %d items."</item>
+        <item quantity="one">"Couldn't transfer %d item."</item>
+        <item quantity="few">"Couldn't transfer %d items."</item>
+        <item quantity="many">"Couldn't transfer %d items."</item>
     </plurals>
-    <plurals name="in_half_hour">
-        <item quantity="one">In half an hour</item>
-        <item quantity="few">In half an hour</item>
-        <item quantity="many">In half an hour</item>
-        <item quantity="other">In half an hour</item>
+    <plurals name="trans_time_format_hours">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+        <item quantity="few">%d hours</item>
+        <item quantity="many">%d hours</item>
     </plurals>
-    <plurals name="in_less_than_one_minute">
-        <item quantity="one">Immediately</item>
-        <item quantity="few">Immediately</item>
-        <item quantity="many">Immediately</item>
-        <item quantity="other">Immediately</item>
-    </plurals>
-    <plurals name="in_num_minutes">
-        <item quantity="other">in %d minutes</item>
-        <item quantity="one">in 1 minute</item>
-        <item quantity="few">in %d minutes</item>
-        <item quantity="many">in %d minutes</item>
-    </plurals>
-    <plurals name="info_flow_tips">
-        <item quantity="other">Found %d new items for you</item>
-        <item quantity="one">Found %d new item for you</item>
-        <item quantity="few">Found %d new items for you</item>
-        <item quantity="many">Found %d new items for you</item>
-    </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Just now</item>
-        <item quantity="few">Just now</item>
-        <item quantity="many">Just now</item>
-        <item quantity="other">Just now</item>
-    </plurals>
-    <plurals name="mw_last_num_days">
-        <item quantity="one">Last %d days</item>
-        <item quantity="few">Last %d days</item>
-        <item quantity="many">Last %d days</item>
-        <item quantity="other">Last %d days</item>
-    </plurals>
-    <plurals name="mw_matches_found">
-        <item quantity="other">%1$d of %2$d</item>
-        <item quantity="one">1 match</item>
-        <item quantity="few">%1$d of %2$d</item>
-        <item quantity="many">%1$d of %2$d</item>
-    </plurals>
-    <plurals name="nav_screen_incognito_time">
-        <item quantity="other">After %d seconds will automatically create a new page</item>
-        <item quantity="one">After %d second will automatically create a new page</item>
-        <item quantity="few">After %d seconds will automatically create a new page</item>
-        <item quantity="many">After %d seconds will automatically create a new page</item>
-    </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="other">%d minutes ago</item>
-        <item quantity="one">1 minute ago</item>
-        <item quantity="few">%d minutes ago</item>
-        <item quantity="many">%d minutes ago</item>
-    </plurals>
-    <plurals name="transfer_prompt">
-        <item quantity="other">Play video in %1$d seconds</item>
-        <item quantity="one">Play video in %1$d second</item>
-        <item quantity="few">Play video in %1$d seconds</item>
-        <item quantity="many">Play video in %1$d seconds</item>
-    </plurals>
-    <plurals name="v5_edit_mode_title">
-        <item quantity="other">%1$d selected</item>
-        <item quantity="one">%1$d selected</item>
-        <item quantity="few">%1$d selected</item>
-        <item quantity="many">%1$d selected</item>
-    </plurals>
-    <plurals name="video_download_clear_info">
-        <item quantity="other">Removed %1$d videos successfully.</item>
-        <item quantity="one">Removed %1$d video successfully.</item>
-        <item quantity="few">Removed %1$d videos successfully.</item>
-        <item quantity="many">Removed %1$d videos successfully.</item>
-    </plurals>
-    <plurals name="video_download_clear_prompt">
-        <item quantity="other">Clear %1$d videos?</item>
-        <item quantity="one">Clear %1$d video?</item>
-        <item quantity="few">Clear %1$d videos?</item>
-        <item quantity="many">Clear %1$d videos?</item>
-    </plurals>
-    <plurals name="video_history_clear_info">
-        <item quantity="other">%1$d items deleted from history.</item>
-        <item quantity="one">%1$d item deleted from history.</item>
-        <item quantity="few">%1$d items deleted from history.</item>
-        <item quantity="many">%1$d items deleted from history.</item>
-    </plurals>
-    <plurals name="video_history_clear_prompt">
-        <item quantity="other">Delete %1$d items from history?</item>
-        <item quantity="one">Delete %1$d item from history?</item>
-        <item quantity="few">Delete %1$d items from history?</item>
-        <item quantity="many">Delete %1$d items from history?</item>
-    </plurals>
-    <plurals name="video_playback_error">
-        <item quantity="other">"Couldn't load video.
-Will play the next one in %d seconds…"</item>
-        <item quantity="one">"Couldn't load video.
-Will play the next one in %d second…"</item>
-        <item quantity="few">"Couldn't load video.
-Will play the next one in %d seconds…"</item>
-        <item quantity="many">"Couldn't load video.
-Will play the next one in %d seconds…"</item>
-    </plurals>
-    <plurals name="video_subtitle_last_message">
-        <item quantity="other">%d minutes remaining</item>
-        <item quantity="one">%d minute remaining</item>
-        <item quantity="few">%d minutes remaining</item>
-        <item quantity="many">%d minutes remaining</item>
-    </plurals>
-    <plurals name="vo_comment">
-        <item quantity="other">%s comments</item>
-        <item quantity="one">%s comment</item>
-        <item quantity="few">%s comments</item>
-        <item quantity="many">%s comments</item>
-    </plurals>
-    <plurals name="vo_image_mark">
-        <item quantity="other">%d images</item>
-        <item quantity="one">%d image</item>
-        <item quantity="few">%d images</item>
-        <item quantity="many">%d images</item>
-    </plurals>
-    <plurals name="vo_short_video_play_count">
-        <item quantity="other">%s</item>
-        <item quantity="one">%s</item>
-        <item quantity="few">%s</item>
-        <item quantity="many">%s</item>
-    </plurals>
-    <plurals name="vo_source_comment">
-        <item quantity="other">%1$s | %2$s comments</item>
-        <item quantity="one">%1$s | %2$s comment</item>
-        <item quantity="few">%1$s | %2$s comments</item>
-        <item quantity="many">%1$s | %2$s comments</item>
-    </plurals>
-    <plurals name="vo_vote_num">
-        <item quantity="other">%d people have already voted</item>
-        <item quantity="one">%d person has already voted</item>
-        <item quantity="few">%d people have already voted</item>
-        <item quantity="many">%d people have already voted</item>
-    </plurals>
-    <plurals name="vo_wei_bo_publish_time_hour">
-        <item quantity="other">· %s hrs ago</item>
-        <item quantity="one">· %s hr ago</item>
-        <item quantity="few">· %s hrs ago</item>
-        <item quantity="many">· %s hrs ago</item>
-    </plurals>
-    <plurals name="vo_wei_bo_publish_time_minute">
-        <item quantity="other">· %s mins ago</item>
-        <item quantity="one">· %s min ago</item>
-        <item quantity="few">· %s mins ago</item>
-        <item quantity="many">· %s mins ago</item>
-    </plurals>
-    <plurals name="vo_zhi_hu_answer">
-        <item quantity="other">%d answers on Zhihu</item>
-        <item quantity="one">%d answer on Zhihu</item>
-        <item quantity="few">%d answers on Zhihu</item>
-        <item quantity="many">%d answers on Zhihu</item>
+    <plurals name="trans_time_format_minute">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+        <item quantity="few">%d minutes</item>
+        <item quantity="many">%d minutes</item>
     </plurals>
 </resources>
