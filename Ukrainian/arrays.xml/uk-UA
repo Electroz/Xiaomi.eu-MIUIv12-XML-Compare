@@ -1,114 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="color_mode_labels">
-        <item>Black &amp; White</item>
-        <item>Color</item>
+    <string-array name="navigation_picker_disappear_devices">
+        <item>rosy</item>
+        <item>vince</item>
+        <item>cactus</item>
+        <item>pine</item>
     </string-array>
-    <string-array name="duplex_mode_labels">
-        <item>None</item>
-        <item>Long edge</item>
-        <item>Short edge</item>
+    <string-array name="organized_inputmethod_list_international">
+        <item>com.touchtype.swiftkey/com.touchtype.KeyboardService</item>
+        <item>com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME</item>
+        <item>com.syntellia.fleksy.kb/com.syntellia.fleksy.keyboard.Fleksy</item>
     </string-array>
-    <string-array name="mediasize_to_standard_map">
-        <item>NA_LETTER</item>
-        <item>@string/mediasize_standard_north_america</item>
-        <item>NA_GOVT_LETTER</item>
-        <item>@string/mediasize_standard_north_america</item>
-        <item>NA_LEGAL</item>
-        <item>@string/mediasize_standard_north_america</item>
-        <item>NA_JUNIOR_LEGAL</item>
-        <item>@string/mediasize_standard_north_america</item>
-        <item>NA_LEDGER</item>
-        <item>@string/mediasize_standard_north_america</item>
-        <item>NA_TABLOID</item>
-        <item>@string/mediasize_standard_north_america</item>
-        <item>NA_INDEX_3X5</item>
-        <item>@string/mediasize_standard_north_america</item>
-        <item>NA_INDEX_4X6</item>
-        <item>@string/mediasize_standard_north_america</item>
-        <item>NA_INDEX_5X8</item>
-        <item>@string/mediasize_standard_north_america</item>
-        <item>NA_MONARCH</item>
-        <item>@string/mediasize_standard_north_america</item>
-        <item>NA_QUARTO</item>
-        <item>@string/mediasize_standard_north_america</item>
-        <item>NA_FOOLSCAP</item>
-        <item>@string/mediasize_standard_north_america</item>
-        <item>ROC_8K</item>
-        <item>@string/mediasize_standard_china</item>
-        <item>ROC_16K</item>
-        <item>@string/mediasize_standard_china</item>
-        <item>PRC_1</item>
-        <item>@string/mediasize_standard_china</item>
-        <item>PRC_2</item>
-        <item>@string/mediasize_standard_china</item>
-        <item>PRC_3</item>
-        <item>@string/mediasize_standard_china</item>
-        <item>PRC_4</item>
-        <item>@string/mediasize_standard_china</item>
-        <item>PRC_5</item>
-        <item>@string/mediasize_standard_china</item>
-        <item>PRC_6</item>
-        <item>@string/mediasize_standard_china</item>
-        <item>PRC_7</item>
-        <item>@string/mediasize_standard_china</item>
-        <item>PRC_8</item>
-        <item>@string/mediasize_standard_china</item>
-        <item>PRC_9</item>
-        <item>@string/mediasize_standard_china</item>
-        <item>PRC_10</item>
-        <item>@string/mediasize_standard_china</item>
-        <item>PRC_16K</item>
-        <item>@string/mediasize_standard_china</item>
-        <item>OM_PA_KAI</item>
-        <item>@string/mediasize_standard_china</item>
-        <item>OM_DAI_PA_KAI</item>
-        <item>@string/mediasize_standard_china</item>
-        <item>OM_JUURO_KU_KAI</item>
-        <item>@string/mediasize_standard_china</item>
-        <item>JIS_B10</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JIS_B9</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JIS_B8</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JIS_B7</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JIS_B6</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JIS_B5</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JIS_B4</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JIS_B3</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JIS_B2</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JIS_B1</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JIS_B0</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JIS_EXEC</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JPN_CHOU4</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JPN_CHOU3</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JPN_CHOU2</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JPN_HAGAKI</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JPN_OUFUKU</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JPN_KAHU</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JPN_KAKU2</item>
-        <item>@string/mediasize_standard_japan</item>
-        <item>JPN_YOU4</item>
-        <item>@string/mediasize_standard_japan</item>
+    <string-array name="organized_inputmethod_list_international_ee">
+        <item>com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME</item>
+        <item>com.touchtype.swiftkey/com.touchtype.KeyboardService</item>
+        <item>com.google.android.inputmethod.pinyin/.PinyinIME</item>
+        <item>com.syntellia.fleksy.kb/com.syntellia.fleksy.keyboard.Fleksy</item>
     </string-array>
-    <string-array name="orientation_labels">
-        <item>Portrait</item>
-        <item>Landscape</item>
+    <string-array name="organized_inputmethod_list_international_hu">
+        <item>com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME</item>
+        <item>com.touchtype.swiftkey/com.touchtype.KeyboardService</item>
+        <item>com.google.android.inputmethod.pinyin/.PinyinIME</item>
+        <item>com.syntellia.fleksy.kb/com.syntellia.fleksy.keyboard.Fleksy</item>
+    </string-array>
+    <string-array name="organized_inputmethod_list_international_id">
+        <item>com.touchtype.swiftkey/com.touchtype.KeyboardService</item>
+        <item>com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME</item>
+        <item>com.google.android.inputmethod.pinyin/.PinyinIME</item>
+        <item>com.syntellia.fleksy.kb/com.syntellia.fleksy.keyboard.Fleksy</item>
+    </string-array>
+    <string-array name="organized_inputmethod_list_international_kr">
+        <item>com.google.android.inputmethod.korean/.KoreanIme</item>
+        <item>com.touchtype.swiftkey/com.touchtype.KeyboardService</item>
+        <item>com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME</item>
+    </string-array>
+    <string-array name="organized_inputmethod_list_international_lt">
+        <item>com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME</item>
+        <item>com.touchtype.swiftkey/com.touchtype.KeyboardService</item>
+        <item>com.google.android.inputmethod.pinyin/.PinyinIME</item>
+        <item>com.syntellia.fleksy.kb/com.syntellia.fleksy.keyboard.Fleksy</item>
+    </string-array>
+    <string-array name="organized_inputmethod_list_international_lv">
+        <item>com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME</item>
+        <item>com.touchtype.swiftkey/com.touchtype.KeyboardService</item>
+        <item>com.google.android.inputmethod.pinyin/.PinyinIME</item>
+        <item>com.syntellia.fleksy.kb/com.syntellia.fleksy.keyboard.Fleksy</item>
+    </string-array>
+    <string-array name="organized_inputmethod_list_international_my">
+        <item>com.touchtype.swiftkey/com.touchtype.KeyboardService</item>
+        <item>com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME</item>
+        <item>com.google.android.inputmethod.pinyin/.PinyinIME</item>
+        <item>com.syntellia.fleksy.kb/com.syntellia.fleksy.keyboard.Fleksy</item>
+    </string-array>
+    <string-array name="organized_inputmethod_list_international_pl">
+        <item>com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME</item>
+        <item>com.touchtype.swiftkey/com.touchtype.KeyboardService</item>
+        <item>com.google.android.inputmethod.pinyin/.PinyinIME</item>
+        <item>com.syntellia.fleksy.kb/com.syntellia.fleksy.keyboard.Fleksy</item>
+    </string-array>
+    <string-array name="organized_inputmethod_list_international_ro">
+        <item>com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME</item>
+        <item>com.touchtype.swiftkey/com.touchtype.KeyboardService</item>
+        <item>com.google.android.inputmethod.pinyin/.PinyinIME</item>
+        <item>com.syntellia.fleksy.kb/com.syntellia.fleksy.keyboard.Fleksy</item>
+    </string-array>
+    <string-array name="organized_inputmethod_list_international_sg">
+        <item>com.touchtype.swiftkey/com.touchtype.KeyboardService</item>
+        <item>com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME</item>
+        <item>com.google.android.inputmethod.pinyin/.PinyinIME</item>
+        <item>com.syntellia.fleksy.kb/com.syntellia.fleksy.keyboard.Fleksy</item>
+    </string-array>
+    <string-array name="organized_inputmethod_list_international_th">
+        <item>com.touchtype.swiftkey/com.touchtype.KeyboardService</item>
+        <item>com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME</item>
+        <item>com.google.android.inputmethod.pinyin/.PinyinIME</item>
+        <item>com.syntellia.fleksy.kb/com.syntellia.fleksy.keyboard.Fleksy</item>
+    </string-array>
+    <string-array name="organized_inputmethod_list_international_vn">
+        <item>com.touchtype.swiftkey/com.touchtype.KeyboardService</item>
+        <item>com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME</item>
+        <item>com.google.android.inputmethod.pinyin/.PinyinIME</item>
+        <item>com.syntellia.fleksy.kb/com.syntellia.fleksy.keyboard.Fleksy</item>
+    </string-array>
+    <string-array name="organized_locales">
+        <item>hk</item>
+        <item>in</item>
+        <item>id</item>
+        <item>my</item>
+        <item>ph</item>
+        <item>sg</item>
+        <item>tw</item>
+        <item>br</item>
+        <item>ru</item>
+        <item>vn</item>
+        <item>tr</item>
+        <item>th</item>
+        <item>ae</item>
+        <item>mm</item>
+        <item>mx</item>
+    </string-array>
+    <string-array name="other_settings_auto_update_entries">
+        <item>Wi-Fi and mobile data</item>
+        <item>Wi-Fi only</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="popular_language_locales">
+        <item>en_IN</item>
+        <item>en_GB</item>
+        <item>en_US</item>
+        <item>in_ID</item>
+        <item>hi_IN</item>
+        <item>ru_RU</item>
+        <item>zh_TW</item>
+        <item>zh_CN</item>
+    </string-array>
+    <string-array name="popular_locales">
+        <item>IN</item>
+        <item>ID</item>
+        <item>MY</item>
+        <item>RU</item>
+        <item>TW</item>
+        <item>HK</item>
+    </string-array>
+    <string-array name="prefer_inputmethod_list">
+        <item>com.touchtype.swiftkey.xiaomi/com.touchtype.KeyboardService</item>
+        <item>com.touchtype.swiftkey/com.touchtype.KeyboardService</item>
+    </string-array>
+    <string-array name="prefer_inputmethod_list_cm_customized">
+        <item>com.iflytek.inputmethod/.FlyIME</item>
+        <item>com.iflytek.inputmethod.oem/com.iflytek.inputmethod.FlyIME</item>
+        <item>com.iflytek.inputmethod.oem/.FlyIME</item>
+    </string-array>
+    <string-array name="special_locale_codes_global">
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>zh_HK</item>
+        <item>es_US</item>
+        <item>pt_BR</item>
+    </string-array>
+    <string-array name="special_locale_names_global">
+        <item>简体中文</item>
+        <item>繁體中文 (台灣)</item>
+        <item>繁體中文 (香港)</item>
+        <item>Español (América)</item>
+        <item>Português (Brasil)</item>
     </string-array>
 </resources>
