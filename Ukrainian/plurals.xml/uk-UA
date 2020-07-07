@@ -54,35 +54,95 @@
         <item quantity="few">%d mins ago</item>
         <item quantity="many">%d mins ago</item>
     </plurals>
-    <plurals name="comment_detail_title">
-        <item quantity="other">%d replies</item>
-        <item quantity="one">%d reply</item>
-        <item quantity="few">%d replies</item>
-        <item quantity="many">%d replies</item>
+    <plurals name="batch_delete_msg">
+        <item quantity="other">Delete %1$d contacts?</item>
+        <item quantity="one">Delete %1$d contact?</item>
+        <item quantity="few">Delete %1$d contacts?</item>
+        <item quantity="many">Delete %1$d contacts?</item>
     </plurals>
-    <plurals name="comment_hour_ago">
-        <item quantity="other">%d hours ago</item>
-        <item quantity="one">%d hour ago</item>
-        <item quantity="few">%d hours ago</item>
-        <item quantity="many">%d hours ago</item>
+    <plurals name="btn_delete_multi_contacts">
+        <item quantity="other">Delete %1$d contacts</item>
+        <item quantity="one">Delete %1$d contact</item>
+        <item quantity="few">Delete %1$d contacts</item>
+        <item quantity="many">Delete %1$d contacts</item>
     </plurals>
-    <plurals name="comment_look_all">
-        <item quantity="other">View %d comments</item>
-        <item quantity="one">View %d comment</item>
-        <item quantity="few">View %d comments</item>
-        <item quantity="many">View %d comments</item>
+    <plurals name="callNoAnswerTimeFormat">
+        <item quantity="other">Rang %1$d times</item>
+        <item quantity="one">Rang %1$d time</item>
+        <item quantity="few">Rang %1$d times</item>
+        <item quantity="many">Rang %1$d times</item>
     </plurals>
-    <plurals name="comment_minute_ago">
-        <item quantity="other">%d minutes ago</item>
-        <item quantity="one">%d minute ago</item>
-        <item quantity="few">%d minutes ago</item>
-        <item quantity="many">%d minutes ago</item>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="other">"%1$d contacts or photos haven't been synced"</item>
+        <item quantity="one">"%1$d contact or photo hasn't been synced"</item>
+        <item quantity="few">"%1$d contacts or photos haven't been synced"</item>
+        <item quantity="many">"%1$d contacts or photos haven't been synced"</item>
     </plurals>
-    <plurals name="comment_selected">
-        <item quantity="other">Selected %d reasons</item>
-        <item quantity="one">Selected %d reason</item>
-        <item quantity="few">Selected %d reasons</item>
-        <item quantity="many">Selected %d reasons</item>
+    <plurals name="confirm_delete_sim_entry_miui">
+        <item quantity="other">Delete %1$d contacts from SIM card?</item>
+        <item quantity="one">Delete %1$d contact from SIM card?</item>
+        <item quantity="few">Delete %1$d contacts from SIM card?</item>
+        <item quantity="many">Delete %1$d contacts from SIM card?</item>
+    </plurals>
+    <plurals name="contacts_count">
+        <item quantity="other">%1$d contacts</item>
+        <item quantity="one">%1$d contact</item>
+        <item quantity="few">%1$d contacts</item>
+        <item quantity="many">%1$d contacts</item>
+    </plurals>
+    <plurals name="device_import_done_toast">
+        <item quantity="other">%1$d contacts imported</item>
+        <item quantity="one">%1$d contact imported</item>
+        <item quantity="few">%1$d contacts imported</item>
+        <item quantity="many">%1$d contacts imported</item>
+    </plurals>
+    <plurals name="device_import_progress_toast_plurals">
+        <item quantity="other">Imported %1$d contacts</item>
+        <item quantity="one">Imported %1$d contact</item>
+        <item quantity="few">Imported %1$d contacts</item>
+        <item quantity="many">Imported %1$d contacts</item>
+    </plurals>
+    <plurals name="dlg_add_blacklist">
+        <item quantity="other">Block %1$d phone numbers?</item>
+        <item quantity="one">Block %1$d phone number?</item>
+        <item quantity="few">Block %1$d phone numbers?</item>
+        <item quantity="many">Block %1$d phone numbers?</item>
+    </plurals>
+    <plurals name="dlg_remove_blacklist">
+        <item quantity="other">Unblock %1$d phone numbers?</item>
+        <item quantity="one">Unblock %1$d phone number?</item>
+        <item quantity="few">Unblock %1$d phone numbers?</item>
+        <item quantity="many">Unblock %1$d phone numbers?</item>
+    </plurals>
+    <plurals name="export_sim_contacts_dialog_message">
+        <item quantity="other">SIM card can store %1$d contacts.</item>
+        <item quantity="one">SIM card can store %1$d contact.</item>
+        <item quantity="few">SIM card can store %1$d contacts.</item>
+        <item quantity="many">SIM card can store %1$d contacts.</item>
+    </plurals>
+    <plurals name="foundTooManyContacts_plurals">
+        <item quantity="other">Found more than %d contacts.</item>
+        <item quantity="one">Found more than %d contact.</item>
+        <item quantity="few">Found more than %d contacts.</item>
+        <item quantity="many">Found more than %d contacts.</item>
+    </plurals>
+    <plurals name="group_add_success_toast">
+        <item quantity="other">%1$d contacts added</item>
+        <item quantity="one">%1$d contact added</item>
+        <item quantity="few">%1$d contacts added</item>
+        <item quantity="many">%1$d contacts added</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d people</item>
+        <item quantity="one">%1$d person</item>
+        <item quantity="few">%1$d people</item>
+        <item quantity="many">%1$d people</item>
+    </plurals>
+    <plurals name="group_list_num_numbers_in_group">
+        <item quantity="other">%1$d numbers</item>
+        <item quantity="one">%1$d number</item>
+        <item quantity="few">%1$d numbers</item>
+        <item quantity="many">%1$d numbers</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="one">Half an hour ago</item>
@@ -90,11 +150,29 @@
         <item quantity="many">Half an hour ago</item>
         <item quantity="other">Half an hour ago</item>
     </plurals>
-    <plurals name="hot_word_hot_count">
-        <item quantity="other">%d views</item>
-        <item quantity="one">%d view</item>
-        <item quantity="few">%d views</item>
-        <item quantity="many">%d views</item>
+    <plurals name="hint_account_contacts">
+        <item quantity="other">Found %1$d items</item>
+        <item quantity="one">Found %1$d item</item>
+        <item quantity="few">Found %1$d items</item>
+        <item quantity="many">Found %1$d items</item>
+    </plurals>
+    <plurals name="hint_search_contacts">
+        <item quantity="other">%1$d contacts</item>
+        <item quantity="one">%1$d contact</item>
+        <item quantity="few">%1$d contacts</item>
+        <item quantity="many">%1$d contacts</item>
+    </plurals>
+    <plurals name="hint_search_emails">
+        <item quantity="other">%1$d emails</item>
+        <item quantity="one">%1$d email</item>
+        <item quantity="few">%1$d emails</item>
+        <item quantity="many">%1$d emails</item>
+    </plurals>
+    <plurals name="hint_search_phone_numbers">
+        <item quantity="other">%1$d numbers</item>
+        <item quantity="one">%1$d number</item>
+        <item quantity="few">%1$d numbers</item>
+        <item quantity="many">%1$d numbers</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="one">In 1 hour</item>
@@ -120,11 +198,11 @@
         <item quantity="few">in %d minutes</item>
         <item quantity="many">in %d minutes</item>
     </plurals>
-    <plurals name="info_flow_tips">
-        <item quantity="other">Found %d new items for you</item>
-        <item quantity="one">Found %d new item for you</item>
-        <item quantity="few">Found %d new items for you</item>
-        <item quantity="many">Found %d new items for you</item>
+    <plurals name="label_duplicate_count_plurals">
+        <item quantity="other">(%1$d)</item>
+        <item quantity="one">(%1$d)</item>
+        <item quantity="few">(%1$d)</item>
+        <item quantity="many">(%1$d)</item>
     </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="one">Just now</item>
@@ -132,23 +210,41 @@
         <item quantity="many">Just now</item>
         <item quantity="other">Just now</item>
     </plurals>
-    <plurals name="mw_last_num_days">
-        <item quantity="one">Last %d days</item>
-        <item quantity="few">Last %d days</item>
-        <item quantity="many">Last %d days</item>
-        <item quantity="other">Last %d days</item>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d contacts</item>
+        <item quantity="one">%d contact</item>
+        <item quantity="few">%d contacts</item>
+        <item quantity="many">%d contacts</item>
     </plurals>
-    <plurals name="mw_matches_found">
-        <item quantity="other">%1$d of %2$d</item>
-        <item quantity="one">1 match</item>
-        <item quantity="few">%1$d of %2$d</item>
-        <item quantity="many">%1$d of %2$d</item>
+    <plurals name="merge_contact_message_plurals">
+        <item quantity="other">%1$d contacts with partially identical info</item>
+        <item quantity="one">%1$d contacts with partially identical info</item>
+        <item quantity="few">%1$d contacts with partially identical info</item>
+        <item quantity="many">%1$d contacts with partially identical info</item>
     </plurals>
-    <plurals name="nav_screen_incognito_time">
-        <item quantity="other">After %d seconds will automatically create a new page</item>
-        <item quantity="one">After %d second will automatically create a new page</item>
-        <item quantity="few">After %d seconds will automatically create a new page</item>
-        <item quantity="many">After %d seconds will automatically create a new page</item>
+    <plurals name="merge_info">
+        <item quantity="other">merged from %0$d sources</item>
+        <item quantity="one">not merged</item>
+        <item quantity="few">merged from %0$d sources</item>
+        <item quantity="many">merged from %0$d sources</item>
+    </plurals>
+    <plurals name="numSelectedSimContacts">
+        <item quantity="other">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+        <item quantity="few">%1$d selected</item>
+        <item quantity="many">%1$d selected</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d people from %2$s</item>
+        <item quantity="one">%1$d person from %2$s</item>
+        <item quantity="few">%1$d people from %2$s</item>
+        <item quantity="many">%1$d people from %2$s</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%d groups</item>
+        <item quantity="one">%d group</item>
+        <item quantity="few">%d groups</item>
+        <item quantity="many">%d groups</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutes ago</item>
@@ -156,104 +252,64 @@
         <item quantity="few">%d minutes ago</item>
         <item quantity="many">%d minutes ago</item>
     </plurals>
-    <plurals name="transfer_prompt">
-        <item quantity="other">Play video in %1$d seconds</item>
-        <item quantity="one">Play video in %1$d second</item>
-        <item quantity="few">Play video in %1$d seconds</item>
-        <item quantity="many">Play video in %1$d seconds</item>
+    <plurals name="number_of_items_available">
+        <item quantity="other">%1$d items remaining</item>
+        <item quantity="one">%1$d item remaining</item>
+        <item quantity="few">%1$d items remaining</item>
+        <item quantity="many">%1$d items remaining</item>
     </plurals>
-    <plurals name="v5_edit_mode_title">
+    <plurals name="number_of_items_selected">
         <item quantity="other">%1$d selected</item>
         <item quantity="one">%1$d selected</item>
         <item quantity="few">%1$d selected</item>
         <item quantity="many">%1$d selected</item>
     </plurals>
-    <plurals name="video_download_clear_info">
-        <item quantity="other">Removed %1$d videos successfully.</item>
-        <item quantity="one">Removed %1$d video successfully.</item>
-        <item quantity="few">Removed %1$d videos successfully.</item>
-        <item quantity="many">Removed %1$d videos successfully.</item>
+    <plurals name="pick_favorites_contacts_list_title">
+        <item quantity="other">%1$d favorites</item>
+        <item quantity="one">%1$d favorite</item>
+        <item quantity="few">%1$d favorites</item>
+        <item quantity="many">%1$d favorites</item>
     </plurals>
-    <plurals name="video_download_clear_prompt">
-        <item quantity="other">Clear %1$d videos?</item>
-        <item quantity="one">Clear %1$d video?</item>
-        <item quantity="few">Clear %1$d videos?</item>
-        <item quantity="many">Clear %1$d videos?</item>
+    <plurals name="pick_favorites_list_title">
+        <item quantity="other">%1$d favorites</item>
+        <item quantity="one">%1$d favorite</item>
+        <item quantity="few">%1$d favorites</item>
+        <item quantity="many">%1$d favorites</item>
     </plurals>
-    <plurals name="video_history_clear_info">
-        <item quantity="other">%1$d items deleted from history.</item>
-        <item quantity="one">%1$d item deleted from history.</item>
-        <item quantity="few">%1$d items deleted from history.</item>
-        <item quantity="many">%1$d items deleted from history.</item>
+    <plurals name="pick_recent_contacts_list_title">
+        <item quantity="other">%1$d recent contacts</item>
+        <item quantity="one">%1$d recent contact</item>
+        <item quantity="few">%1$d recent contacts</item>
+        <item quantity="many">%1$d recent contacts</item>
     </plurals>
-    <plurals name="video_history_clear_prompt">
-        <item quantity="other">Delete %1$d items from history?</item>
-        <item quantity="one">Delete %1$d item from history?</item>
-        <item quantity="few">Delete %1$d items from history?</item>
-        <item quantity="many">Delete %1$d items from history?</item>
+    <plurals name="pick_recent_list_title">
+        <item quantity="other">%1$d recent contacts</item>
+        <item quantity="one">%1$d recent contact</item>
+        <item quantity="few">%1$d recent contacts</item>
+        <item quantity="many">%1$d recent contacts</item>
     </plurals>
-    <plurals name="video_playback_error">
-        <item quantity="other">"Couldn't load video.
-Will play the next one in %d seconds…"</item>
-        <item quantity="one">"Couldn't load video.
-Will play the next one in %d second…"</item>
-        <item quantity="few">"Couldn't load video.
-Will play the next one in %d seconds…"</item>
-        <item quantity="many">"Couldn't load video.
-Will play the next one in %d seconds…"</item>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d found</item>
+        <item quantity="one">%d found</item>
+        <item quantity="few">%d found</item>
+        <item quantity="many">%d found</item>
     </plurals>
-    <plurals name="video_subtitle_last_message">
-        <item quantity="other">%d minutes remaining</item>
-        <item quantity="one">%d minute remaining</item>
-        <item quantity="few">%d minutes remaining</item>
-        <item quantity="many">%d minutes remaining</item>
+    <plurals name="select_all_exceed_plurals">
+        <item quantity="other">"Select no more than %1$d, can't select all"</item>
+        <item quantity="one">"Select no more than %1$d, can't select all"</item>
+        <item quantity="few">"Select no more than %1$d, can't select all"</item>
+        <item quantity="many">"Select no more than %1$d, can't select all"</item>
     </plurals>
-    <plurals name="vo_comment">
-        <item quantity="other">%s comments</item>
-        <item quantity="one">%s comment</item>
-        <item quantity="few">%s comments</item>
-        <item quantity="many">%s comments</item>
+    <plurals name="select_exceed_plurals">
+        <item quantity="other">Select no more than %1$d</item>
+        <item quantity="one">Select no more than %1$d</item>
+        <item quantity="few">Select no more than %1$d</item>
+        <item quantity="many">Select no more than %1$d</item>
     </plurals>
-    <plurals name="vo_image_mark">
-        <item quantity="other">%d images</item>
-        <item quantity="one">%d image</item>
-        <item quantity="few">%d images</item>
-        <item quantity="many">%d images</item>
-    </plurals>
-    <plurals name="vo_short_video_play_count">
-        <item quantity="other">%s</item>
-        <item quantity="one">%s</item>
-        <item quantity="few">%s</item>
-        <item quantity="many">%s</item>
-    </plurals>
-    <plurals name="vo_source_comment">
-        <item quantity="other">%1$s | %2$s comments</item>
-        <item quantity="one">%1$s | %2$s comment</item>
-        <item quantity="few">%1$s | %2$s comments</item>
-        <item quantity="many">%1$s | %2$s comments</item>
-    </plurals>
-    <plurals name="vo_vote_num">
-        <item quantity="other">%d people have already voted</item>
-        <item quantity="one">%d person has already voted</item>
-        <item quantity="few">%d people have already voted</item>
-        <item quantity="many">%d people have already voted</item>
-    </plurals>
-    <plurals name="vo_wei_bo_publish_time_hour">
-        <item quantity="other">· %s hrs ago</item>
-        <item quantity="one">· %s hr ago</item>
-        <item quantity="few">· %s hrs ago</item>
-        <item quantity="many">· %s hrs ago</item>
-    </plurals>
-    <plurals name="vo_wei_bo_publish_time_minute">
-        <item quantity="other">· %s mins ago</item>
-        <item quantity="one">· %s min ago</item>
-        <item quantity="few">· %s mins ago</item>
-        <item quantity="many">· %s mins ago</item>
-    </plurals>
-    <plurals name="vo_zhi_hu_answer">
-        <item quantity="other">%d answers on Zhihu</item>
-        <item quantity="one">%d answer on Zhihu</item>
-        <item quantity="few">%d answers on Zhihu</item>
-        <item quantity="many">%d answers on Zhihu</item>
+    <plurals name="smart_group_member_count">
+        <item quantity="other">%1$d people</item>
+        <item quantity="one">%1$d person</item>
+        <item quantity="few">%1$d people</item>
+        <item quantity="many">%1$d people</item>
     </plurals>
 </resources>
