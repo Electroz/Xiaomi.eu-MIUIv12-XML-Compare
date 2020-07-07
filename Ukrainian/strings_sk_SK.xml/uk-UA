@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_time">dd.MM. EEEE</string>
-    <string name="date_time_12">dd.MM. EEEE</string>
-    <string name="location">Miestne</string>
-    <string name="resident_city">Predvolené mesto</string>
-    <string name="clock_local">Lokálny</string>
-    <string name="clock_city">Mesto</string>
+    <string name="label_airplane_mode">Lietadlo</string>
+    <string name="label_silent_mode">Tichý režim</string>
+    <string name="label_reboot">Reštart</string>
+    <string name="label_shutdown">Vypnúť</string>
+    <string name="label_alert_reboot">Reštart</string>
+    <string name="label_alert_recovery">TWRP Recovery</string>
+    <string name="label_alert_fastboot">Fastboot</string>
+    <string name="label_alert_shutdown">Vypnúť</string>
+    <string name="label_blank">Späť</string>
 </resources>
