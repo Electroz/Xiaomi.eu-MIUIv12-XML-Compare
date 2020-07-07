@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="air_quality0">\'ИКВ \'+#aqi</string>
-    <string name="air_quality1">\'ИКВ \'+#aqi</string>
-    <string name="air_quality2">\'ИКВ \'+#aqi</string>
-    <string name="air_quality3">\'ИКВ \'+#aqi</string>
-    <string name="air_quality4">\'ИКВ \'+#aqi</string>
-    <string name="air_quality5">\'ИКВ \'+#aqi</string>
     <string name="weather_null">Обновить данные погоды</string>
-    <string name="weather_location_null">Нет данных местоположения</string>
+    <string name="date_format">EEEE, d MMMM</string>
+    <string name="today">Сегодня</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="aqi_pure">\'ИКВ \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'ИКВ \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'ИКВ \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'ИКВ \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'ИКВ \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'ИКВ \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'ИКВ \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'ИКВ \'+#weather_aqilevel</string>
+    <string name="weather_type_null">'Данных нет'</string>
     <string name="weather_type_0">Ясно</string>
     <string name="weather_type_1">Облачно</string>
     <string name="weather_type_2">Пасмурно</string>
