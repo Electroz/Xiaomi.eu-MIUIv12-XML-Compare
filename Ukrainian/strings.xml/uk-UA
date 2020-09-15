@@ -1,91 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="activate_xiaomi_account">Activate this device</string>
-  <string name="adding_or_updating_account">Updating account…</string>
-  <string name="app_name">Find device</string>
-  <string name="captcha">Captcha</string>
-  <string name="change_find_device_status_failed">"Couldn't unlock. %s."</string>
-  <string name="default_debt_msg_words">"This device is locked due to an overdue installment payment.
-Contact your sales agent for details."</string>
-  <string name="default_lock_msg_words">This device is associated with an existing Mi Account. For security reasons, you need to enter password to verify the device.</string>
-  <string name="default_lock_msg_words_with_phone">Hi! I lost my phone. Could you please contact me? Thanks!</string>
-  <string name="device_locked">This device is locked</string>
-  <string name="device_lost">This device is lost</string>
-  <string name="disable_find_device_error">"Can't turn off Find device. %1$s"</string>
-  <string name="disable_find_device_success">Find device is off</string>
-  <string name="doing_extra_login_steps">Verifying sign in…</string>
-  <string name="emergency_call">Emergency call</string>
-  <string name="enable_find_device_error">"Can't turn on Find device. %1$s"</string>
-  <string name="enable_find_device_success">Find device is on</string>
-  <string name="find_device">Find device</string>
-  <string name="find_device_crash">Find Device closed unexpectedly.</string>
-  <string name="find_device_error_access_denied">Access denied.</string>
-  <string name="find_device_error_account_sys_timeout">"Couldn't connect to Mi Account. "</string>
-  <string name="find_device_error_account_unknown_error">Mi Account error (%s).</string>
-  <string name="find_device_error_custom">%s</string>
-  <string name="find_device_error_network">Network error.</string>
-  <string name="find_device_error_password_changed">Account password has been recently changed.</string>
-  <string name="find_device_error_server">Server error (%s).</string>
-  <string name="find_device_error_unknown">Unknown error (%s).</string>
-  <string name="find_device_noise_title">Find device alarm</string>
-  <string name="find_device_notice">Go to &lt;b&gt;&lt;font color=#0099FF&gt;i.mi.com&lt;/font&gt;&lt;/b&gt; to locate, lock, or restore your device.</string>
-  <string name="find_device_notice_sms_alert">If you switch SIM cards, another SMS may be sent automatically to reactivate this feature.</string>
-  <string name="find_device_stop_noise">Tap OK to silence</string>
-  <string name="find_device_storage_corrupted">Find Device storage corrupted. Your device is unsafe now.</string>
-  <string name="find_device_success_title">Find device</string>
-  <string name="find_device_telephony_fault">Find Device: Telephony fault (%s).</string>
-  <string name="i_know">ОК</string>
-  <string name="lock_msg_phone">Contact information: %s</string>
-  <string name="login_extra_steps">Sign in verification</string>
-  <string name="login_failed">"Couldn't sign in. %s."</string>
-  <string name="open_wifi_settings">Open WLAN settings</string>
-  <string name="passport_checking_vcode">Checking password…</string>
-  <string name="passport_error_empty_vcode">Enter verification code</string>
-  <string name="passport_notification_need_unlock_again">Try to unlock again</string>
-  <string name="passport_notification_processing">Processing…</string>
-  <string name="passport_trust_device">Trust this device</string>
-  <string name="passport_vcode_prompt_long">Enter verification code</string>
-  <string name="passport_verify">Verify</string>
-  <string name="password">Enter password</string>
-  <string name="phone_locked">This device is associated with a Mi Account (%s). Enter password to activate device.</string>
-  <string name="phone_locked_account_email">, associated email: %s</string>
-  <string name="phone_locked_account_phone">, associated phone number: %s</string>
-  <string name="return_to_call">Return to call</string>
-  <string name="status_bar_notification_info_overflow">999+</string>
-  <string name="stop_on_empty_captcha">"Captcha can't be blank"</string>
-  <string name="stop_on_empty_password">"Password can't be blank"</string>
-  <string name="sys_notification_async_open_failed_content">Tap to try again or cancel.</string>
-  <string name="sys_notification_async_open_failed_title">"Couldn't turn on Find device"</string>
-  <string name="sys_notification_async_verify_content">Our updated Security Policy requires that Find device should be reactivated.</string>
-  <string name="sys_notification_async_verify_title">Reactivate Find device</string>
-  <string name="time_correction_failure">"Can't correct time. %s"</string>
-  <string name="time_correction_success">Time corrected</string>
-  <string name="unlock">Activate</string>
-  <string name="unlock_access_denied">Access denied</string>
-  <string name="unlock_bad_authentication">Invalid username or password</string>
-  <string name="unlock_error_abort">Canceled by user</string>
-  <string name="unlock_error_device_id">"Can't get device ID"</string>
-  <string name="unlock_error_interrupted">Interrupted</string>
-  <string name="unlock_error_network">"Can't connect to network"</string>
-  <string name="unlock_error_passport_sdk_timeout">"Mi Account SDK isn't responding"</string>
-  <string name="unlock_error_rpc">RPC error</string>
-  <string name="unlock_error_server">Server error</string>
-  <string name="unlock_error_ssl_hand_shake">"Couldn't connect to server, try setting date and time manually."</string>
-  <string name="unlock_error_unknown">"Can't sign in"</string>
-  <string name="unlock_error_user_name">Invalid username</string>
-  <string name="unlock_error_wrong_vcode">The code you entered is incorrect</string>
-  <string name="unlock_help">"Connect to the network.
-Insert a working SIM card and don't connect to invalid WLAN networks.
-
-Forgot password?
-Go to id.mi.com, select \"Forgot password?\", and follow the instructions.
-
-Can't activate device?
-Go to i.mi.com/ss and submit your application to unlock the device."</string>
-  <string name="unlock_help_title">Unlock help:</string>
-  <string name="unlock_number">Unlock code: %s</string>
-  <string name="unlock_wrong_captcha">The code you entered is incorrect</string>
-  <string name="unlocking">Activating…</string>
-  <string name="verifing_account">Verifying password…</string>
-  <string name="verify_password_failed">"Couldn't verify Mi Account ID. %s."</string>
+  <string name="action_missing_private_key">Private key required to install a certificate</string>
+  <string name="action_missing_user_cert">Certificate required to install a private key</string>
+  <string name="app_name">Certificate Installer</string>
+  <string name="cert_is_added">%s is installed.</string>
+  <string name="cert_missing_error">"Couldn't install because the certificate file couldn't be located."</string>
+  <string name="cert_not_saved">The certificate is not installed.</string>
+  <string name="cert_read_error">"Couldn't install because the certificate file couldn't be read."</string>
+  <string name="cert_too_large_error">"Couldn't install because the certificate size is too large."</string>
+  <string name="certificate_capabilities_warning">Note: The issuer of this certificate may inspect all traffic to and from the device.</string>
+  <string name="credential_info">The package contains:</string>
+  <string name="credential_name">Certificate name:</string>
+  <string name="credential_password">Type the password to extract the certificates.</string>
+  <string name="credential_usage_label">Credential use:</string>
+  <string name="done_label">DONE</string>
+  <string name="extracting_pkcs12">Extracting…</string>
+  <string name="install_done">%1$s credentials have been added to WLAN saved networks.</string>
+  <string name="install_done_title">Credentials installed</string>
+  <string name="invalid_cert">The certificate is invalid.</string>
+  <string name="n_cacrts">%d CA certificates</string>
+  <string name="name_char_error">Type a name that contains only letters and numbers.</string>
+  <string name="name_credential_dialog_title">Name the certificate</string>
+  <string name="name_empty_error">Type a name.</string>
+  <string name="no_cert_to_saved">No certificate to install.</string>
+  <string name="one_cacrt">one CA certificate</string>
+  <string name="one_usercrt">one user certificate</string>
+  <string name="one_userkey">one user key</string>
+  <string name="only_primary_user_allowed">Only the owner of this device may install certificates.</string>
+  <string name="p12_description">Certificates in PKCS12 keystore.</string>
+  <string name="password_empty_error">Type the password.</string>
+  <string name="password_error">Type the correct password.</string>
+  <string name="pick_file_title">Choose a certificate</string>
+  <string name="pkcs12_file_password_dialog_title">Extract from %s</string>
+  <string name="pkcs12_password_dialog_title">Extract certificate</string>
+  <string name="unable_to_save_cert">"Couldn't save the certificate. The credential storage isn't enabled or properly initialized."</string>
+  <string name="userkey_type">Algorithm:</string>
+  <string name="wifi_cancel_label">Cancel</string>
+  <string name="wifi_config_text">"Name: %1$s
+FQDN: %2$s
+Roaming Consortiums: %3$s
+Realm: %4$s
+Auth method: EAP-%5$s
+"</string>
+  <string name="wifi_detail_label">Details</string>
+  <string name="wifi_detail_title">Details for %s</string>
+  <string name="wifi_dismiss_label">Dismiss</string>
+  <string name="wifi_install_label">Install</string>
+  <string name="wifi_installer_detail">Install WLAN credentials to connect to networks available via %1$s.</string>
+  <string name="wifi_installer_download_error">"Downloaded file has problems and can't be installed. Make sure you downloaded the file from the correct source."</string>
+  <string name="wifi_installer_fail">"Can't install WLAN credentials. Try downloading the file again."</string>
+  <string name="wifi_installer_fail_no_wifi">Turn on WLAN and try again.</string>
+  <string name="wifi_installer_fail_no_wifi_title">Installation canceled</string>
+  <string name="wifi_installer_fail_title">"Can't install"</string>
+  <string name="wifi_installing_label">Installing</string>
+  <string name="wifi_no_config">None</string>
+  <string name="wifi_sim_config_text">"SIM: %s
+"</string>
+  <string name="wifi_title">WLAN Profile</string>
+  <string name="wifi_tls_config_text">"Client certificate:
+%1$s
+Key: %2$s
+"</string>
+  <string name="wifi_trust_config_text">"Trust certificate:
+%s
+"</string>
+  <string name="wifi_ttls_config_text">"User name: %s
+"</string>
 </resources>
