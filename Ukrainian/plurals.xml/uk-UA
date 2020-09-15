@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="accessibility_focus_face_detect">
-        <item quantity="other">Focused. %d faces detected</item>
-        <item quantity="one">Focused. %d face detected</item>
-        <item quantity="few">Focused. %d faces detected</item>
-        <item quantity="many">Focused. %d faces detected</item>
+    <plurals name="choosed">
+        <item quantity="other">Selected %1$d items</item>
+        <item quantity="one">Selected %1$d item</item>
+        <item quantity="few">Selected %1$d items</item>
+        <item quantity="many">Selected %1$d items</item>
     </plurals>
-    <plurals name="clone_guide_tip2">
-        <item quantity="other">You can create up to %d clones at a time.</item>
-        <item quantity="one">You can create up to %d clone at a time.</item>
-        <item quantity="few">You can create up to %d clones at a time.</item>
-        <item quantity="many">You can create up to %d clones at a time.</item>
-    </plurals>
-    <plurals name="pref_camera_fastmotion_duration_unit">
-        <item quantity="other">%1$s mins</item>
-        <item quantity="one">%1$s min</item>
-        <item quantity="few">%1$s mins</item>
-        <item quantity="many">%1$s mins</item>
-    </plurals>
-    <plurals name="timer_burst_setting_total_count">
-        <item quantity="other">%1$s photos</item>
-        <item quantity="one">%1$s photo</item>
-        <item quantity="few">%1$s photos</item>
-        <item quantity="many">%1$s photos</item>
-    </plurals>
-    <plurals name="toast_burst_snap_finished_summary">
-        <item quantity="other">Burst shot done, %1$s photos taken</item>
-        <item quantity="one">Burst shot done, %1$s photo taken</item>
-        <item quantity="few">Burst shot done, %1$s photos taken</item>
-        <item quantity="many">Burst shot done, %1$s photos taken</item>
+    <plurals name="monitoringHistory_deleteAlert">
+        <item quantity="one">确定要删除此%1$d条记录吗？</item>
+        <item quantity="few">确定要删除此%1$d条记录吗？</item>
+        <item quantity="many">确定要删除此%1$d条记录吗？</item>
+        <item quantity="other">确定要删除此%1$d条记录吗？</item>
     </plurals>
 </resources>
