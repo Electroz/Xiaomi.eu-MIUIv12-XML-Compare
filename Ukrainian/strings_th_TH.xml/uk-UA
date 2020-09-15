@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="air_quality0">\'AQI \'+#aqi</string>
-    <string name="air_quality1">\'AQI \'+#aqi</string>
-    <string name="air_quality2">\'AQI \'+#aqi</string>
-    <string name="air_quality3">\'AQI \'+#aqi</string>
-    <string name="air_quality4">\'AQI \'+#aqi</string>
-    <string name="air_quality5">\'AQI \'+#aqi</string>
     <string name="weather_null">แตะเพื่อรับข้อมูลสภาพอากาศ</string>
-    <string name="weather_location_null">ไม่มีข้อมูลที่ตั้ง</string>
+    <string name="date_format">EEEE d MMMM</string>
+    <string name="today">วันนี้</string>
+    <string name="tomorrow">พรุ่งนี้</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
+    <string name="weather_type_null">'ไม่พบข้อมูล'</string>
     <string name="weather_type_0">แจ่มใส</string>
     <string name="weather_type_1">เมฆมาก</string>
     <string name="weather_type_2">หมอกหนา</string>
@@ -16,7 +21,7 @@
     <string name="weather_type_5">ฝนฟ้าคะนอง</string>
     <string name="weather_type_6">ฝนตกหนักมาก</string>
     <string name="weather_type_7">ฟ้าคะนอง</string>
-    <string name="weather_type_8">ฝนตก</string>
+    <string name="weather_type_8">ฝนซู่</string>
     <string name="weather_type_9">ฝนตกหนัก</string>
     <string name="weather_type_10">ฝนตก</string>
     <string name="weather_type_11">ฝนละออง</string>
