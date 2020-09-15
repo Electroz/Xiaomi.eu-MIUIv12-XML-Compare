@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="air_quality0">\'AQI \'+#aqi</string>
+    <string name="air_quality1">\'AQI \'+#aqi</string>
+    <string name="air_quality2">\'AQI \'+#aqi</string>
+    <string name="air_quality3">\'AQI \'+#aqi</string>
+    <string name="air_quality4">\'AQI \'+#aqi</string>
+    <string name="air_quality5">\'AQI \'+#aqi</string>
     <string name="weather_null">Додирните за временске податке</string>
-    <string name="date_format">EEEE, d. MMMM</string>
-    <string name="today">Данас</string>
-    <string name="tomorrow">Сутра</string>
-    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
-    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
-    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
-    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
-    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
-    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
-    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
-    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
-    <string name="weather_type_null">'Нема података'</string>
+    <string name="weather_location_null">Нема информације о локацији</string>
     <string name="weather_type_0">Ведро</string>
     <string name="weather_type_1">Облачно</string>
     <string name="weather_type_2">Измаглица</string>
     <string name="weather_type_3">Магловито</string>
     <string name="weather_type_4">Јака кишна олуја</string>
-    <string name="weather_type_5">Невреме</string>
+    <string name="weather_type_5">Кишна олуја</string>
     <string name="weather_type_6">Веома јаки пљусак</string>
     <string name="weather_type_7">Олуја са грмљавином</string>
     <string name="weather_type_8">Пљусак</string>
@@ -36,6 +31,6 @@
     <string name="weather_type_20">Слаба пешчана олуја</string>
     <string name="weather_type_21">Пешчана олуја</string>
     <string name="weather_type_22">Град</string>
-    <string name="weather_type_23">Летећа прашина</string>
+    <string name="weather_type_23">Прашина</string>
     <string name="weather_type_24">Сумаглица</string>
 </resources>
