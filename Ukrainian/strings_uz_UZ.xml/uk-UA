@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_time">dd MMMM, EEE</string>
-    <string name="date_time_12">dd MMMM, EEE</string>
-    <string name="desc_date_format">dd MMMM, EEEE</string>
-    <string name="desc_date_format_12">dd MMMM, EEEE</string>
-    <string name="desc_time">'hozirgi vaqt\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', soat ilovasiga kirish uchun ikki marta bosing'</string>
-    <string name="weather_type_null">'Ma’lumot yo‘q'</string>
+    <string name="air_quality0">\'AQI \'+#aqi</string>
+    <string name="air_quality1">\'AQI \'+#aqi</string>
+    <string name="air_quality2">\'AQI \'+#aqi</string>
+    <string name="air_quality3">\'AQI \'+#aqi</string>
+    <string name="air_quality4">\'AQI \'+#aqi</string>
+    <string name="air_quality5">\'AQI \'+#aqi</string>
+    <string name="weather_null">Ob-havo ma’lumotini yangilash</string>
+    <string name="weather_location_null">Joylashuv ma’lumoti yo‘q</string>
     <string name="weather_type_0">Tiniq</string>
     <string name="weather_type_1">Bulutli</string>
     <string name="weather_type_2">Tumanli</string>
@@ -31,5 +33,4 @@
     <string name="weather_type_22">Do‘l</string>
     <string name="weather_type_23">Chang</string>
     <string name="weather_type_24">Tuman</string>
-    <string name="weather_type_25">Qorli yomg‘ir</string>
 </resources>
