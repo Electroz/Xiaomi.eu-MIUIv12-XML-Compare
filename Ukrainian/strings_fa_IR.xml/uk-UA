@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_time">EEE، dd MMMM</string>
-    <string name="date_time_12">EEE، dd MMMM</string>
-    <string name="desc_date_format">EEEE، dd MMM</string>
-    <string name="desc_date_format_12">EEEE، dd MMM</string>
-    <string name="desc_time">'زمان کنونی\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', دوبار بزنید تا وارد برنامه ساعت شوید'</string>
-    <string name="weather_type_null">'بدون داده'</string>
+    <string name="air_quality0">\'AQI \'+#aqi</string>
+    <string name="air_quality1">\'AQI \'+#aqi</string>
+    <string name="air_quality2">\'AQI \'+#aqi</string>
+    <string name="air_quality3">\'AQI \'+#aqi</string>
+    <string name="air_quality4">\'AQI \'+#aqi</string>
+    <string name="air_quality5">\'AQI \'+#aqi</string>
+    <string name="weather_null">برای دریافت اطلاعات آب و هوا ضربه بزنید</string>
+    <string name="weather_location_null">بدون اطلاعات موقعیت مکانی</string>
     <string name="weather_type_0">صاف</string>
     <string name="weather_type_1">ابری</string>
     <string name="weather_type_2">غبارآلود</string>
-    <string name="weather_type_3">مه‌آلود</string>
+    <string name="weather_type_3">مه آلود</string>
     <string name="weather_type_4">رگبار شدید</string>
-    <string name="weather_type_5">رگبار باران</string>
+    <string name="weather_type_5">رگبار</string>
     <string name="weather_type_6">بارش بسیار سنگین باران</string>
-    <string name="weather_type_7">توفان رعد و برق</string>
+    <string name="weather_type_7">رعد و برق</string>
     <string name="weather_type_8">بارندگی</string>
-    <string name="weather_type_9">بارش سنگین باران‌</string>
+    <string name="weather_type_9">بارش باران‌ سنگین</string>
     <string name="weather_type_10">بارانی</string>
     <string name="weather_type_11">نم‌نم باران</string>
     <string name="weather_type_12">برف و باران</string>
@@ -31,5 +33,4 @@
     <string name="weather_type_22">تگرگ</string>
     <string name="weather_type_23">گرد و غبار شناور</string>
     <string name="weather_type_24">مه</string>
-    <string name="weather_type_25">باران یخی</string>
 </resources>
