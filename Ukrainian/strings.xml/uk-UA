@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_time">EEE, dd MMMM</string>
-    <string name="date_time_12">EEE, dd MMMM</string>
-    <string name="desc_date_format">EEEE, MMM dd</string>
-    <string name="desc_date_format_12">EEEE, MMM dd</string>
-    <string name="desc_time">\'current time\' + #hour12+\' \'+ifelse(#minute,#minute,\'oclock\')</string>
+    <string name="weather_null">Tap to get weather info</string>
+    <string name="date_format">EEEE, MMMM d</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
     <string name="weather_type_null">'No data'</string>
     <string name="weather_type_0">Clear</string>
     <string name="weather_type_1">Cloudy</string>
@@ -31,5 +38,4 @@
     <string name="weather_type_22">Hail</string>
     <string name="weather_type_23">Floating Dust</string>
     <string name="weather_type_24">Haze</string>
-    <string name="weather_type_25">Freezing rain</string>
 </resources>
