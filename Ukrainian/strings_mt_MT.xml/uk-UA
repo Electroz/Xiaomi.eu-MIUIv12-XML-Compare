@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_time">EEEE, dd MMMM</string>
-    <string name="date_time_12">EEEE, dd MMMM</string>
-    <string name="desc_date_format">EEEE, dd MMM</string>
-    <string name="desc_date_format_12">EEEE, dd MMM</string>
-    <string name="desc_time">'ħin bħalissa\' + #hour12+\' \'+ifelse(#minute,#minute,\'oclock\')+\', taptap biex tidħol fl-app tal-arloġġ'</string>
-    <string name="weather_type_null">'L-ebda dejta'</string>
+    <string name="weather_null">Miss biex tikseb informazzjoni dwar it-temp</string>
+    <string name="date_format">EEEE, d MMMM</string>
+    <string name="today">Illum</string>
+    <string name="tomorrow">Għada</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
+    <string name="weather_type_null">'L-ebda\' dejta'</string>
     <string name="weather_type_0">Ċar</string>
     <string name="weather_type_1">Imsaħħab</string>
     <string name="weather_type_2">Imċajpar</string>
@@ -31,5 +38,4 @@
     <string name="weather_type_22">Silġ</string>
     <string name="weather_type_23">Trab li jvarju</string>
     <string name="weather_type_24">Arja maħmuġa</string>
-    <string name="weather_type_25">Xita ffriżata</string>
 </resources>
