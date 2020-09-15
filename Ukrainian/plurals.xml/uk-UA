@@ -1,5 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="age_label_days">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+        <item quantity="few">%d days</item>
+        <item quantity="many">%d days</item>
+    </plurals>
+    <plurals name="age_label_months">
+        <item quantity="other">%d months</item>
+        <item quantity="one">%d month</item>
+        <item quantity="few">%d months</item>
+        <item quantity="many">%d months</item>
+    </plurals>
+    <plurals name="age_label_yrs">
+        <item quantity="other">years</item>
+        <item quantity="one">year</item>
+        <item quantity="few">years</item>
+        <item quantity="many">years</item>
+    </plurals>
+    <plurals name="entries">
+        <item quantity="other">%d елементів</item>
+        <item quantity="one">%d елемент</item>
+        <item quantity="few">%d елементи</item>
+        <item quantity="many">%d елементів</item>
+    </plurals>
+    <plurals name="loan_repayment_detail">
+        <item quantity="other">Detailed repayment (%d years)</item>
+        <item quantity="one">Detailed repayment (%d year)</item>
+        <item quantity="few">Detailed repayment (%d years)</item>
+        <item quantity="many">Detailed repayment (%d years)</item>
+    </plurals>
+    <plurals name="loan_repayment_detail_unit">
+        <item quantity="other">Detailed repayment (%d years), CNY</item>
+        <item quantity="one">Detailed repayment (%d year), CNY</item>
+        <item quantity="few">Detailed repayment (%d years), CNY</item>
+        <item quantity="many">Detailed repayment (%d years), CNY</item>
+    </plurals>
+    <plurals name="mortgage_summary_years">
+        <item quantity="other">%1$d years (%2$d months)</item>
+        <item quantity="one">%1$d year (%2$d months)</item>
+        <item quantity="few">%1$d years (%2$d months)</item>
+        <item quantity="many">%1$d years (%2$d months)</item>
+    </plurals>
+    <plurals name="tenure_months">
+        <item quantity="other">%d months</item>
+        <item quantity="one">%d month</item>
+        <item quantity="few">%d months</item>
+        <item quantity="many">%d months</item>
+    </plurals>
+    <plurals name="tenure_years">
+        <item quantity="other">%d years</item>
+        <item quantity="one">%d year</item>
+        <item quantity="few">%d years</item>
+        <item quantity="many">%d years</item>
+    </plurals>
     <plurals name="a_hour_ago">
         <item quantity="one">1 hour ago</item>
         <item quantity="few">1 hour ago</item>
@@ -54,41 +108,11 @@
         <item quantity="few">%d mins ago</item>
         <item quantity="many">%d mins ago</item>
     </plurals>
-    <plurals name="data_item_count">
-        <item quantity="other">%d елементів</item>
-        <item quantity="one">%d елемент</item>
-        <item quantity="few">%d елементи</item>
-        <item quantity="many">%d елементів</item>
-    </plurals>
-    <plurals name="data_item_count_fail">
-        <item quantity="other">"Couldn't transfer %d items"</item>
-        <item quantity="one">"Couldn't transfer %d item"</item>
-        <item quantity="few">"Couldn't transfer %d items"</item>
-        <item quantity="many">"Couldn't transfer %d items"</item>
-    </plurals>
-    <plurals name="data_item_count_pair">
-        <item quantity="other">%1$d/%2$d items</item>
-        <item quantity="one">%1$d/%2$d item</item>
-        <item quantity="few">%1$d/%2$d items</item>
-        <item quantity="many">%1$d/%2$d items</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="one">Half an hour ago</item>
         <item quantity="few">Half an hour ago</item>
         <item quantity="many">Half an hour ago</item>
         <item quantity="other">Half an hour ago</item>
-    </plurals>
-    <plurals name="hour">
-        <item quantity="other">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hours</item>
-        <item quantity="one">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hour</item>
-        <item quantity="few">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hours</item>
-        <item quantity="many">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hours</item>
-    </plurals>
-    <plurals name="icloud_importing_title_count_desc">
-        <item quantity="other">Imported %d items</item>
-        <item quantity="one">Imported %d item</item>
-        <item quantity="few">Imported %d items</item>
-        <item quantity="many">Imported %d items</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="one">In 1 hour</item>
@@ -126,58 +150,10 @@
         <item quantity="many">Just now</item>
         <item quantity="other">Just now</item>
     </plurals>
-    <plurals name="minute">
-        <item quantity="other">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minutes</item>
-        <item quantity="one">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minute</item>
-        <item quantity="few">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minutes</item>
-        <item quantity="many">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minutes</item>
-    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutes ago</item>
         <item quantity="one">1 minute ago</item>
         <item quantity="few">%d minutes ago</item>
         <item quantity="many">%d minutes ago</item>
-    </plurals>
-    <plurals name="save_item_failed_summary_seg1">
-        <item quantity="other">"%d елементів імпортовано, "</item>
-        <item quantity="one">"%d елемент імпортовано, "</item>
-        <item quantity="few">"%d елементи імпортовано, "</item>
-        <item quantity="many">"%d елементів імпортовано, "</item>
-    </plurals>
-    <plurals name="save_item_failed_summary_seg2">
-        <item quantity="other">%d елементів необхідно імпортувати повторно</item>
-        <item quantity="one">%d елемент необхідно імпортувати повторно</item>
-        <item quantity="few">%d елементи необхідно імпортувати повторно</item>
-        <item quantity="many">%d елементів необхідно імпортувати повторно</item>
-    </plurals>
-    <plurals name="save_item_saved_summary">
-        <item quantity="other">%d елементів імпортовано та відновлено</item>
-        <item quantity="one">%d елемент імпортовано та відновлено</item>
-        <item quantity="few">%d елементи імпортовано та відновлено</item>
-        <item quantity="many">%d елементів імпортовано та відновлено</item>
-    </plurals>
-    <plurals name="save_item_saving_summary">
-        <item quantity="other">%d елементів відновлено</item>
-        <item quantity="one">%d елемент відновлено</item>
-        <item quantity="few">%d елементи відновлено</item>
-        <item quantity="many">%d елементів відновлено</item>
-    </plurals>
-    <plurals name="select_item_summary">
-        <item quantity="other">%1$s | %2$d елементів</item>
-        <item quantity="one">%1$s | %2$d елемент</item>
-        <item quantity="few">%1$s | %2$d елементи</item>
-        <item quantity="many">%1$s | %2$d елементів</item>
-    </plurals>
-    <plurals name="trans_time_format_hours">
-        <item quantity="other">%d годин</item>
-        <item quantity="one">%d година</item>
-        <item quantity="few">%d години</item>
-        <item quantity="many">%d годин</item>
-    </plurals>
-    <plurals name="trans_time_format_minute">
-        <item quantity="other">%d хвилин</item>
-        <item quantity="one">%d хвилина</item>
-        <item quantity="few">%d хвилини</item>
-        <item quantity="many">%d хвилин</item>
     </plurals>
 </resources>
