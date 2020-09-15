@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_time">M월 dd일 EEEE</string>
-    <string name="date_time_12">M월 dd일 EEEE</string>
-    <string name="desc_date_format">M월 dd일 EEEE</string>
-    <string name="desc_date_format_12">M월 dd일 EEEE</string>
-    <string name="desc_time">'현재 시간\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', 시계 앱을 실행하려면 두 번 탭하십시오.'</string>
-    <string name="weather_type_null">'정보 없음'</string>
+    <string name="air_quality0">\'AQI \'+#aqi</string>
+    <string name="air_quality1">\'AQI \'+#aqi</string>
+    <string name="air_quality2">\'AQI \'+#aqi</string>
+    <string name="air_quality3">\'AQI \'+#aqi</string>
+    <string name="air_quality4">\'AQI \'+#aqi</string>
+    <string name="air_quality5">\'AQI \'+#aqi</string>
+    <string name="weather_null">탭하여 날씨 정보 얻기</string>
+    <string name="weather_location_null">위치 정보 없음</string>
     <string name="weather_type_0">맑음</string>
     <string name="weather_type_1">흐림</string>
     <string name="weather_type_2">연무</string>
@@ -31,5 +33,4 @@
     <string name="weather_type_22">우박</string>
     <string name="weather_type_23">미세먼지</string>
     <string name="weather_type_24">실안개</string>
-    <string name="weather_type_25">얼음비</string>
 </resources>
