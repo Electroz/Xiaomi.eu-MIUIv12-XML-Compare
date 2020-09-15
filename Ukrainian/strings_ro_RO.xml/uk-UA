@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="label_airplane_mode">Mod Avion</string>
-    <string name="label_silent_mode">Silenţios</string>
-    <string name="label_reboot">Repornire</string>
-    <string name="label_shutdown">Oprire</string>
-    <string name="label_alert_reboot">Apăsați pentru a reporni telefonul</string>
-    <string name="label_alert_recovery">Modul Recuperare</string>
-    <string name="label_alert_fastboot">Modul Fastboot</string>
-    <string name="label_alert_shutdown">Apăsați pentru a opri telefonul</string>
-    <string name="label_blank">Înapoi</string>
-</resources>
+<strings> 
+    <string name="date_time" value="EEE, dd MMMM"/>
+    <string name="date_time_12" value="EEE, dd MMMM"/>
+    <string name="desc_date_format" value="EEEE, MMM dd"/>
+    <string name="desc_date_format_12" value="EEEE, MMM dd"/>
+    <string name="desc_time" value="'current time' + #hour12+' '+ifelse(#minute,#minute,'oclock')+', double tap to enter clock app'"/>
+</strings>
