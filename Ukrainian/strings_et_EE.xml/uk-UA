@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="air_quality0">\'AQI \'+#aqi</string>
-    <string name="air_quality1">\'AQI \'+#aqi</string>
-    <string name="air_quality2">\'AQI \'+#aqi</string>
-    <string name="air_quality3">\'AQI \'+#aqi</string>
-    <string name="air_quality4">\'AQI \'+#aqi</string>
-    <string name="air_quality5">\'AQI \'+#aqi</string>
-    <string name="weather_null">Toksa ilmainfo saamiseks</string>
-    <string name="weather_location_null">Asukohaandmed puuduvad</string>
+    <string name="date_time">EEE, dd. MMMM</string>
+    <string name="date_time_12">EEE, dd. MMMM</string>
+    <string name="desc_date_format">EEEE, dd. MMM</string>
+    <string name="desc_date_format_12">EEEE, dd. MMM</string>
+    <string name="desc_time">'praegune aeg\' + #hour12+’ifelse(#minute,#minute,\'\')+\', topelttokse kellarakendusse sisenemiseks'</string>
+    <string name="weather_type_null">'Andmed puuduvad'</string>
     <string name="weather_type_0">Selge</string>
     <string name="weather_type_1">Pilvine</string>
     <string name="weather_type_2">Hägune</string>
@@ -33,4 +31,5 @@
     <string name="weather_type_22">Rahe</string>
     <string name="weather_type_23">Hõljuv udu</string>
     <string name="weather_type_24">Hägu</string>
+    <string name="weather_type_25">Külm vihm</string>
 </resources>
