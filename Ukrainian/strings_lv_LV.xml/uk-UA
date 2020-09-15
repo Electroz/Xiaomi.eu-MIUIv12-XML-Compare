@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="air_quality0">\'AQI \'+#aqi</string>
-    <string name="air_quality1">\'AQI \'+#aqi</string>
-    <string name="air_quality2">\'AQI \'+#aqi</string>
-    <string name="air_quality3">\'AQI \'+#aqi</string>
-    <string name="air_quality4">\'AQI \'+#aqi</string>
-    <string name="air_quality5">\'AQI \'+#aqi</string>
-    <string name="weather_null">Pieskarieties, lai iegūtu laikapstākļu informāciju</string>
-    <string name="weather_location_null">Nav atrašanās vietas informācijas</string>
+    <string name="date_time">EEE, dd. MMMM</string>
+    <string name="date_time_12">EEE, dd. MMMM</string>
+    <string name="desc_date_format">EEEE, dd. MMMM</string>
+    <string name="desc_date_format_12">EEEE, dd. MMMM</string>
+    <string name="desc_time">'current time\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', pieskarieties divreiz, lai ieietu pulksteņa lietotnē'</string>
+    <string name="weather_type_null">'Nav datu'</string>
     <string name="weather_type_0">Skaidrs</string>
     <string name="weather_type_1">Mākoņains</string>
     <string name="weather_type_2">Neskaidrs</string>
     <string name="weather_type_3">Miglains</string>
-    <string name="weather_type_4">Severe rainstorm</string>
-    <string name="weather_type_5">Lietus gāze</string>
+    <string name="weather_type_4">Stipra vētra ar lietu</string>
+    <string name="weather_type_5">Vētra ar lietu</string>
     <string name="weather_type_6">Ļoti spēcīgas lietusgāzes</string>
     <string name="weather_type_7">Pērkona negaiss</string>
     <string name="weather_type_8">Stiprs lietus</string>
@@ -33,4 +31,5 @@
     <string name="weather_type_22">Krusa</string>
     <string name="weather_type_23">Putekļains gaiss</string>
     <string name="weather_type_24">Dūmaka</string>
+    <string name="weather_type_25">Atkala</string>
 </resources>
