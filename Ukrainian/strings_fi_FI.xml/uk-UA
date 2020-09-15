@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_time">EEEE d. MMMM\'ta\'</string>
-    <string name="date_time_12">EEEE d. MMMM\'ta\'</string>
-    <string name="desc_date_format">EEEE d. MMMM\'ta\'</string>
-    <string name="desc_date_format_12">EEEE d. MMMM\'ta\'</string>
-    <string name="desc_time">'nykyinen aika\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', tupla-napauta kello-sovellukseen'</string>
-    <string name="weather_type_null">'Ei tietoa'</string>
+    <string name="air_quality0">\'ILI \'+#aqi</string>
+    <string name="air_quality1">\'ILI \'+#aqi</string>
+    <string name="air_quality2">\'ILI \'+#aqi</string>
+    <string name="air_quality3">\'ILI \'+#aqi</string>
+    <string name="air_quality4">\'ILI \'+#aqi</string>
+    <string name="air_quality5">\'ILI \'+#aqi</string>
+    <string name="weather_null">Hae säätiedot napauttamalla</string>
+    <string name="weather_location_null">Ei sijaintitietoja</string>
     <string name="weather_type_0">Selkeä</string>
     <string name="weather_type_1">Pilvinen</string>
     <string name="weather_type_2">Usvainen</string>
@@ -31,5 +33,4 @@
     <string name="weather_type_22">Raekuuro</string>
     <string name="weather_type_23">Leijailevaa pölyä</string>
     <string name="weather_type_24">Usva</string>
-    <string name="weather_type_25">Jäätävä vesisade</string>
 </resources>
