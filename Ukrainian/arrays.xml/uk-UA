@@ -1,8 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <array name="config_screenThresholdLevels"></array>
-  <string-array name="config_tether_wifi_regexs">
-    <item>softap0</item>
-    <item>wigig0</item>
-  </string-array>
+    <string-array name="font_size_scale">
+        <item>0.86</item>
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.21</item>
+    </string-array>
+    <string-array name="mi_stat_cancel_survey_key">
+        <item>overall_experience_cancel</item>
+        <item>transfer_duration_cancel</item>
+        <item>simplicity_of_the_process_cancel</item>
+        <item>clarity_of_instructions_cancel</item>
+        <item>this_feature_is_useful_cancel</item>
+    </string-array>
+    <string-array name="mi_stat_success_survey_key">
+        <item>overall_rating</item>
+        <item>duration_of_transfer</item>
+        <item>simplicity_of_the_process</item>
+        <item>clarity_of_instructions</item>
+    </string-array>
+    <string-array name="trans_cancel_survey_title">
+        <item>Передача занадто тривала</item>
+        <item>З\'єднання перервано</item>
+        <item>Обрані файли неможливо передати</item>
+        <item>Забагато дій</item>
+        <item>Батарея розряджена</item>
+    </string-array>
+    <string-array name="trans_succeed_rating_hint">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="trans_succeed_survey_title">
+        <item>Загальна оцінка</item>
+        <item>Швидкість передачі</item>
+        <item>Простота процесу</item>
+        <item>Зручність</item>
+    </string-array>
 </resources>
