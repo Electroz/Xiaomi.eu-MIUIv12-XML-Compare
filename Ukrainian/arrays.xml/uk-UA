@@ -1,106 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="screenrecorder_settings_bit_rate">
-        <item>200Mbps</item>
-        <item>100Mbps</item>
-        <item>50Mbps</item>
-        <item>32Mbps</item>
-        <item>24Mbps</item>
-        <item>16Mbps</item>
-        <item>8Mbps</item>
-        <item>4Mbps</item>
-        <item>1Mbps</item>
+    <string-array name="ArrayLangCodes">
+        <item>zh-chs</item>
+        <item>en</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>es</item>
+        <item>ja</item>
+        <item>ko</item>
     </string-array>
-    <string-array name="screenrecorder_settings_bit_rate_values">
-        <item>200</item>
-        <item>100</item>
-        <item>50</item>
-        <item>32</item>
-        <item>24</item>
-        <item>16</item>
-        <item>8</item>
-        <item>4</item>
-        <item>1</item>
+    <string-array name="WheelArrayLang">
+        <item>@string/language_entry_chinese_cn</item>
+        <item>@string/language_entry_english</item>
+        <item>@string/language_entry_french</item>
+        <item>@string/language_entry_german</item>
+        <item>@string/language_entry_spanish</item>
+        <item>@string/language_entry_japanese</item>
+        <item>@string/language_entry_korean</item>
     </string-array>
-    <string-array name="screenrecorder_settings_frames">
-        <item>24fps</item>
-        <item>30fps</item>
-        <item>48fps</item>
-        <item>60fps</item>
+    <string-array name="WheelSrcLang">
+        <item>@string/language_entry_chinese_cn</item>
+        <item>@string/language_entry_english</item>
+        <item>@string/language_entry_french</item>
+        <item>@string/language_entry_german</item>
+        <item>@string/language_entry_spanish</item>
+        <item>@string/language_entry_japanese</item>
+        <item>@string/language_entry_korean</item>
     </string-array>
-    <string-array name="screenrecorder_settings_frames_values">
-        <item>24</item>
-        <item>30</item>
-        <item>48</item>
-        <item>60</item>
+    <string-array name="WordDesArrayLang">
+        <item>@string/language_entry_english</item>
+        <item>@string/language_entry_chinese_cn</item>
+        <item>@string/language_entry_chinese_cn</item>
+        <item>@string/language_entry_chinese_cn</item>
+        <item>@string/language_entry_chinese_cn</item>
+        <item>@string/language_entry_chinese_cn</item>
+        <item>@string/language_entry_chinese_cn</item>
     </string-array>
-    <string-array name="screenrecorder_settings_orientation">
-        <item>Auto</item>
-        <item>Portrait</item>
-        <item>Landscape</item>
+    <string-array name="kingsoft_language_entries">
+        <item>@string/translation_language_chinese</item>
+        <item>@string/translation_language_english</item>
+        <item>@string/translation_language_japanese</item>
+        <item>@string/translation_language_korean</item>
+        <item>@string/translation_language_french</item>
+        <item>@string/translation_language_german</item>
+        <item>@string/translation_language_spanish</item>
     </string-array>
-    <string-array name="screenrecorder_settings_orientation_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
+    <string-array name="kingsoft_language_entryvalues">
+        <item>@string/language_value_chinese_cn</item>
+        <item>@string/language_value_english</item>
+        <item>@string/language_value_japanese</item>
+        <item>@string/language_value_korean</item>
+        <item>@string/language_value_french</item>
+        <item>@string/language_value_german</item>
+        <item>@string/language_value_spanish</item>
     </string-array>
-    <string-array name="screenrecorder_settings_resolution">
-        <item>1080p</item>
-        <item>720p</item>
-        <item>480p</item>
+    <string-array name="kingsoft_language_long_entries">
+        <item>@string/language_entry_chinese_cn</item>
+        <item>@string/language_entry_english</item>
+        <item>@string/language_entry_japanese</item>
+        <item>@string/language_entry_korean</item>
+        <item>@string/language_entry_french</item>
+        <item>@string/language_entry_german</item>
+        <item>@string/language_entry_spanish</item>
     </string-array>
-    <string-array name="screenrecorder_settings_resolution_c9_full_values">
-        <item>1440*1080</item>
-        <item>1280*960</item>
-        <item>960*720</item>
-    </string-array>
-    <string-array name="screenrecorder_settings_resolution_c9_values">
-        <item>1080</item>
-        <item>960</item>
-        <item>720</item>
-    </string-array>
-    <string-array name="screenrecorder_settings_resolution_f9_full_values">
-        <item>1920*910</item>
-        <item>1280*720</item>
-        <item>800*480</item>
-    </string-array>
-    <string-array name="screenrecorder_settings_resolution_f9_values">
-        <item>910</item>
-        <item>720</item>
-        <item>480</item>
-    </string-array>
-    <string-array name="screenrecorder_settings_resolution_full_values">
-        <item>1920*1080</item>
-        <item>1280*720</item>
-        <item>800*480</item>
-    </string-array>
-    <string-array name="screenrecorder_settings_resolution_values">
-        <item>1080</item>
-        <item>720</item>
-        <item>480</item>
-    </string-array>
-    <string-array name="screenrecorder_settings_sound">
-        <item>Mute</item>
-        <item>Mic</item>
-        <item>System sounds</item>
-    </string-array>
-    <string-array name="screenrecorder_settings_sound_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="screenrecorder_settings_storage_location">
-        <item>Internal storage</item>
-        <item>External storage</item>
-    </string-array>
-    <string-array name="screenrecorder_settings_storage_location_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="screenrecorder_utils_support_high_frames_cpu">
-        <item>Qualcomm Technologies, Inc SDM845</item>
-        <item>Qualcomm Technologies, Inc MSM8998</item>
-        <item>Qualcomm Technologies, Inc SM8150</item>
-        <item>Qualcomm Technologies, Inc SM8250</item>
+    <string-array name="pref_camera_focusmode_default_array">
+        <item>continuous-picture</item>
+        <item>auto</item>
     </string-array>
 </resources>
