@@ -1,261 +1,183 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="toast_channel_searched">
-        <item quantity="other">%1$d stations scanned</item>
-        <item quantity="one">%1$d station scanned</item>
-        <item quantity="few">%1$d stations scanned</item>
-        <item quantity="many">%1$d stations scanned</item>
+    <plurals name="a_hour_ago">
+        <item quantity="one">1 hour ago</item>
+        <item quantity="few">1 hour ago</item>
+        <item quantity="many">1 hour ago</item>
+        <item quantity="other">1 hour ago</item>
     </plurals>
-    <plurals name="Nalbum_total_songs">
-        <item quantity="other">Total %d songs</item>
-        <item quantity="one">Total %d song</item>
-        <item quantity="few">Total %d songs</item>
-        <item quantity="many">Total %d songs</item>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="one">1 hour ago</item>
+        <item quantity="few">1 hour ago</item>
+        <item quantity="many">1 hour ago</item>
+        <item quantity="other">1 hour ago</item>
     </plurals>
-    <plurals name="Nbackup_songs">
-        <item quantity="other">Backing up songs, %1$d songs remaining (%2$.1fMB)</item>
-        <item quantity="one">Backing up songs, %1$d song remaining (%2$.1fMB)</item>
-        <item quantity="few">Backing up songs, %1$d songs remaining (%2$.1fMB)</item>
-        <item quantity="many">Backing up songs, %1$d songs remaining (%2$.1fMB)</item>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="one">Half an hour ago</item>
+        <item quantity="few">Half an hour ago</item>
+        <item quantity="many">Half an hour ago</item>
+        <item quantity="other">Half an hour ago</item>
     </plurals>
-    <plurals name="Ndownload_fee_alert_message">
-        <item quantity="other">"At the request of the copyright owner, %d selected songs can't be downloaded for free. These songs were added to downloads."</item>
-        <item quantity="one">"At the request of the copyright owner, %d selected song can't be downloaded for free. This song was added to downloads."</item>
-        <item quantity="few">"At the request of the copyright owner, %d selected songs can't be downloaded for free. These songs were added to downloads."</item>
-        <item quantity="many">"At the request of the copyright owner, %d selected songs can't be downloaded for free. These songs were added to downloads."</item>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="one">In 1 hour</item>
+        <item quantity="few">In 1 hour</item>
+        <item quantity="many">In 1 hour</item>
+        <item quantity="other">In 1 hour</item>
     </plurals>
-    <plurals name="Nnowplaying_songs">
-        <item quantity="other">(%d songs)</item>
-        <item quantity="one">(%d song)</item>
-        <item quantity="few">(%d songs)</item>
-        <item quantity="many">(%d songs)</item>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="one">In half an hour</item>
+        <item quantity="few">In half an hour</item>
+        <item quantity="many">In half an hour</item>
+        <item quantity="other">In half an hour</item>
     </plurals>
-    <plurals name="Nquit_warning">
-        <item quantity="other">Player will stop in %d minutes</item>
-        <item quantity="one">Player will stop in %d minute</item>
-        <item quantity="few">Player will stop in %d minutes</item>
-        <item quantity="many">Player will stop in %d minutes</item>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="one">Immediately</item>
+        <item quantity="few">Immediately</item>
+        <item quantity="many">Immediately</item>
+        <item quantity="other">Immediately</item>
     </plurals>
-    <plurals name="Nsleep_quit_warning">
-        <item quantity="other">%d minutes remain</item>
-        <item quantity="one">%d minute remain</item>
-        <item quantity="few">%d minutes remain</item>
-        <item quantity="many">%d minutes remain</item>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">in %d mins</item>
+        <item quantity="one">in 1 min</item>
+        <item quantity="few">in %d mins</item>
+        <item quantity="many">in %d mins</item>
     </plurals>
-    <plurals name="Nsleep_quit_warning_custom">
-        <item quantity="other">Custom:%d minutes remain</item>
-        <item quantity="one">Custom:%d minute remain</item>
-        <item quantity="few">Custom:%d minutes remain</item>
-        <item quantity="many">Custom:%d minutes remain</item>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="one">Just now</item>
+        <item quantity="few">Just now</item>
+        <item quantity="many">Just now</item>
+        <item quantity="other">Just now</item>
     </plurals>
-    <plurals name="Nsong_group_detail_subtitle">
-        <item quantity="other">Created on %1$s | total %2$d songs</item>
-        <item quantity="one">Created on %1$s | total %2$d song</item>
-        <item quantity="few">Created on %1$s | total %2$d songs</item>
-        <item quantity="many">Created on %1$s | total %2$d songs</item>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d mins ago</item>
+        <item quantity="one">1 min ago</item>
+        <item quantity="few">%d mins ago</item>
+        <item quantity="many">%d mins ago</item>
     </plurals>
-    <plurals name="Nstop_backup_songs_message">
-        <item quantity="other">"%d songs haven't been backed up to the cloud. Stop now?"</item>
-        <item quantity="one">"%d song hasn't been backed up to the cloud. Stop now?"</item>
-        <item quantity="few">"%d songs haven't been backed up to the cloud. Stop now?"</item>
-        <item quantity="many">"%d songs haven't been backed up to the cloud. Stop now?"</item>
+    <plurals name="data_item_count">
+        <item quantity="other">%d елементів</item>
+        <item quantity="one">%d елемент</item>
+        <item quantity="few">%d елементи</item>
+        <item quantity="many">%d елементів</item>
     </plurals>
-    <plurals name="Ntracks_count">
-        <item quantity="other">%d songs</item>
-        <item quantity="one">%d song</item>
-        <item quantity="few">%d songs</item>
-        <item quantity="many">%d songs</item>
+    <plurals name="data_item_count_fail">
+        <item quantity="other">"Couldn't transfer %d items"</item>
+        <item quantity="one">"Couldn't transfer %d item"</item>
+        <item quantity="few">"Couldn't transfer %d items"</item>
+        <item quantity="many">"Couldn't transfer %d items"</item>
     </plurals>
-    <plurals name="Ntracks_similar_count">
-        <item quantity="other">%d similar songs</item>
-        <item quantity="one">%d similar song</item>
-        <item quantity="few">%d similar songs</item>
-        <item quantity="many">%d similar songs</item>
+    <plurals name="data_item_count_pair">
+        <item quantity="other">%1$d/%2$d items</item>
+        <item quantity="one">%1$d/%2$d item</item>
+        <item quantity="few">%1$d/%2$d items</item>
+        <item quantity="many">%1$d/%2$d items</item>
     </plurals>
-    <plurals name="Nunbackup_audios">
-        <item quantity="other">"%1$d songs haven't been backed up (%2$.1fMB)"</item>
-        <item quantity="one">"%1$d song hasn't been backed up (%2$.1fMB)"</item>
-        <item quantity="few">"%1$d songs haven't been backed up (%2$.1fMB)"</item>
-        <item quantity="many">"%1$d songs haven't been backed up (%2$.1fMB)"</item>
+    <plurals name="half_hour_ago">
+        <item quantity="one">Half an hour ago</item>
+        <item quantity="few">Half an hour ago</item>
+        <item quantity="many">Half an hour ago</item>
+        <item quantity="other">Half an hour ago</item>
     </plurals>
-    <plurals name="Nupload_song_button">
-        <item quantity="other">Back up %1$d songs (%2$.1fMB)</item>
-        <item quantity="one">Back up %1$d song (%2$.1fMB)</item>
-        <item quantity="few">Back up %1$d songs (%2$.1fMB)</item>
-        <item quantity="many">Back up %1$d songs (%2$.1fMB)</item>
+    <plurals name="hour">
+        <item quantity="other">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hours</item>
+        <item quantity="one">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hour</item>
+        <item quantity="few">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hours</item>
+        <item quantity="many">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hours</item>
     </plurals>
-    <plurals name="chapter_count">
-        <item quantity="other">" (%1$d episodes)"</item>
-        <item quantity="one">" (%1$d episode)"</item>
-        <item quantity="few">" (%1$d episodes)"</item>
-        <item quantity="many">" (%1$d episodes)"</item>
+    <plurals name="icloud_importing_title_count_desc">
+        <item quantity="other">Imported %d items</item>
+        <item quantity="one">Imported %d item</item>
+        <item quantity="few">Imported %d items</item>
+        <item quantity="many">Imported %d items</item>
     </plurals>
-    <plurals name="check_in_day_label">
-        <item quantity="other">%1$d days</item>
-        <item quantity="one">%1$d day</item>
-        <item quantity="few">%1$d days</item>
-        <item quantity="many">%1$d days</item>
+    <plurals name="in_a_hour">
+        <item quantity="one">In 1 hour</item>
+        <item quantity="few">In 1 hour</item>
+        <item quantity="many">In 1 hour</item>
+        <item quantity="other">In 1 hour</item>
     </plurals>
-    <plurals name="comment_count">
-        <item quantity="other">%d comments</item>
-        <item quantity="one">%d comment</item>
-        <item quantity="few">%d comments</item>
-        <item quantity="many">%d comments</item>
+    <plurals name="in_half_hour">
+        <item quantity="one">In half an hour</item>
+        <item quantity="few">In half an hour</item>
+        <item quantity="many">In half an hour</item>
+        <item quantity="other">In half an hour</item>
     </plurals>
-    <plurals name="comment_input_length_invalid">
-        <item quantity="other">You can enter up to %1$d characters.</item>
-        <item quantity="one">You can enter up to %1$d character.</item>
-        <item quantity="few">You can enter up to %1$d characters.</item>
-        <item quantity="many">You can enter up to %1$d characters.</item>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="one">Immediately</item>
+        <item quantity="few">Immediately</item>
+        <item quantity="many">Immediately</item>
+        <item quantity="other">Immediately</item>
     </plurals>
-    <plurals name="dialog_confirm_delete_downloads_message">
-        <item quantity="other">Delete %d items?</item>
-        <item quantity="one">Delete %d item?</item>
-        <item quantity="few">Delete %d items?</item>
-        <item quantity="many">Delete %d items?</item>
+    <plurals name="in_num_minutes">
+        <item quantity="other">in %d minutes</item>
+        <item quantity="one">in 1 minute</item>
+        <item quantity="few">in %d minutes</item>
+        <item quantity="many">in %d minutes</item>
     </plurals>
-    <plurals name="dialog_delete_descript">
-        <item quantity="other">Delete %d items now?</item>
-        <item quantity="one">Delete %d item now?</item>
-        <item quantity="few">Delete %d items now?</item>
-        <item quantity="many">Delete %d items now?</item>
-    </plurals>
-    <plurals name="dialog_remove_descript">
-        <item quantity="other">Remove %d audios?</item>
-        <item quantity="one">Remove %d audio?</item>
-        <item quantity="few">Remove %d audios?</item>
-        <item quantity="many">Remove %d audios?</item>
-    </plurals>
-    <plurals name="download_finished">
-        <item quantity="other">&lt;font color=\"red\"&gt;%d songs&lt;/font&gt; downloaded</item>
-        <item quantity="one">&lt;font color==\"red\"&gt;%d song&lt;/font&gt; downloaded</item>
-        <item quantity="few">&lt;font color=\"red\"&gt;%d songs&lt;/font&gt; downloaded</item>
-        <item quantity="many">&lt;font color=\"red\"&gt;%d songs&lt;/font&gt; downloaded</item>
-    </plurals>
-    <plurals name="download_info_count_deleted_tasks">
-        <item quantity="other">%d downloads removed</item>
-        <item quantity="one">%d download removed</item>
-        <item quantity="few">%d downloads removed</item>
-        <item quantity="many">%d downloads removed</item>
-    </plurals>
-    <plurals name="download_running">
-        <item quantity="other">&lt;font color=\"red\"&gt;%d songs&lt;/font&gt; downloading</item>
-        <item quantity="one">&lt;font color==\"red\"&gt;%d song&lt;/font&gt; downloading</item>
-        <item quantity="few">&lt;font color=\"red\"&gt;%d songs&lt;/font&gt; downloading</item>
-        <item quantity="many">&lt;font color=\"red\"&gt;%d songs&lt;/font&gt; downloading</item>
-    </plurals>
-    <plurals name="fm_download_fm_count">
-        <item quantity="other">Downloaded %1$d episodes</item>
-        <item quantity="one">Downloaded %1$d episode</item>
-        <item quantity="few">Downloaded %1$d episodes</item>
-        <item quantity="many">Downloaded %1$d episodes</item>
-    </plurals>
-    <plurals name="hours_ago">
-        <item quantity="other">%1$d hours ago</item>
-        <item quantity="one">%1$d hour ago</item>
-        <item quantity="few">%1$d hours ago</item>
-        <item quantity="many">%1$d hours ago</item>
-    </plurals>
-    <plurals name="minutes_ago">
-        <item quantity="other">%1$d minutes ago</item>
-        <item quantity="one">%1$d minute ago</item>
-        <item quantity="few">%1$d minutes ago</item>
-        <item quantity="many">%1$d minutes ago</item>
-    </plurals>
-    <plurals name="multichoice_title">
+    <plurals name="items_selected">
         <item quantity="other">%d items selected</item>
         <item quantity="one">%d item selected</item>
         <item quantity="few">%d items selected</item>
         <item quantity="many">%d items selected</item>
     </plurals>
-    <plurals name="notif_title_multiple_downloading">
-        <item quantity="other">Downloading %1$d songs</item>
-        <item quantity="one">Downloading %1$d song</item>
-        <item quantity="few">Downloading %1$d songs</item>
-        <item quantity="many">Downloading %1$d songs</item>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="one">Just now</item>
+        <item quantity="few">Just now</item>
+        <item quantity="many">Just now</item>
+        <item quantity="other">Just now</item>
     </plurals>
-    <plurals name="notification_download_failed_more">
-        <item quantity="other">"Couldn't download %1$d audios"</item>
-        <item quantity="one">"Couldn't download %1$d audio"</item>
-        <item quantity="few">"Couldn't download %1$d audios"</item>
-        <item quantity="many">"Couldn't download %1$d audios"</item>
+    <plurals name="minute">
+        <item quantity="other">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minutes</item>
+        <item quantity="one">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minute</item>
+        <item quantity="few">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minutes</item>
+        <item quantity="many">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minutes</item>
     </plurals>
-    <plurals name="notification_download_success_more">
-        <item quantity="other">%1$d audios</item>
-        <item quantity="one">%1$d audio</item>
-        <item quantity="few">%1$d audios</item>
-        <item quantity="many">%1$d audios</item>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">1 minute ago</item>
+        <item quantity="few">%d minutes ago</item>
+        <item quantity="many">%d minutes ago</item>
     </plurals>
-    <plurals name="reader_count">
-        <item quantity="other">%d followers</item>
-        <item quantity="one">%d follower</item>
-        <item quantity="few">%d followers</item>
-        <item quantity="many">%d followers</item>
+    <plurals name="save_item_failed_summary_seg1">
+        <item quantity="other">"%d елементів імпортовано, "</item>
+        <item quantity="one">"%d елемент імпортовано, "</item>
+        <item quantity="few">"%d елементи імпортовано, "</item>
+        <item quantity="many">"%d елементів імпортовано, "</item>
     </plurals>
-    <plurals name="skipped_online_songs_tips">
-        <item quantity="other">Skipped %d songs. Turn on online services in the settings to listen to them.</item>
-        <item quantity="one">Skipped %d song. Turn on online services in the settings to listen to it.</item>
-        <item quantity="few">Skipped %d songs. Turn on online services in the settings to listen to them.</item>
-        <item quantity="many">Skipped %d songs. Turn on online services in the settings to listen to them.</item>
+    <plurals name="save_item_failed_summary_seg2">
+        <item quantity="other">%d елементів необхідно імпортувати повторно</item>
+        <item quantity="one">%d елемент необхідно імпортувати повторно</item>
+        <item quantity="few">%d елементи необхідно імпортувати повторно</item>
+        <item quantity="many">%d елементів необхідно імпортувати повторно</item>
     </plurals>
-    <plurals name="songs_count">
-        <item quantity="other">%d songs</item>
-        <item quantity="one">%d song</item>
-        <item quantity="few">%d songs</item>
-        <item quantity="many">%d songs</item>
+    <plurals name="save_item_saved_summary">
+        <item quantity="other">%d елементів імпортовано та відновлено</item>
+        <item quantity="one">%d елемент імпортовано та відновлено</item>
+        <item quantity="few">%d елементи імпортовано та відновлено</item>
+        <item quantity="many">%d елементів імпортовано та відновлено</item>
     </plurals>
-    <plurals name="swipe_to_load_head_complete_success">
-        <item quantity="other">Here are %1$d updates for you:</item>
-        <item quantity="one">Here is %1$d update for you:</item>
-        <item quantity="few">Here are %1$d updates for you:</item>
-        <item quantity="many">Here are %1$d updates for you:</item>
+    <plurals name="save_item_saving_summary">
+        <item quantity="other">%d елементів відновлено</item>
+        <item quantity="one">%d елемент відновлено</item>
+        <item quantity="few">%d елементи відновлено</item>
+        <item quantity="many">%d елементів відновлено</item>
     </plurals>
-    <plurals name="total_chapter_count">
-        <item quantity="other">%1$d episodes</item>
-        <item quantity="one">%1$d episode</item>
-        <item quantity="few">%1$d episodes</item>
-        <item quantity="many">%1$d episodes</item>
+    <plurals name="select_item_summary">
+        <item quantity="other">%1$s | %2$d елементів</item>
+        <item quantity="one">%1$s | %2$d елемент</item>
+        <item quantity="few">%1$s | %2$d елементи</item>
+        <item quantity="many">%1$s | %2$d елементів</item>
     </plurals>
-    <plurals name="notification_rec_content">
-        <item quantity="other">%d FM recordings</item>
-        <item quantity="one">%d FM recording</item>
-        <item quantity="few">%d FM recordings</item>
-        <item quantity="many">%d FM recordings</item>
+    <plurals name="trans_time_format_hours">
+        <item quantity="other">%d годин</item>
+        <item quantity="one">%d година</item>
+        <item quantity="few">%d години</item>
+        <item quantity="many">%d годин</item>
     </plurals>
-    <plurals name="Nassociate_songs">
-        <item quantity="other">Searching for album covers and lyrics (%1$d/%2$d)</item>
-        <item quantity="one">Searching for album covers and lyrics (%1$d/%2$d)</item>
-        <item quantity="few">Searching for album covers and lyrics (%1$d/%2$d)</item>
-        <item quantity="many">Searching for album covers and lyrics (%1$d/%2$d)</item>
-    </plurals>
-    <plurals name="Ntracks_add_to_playlist">
-        <item quantity="other">%d songs added to playlist</item>
-        <item quantity="one">%d song added to playlist</item>
-        <item quantity="few">%d songs added to playlist</item>
-        <item quantity="many">%d songs added to playlist</item>
-    </plurals>
-    <plurals name="Ntracks_remove_from_playlist">
-        <item quantity="other">%d songs removed from playlist</item>
-        <item quantity="one">%d song removed from playlist</item>
-        <item quantity="few">%d songs removed from playlist</item>
-        <item quantity="many">%d songs removed from playlist</item>
-    </plurals>
-    <plurals name="dialog_remove_from_cloud_descript">
-        <item quantity="other">Delete %d songs from Xiaomi Cloud? They will be deleted from local playlists as well.</item>
-        <item quantity="one">Delete %d song from Xiaomi Cloud? It will be deleted from local playlists as well.</item>
-        <item quantity="few">Delete %d songs from Xiaomi Cloud? They will be deleted from local playlists as well.</item>
-        <item quantity="many">Delete %d songs from Xiaomi Cloud? They will be deleted from local playlists as well.</item>
-    </plurals>
-    <plurals name="send_songs_toast">
-        <item quantity="other">%d songs will be sent</item>
-        <item quantity="one">%d song will be sent</item>
-        <item quantity="few">%d songs will be sent</item>
-        <item quantity="many">%d songs will be sent</item>
-    </plurals>
-    <plurals name="song_already_favorite">
-        <item quantity="other">Songs have been favorited.</item>
-        <item quantity="one">Song has been favorited.</item>
-        <item quantity="few">Songs have been favorited.</item>
-        <item quantity="many">Songs have been favorited.</item>
+    <plurals name="trans_time_format_minute">
+        <item quantity="other">%d хвилин</item>
+        <item quantity="one">%d хвилина</item>
+        <item quantity="few">%d хвилини</item>
+        <item quantity="many">%d хвилин</item>
     </plurals>
 </resources>
