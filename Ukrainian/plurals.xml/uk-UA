@@ -54,11 +54,41 @@
         <item quantity="few">%d mins ago</item>
         <item quantity="many">%d mins ago</item>
     </plurals>
+    <plurals name="data_item_count">
+        <item quantity="other">%d елементів</item>
+        <item quantity="one">%d елемент</item>
+        <item quantity="few">%d елементи</item>
+        <item quantity="many">%d елементів</item>
+    </plurals>
+    <plurals name="data_item_count_fail">
+        <item quantity="other">"Couldn't transfer %d items"</item>
+        <item quantity="one">"Couldn't transfer %d item"</item>
+        <item quantity="few">"Couldn't transfer %d items"</item>
+        <item quantity="many">"Couldn't transfer %d items"</item>
+    </plurals>
+    <plurals name="data_item_count_pair">
+        <item quantity="other">%1$d/%2$d items</item>
+        <item quantity="one">%1$d/%2$d item</item>
+        <item quantity="few">%1$d/%2$d items</item>
+        <item quantity="many">%1$d/%2$d items</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="one">Half an hour ago</item>
         <item quantity="few">Half an hour ago</item>
         <item quantity="many">Half an hour ago</item>
         <item quantity="other">Half an hour ago</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hours</item>
+        <item quantity="one">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hour</item>
+        <item quantity="few">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hours</item>
+        <item quantity="many">&lt;g id=\"hour\"&gt;%1$d&lt;/g&gt; hours</item>
+    </plurals>
+    <plurals name="icloud_importing_title_count_desc">
+        <item quantity="other">Imported %d items</item>
+        <item quantity="one">Imported %d item</item>
+        <item quantity="few">Imported %d items</item>
+        <item quantity="many">Imported %d items</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="one">In 1 hour</item>
@@ -84,16 +114,70 @@
         <item quantity="few">in %d minutes</item>
         <item quantity="many">in %d minutes</item>
     </plurals>
+    <plurals name="items_selected">
+        <item quantity="other">%d items selected</item>
+        <item quantity="one">%d item selected</item>
+        <item quantity="few">%d items selected</item>
+        <item quantity="many">%d items selected</item>
+    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="one">Just now</item>
         <item quantity="few">Just now</item>
         <item quantity="many">Just now</item>
         <item quantity="other">Just now</item>
     </plurals>
+    <plurals name="minute">
+        <item quantity="other">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minutes</item>
+        <item quantity="one">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minute</item>
+        <item quantity="few">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minutes</item>
+        <item quantity="many">&lt;g id=\"minute\"&gt;%1$d&lt;/g&gt; minutes</item>
+    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutes ago</item>
         <item quantity="one">1 minute ago</item>
         <item quantity="few">%d minutes ago</item>
         <item quantity="many">%d minutes ago</item>
+    </plurals>
+    <plurals name="save_item_failed_summary_seg1">
+        <item quantity="other">"%d елементів імпортовано, "</item>
+        <item quantity="one">"%d елемент імпортовано, "</item>
+        <item quantity="few">"%d елементи імпортовано, "</item>
+        <item quantity="many">"%d елементів імпортовано, "</item>
+    </plurals>
+    <plurals name="save_item_failed_summary_seg2">
+        <item quantity="other">%d елементів необхідно імпортувати повторно</item>
+        <item quantity="one">%d елемент необхідно імпортувати повторно</item>
+        <item quantity="few">%d елементи необхідно імпортувати повторно</item>
+        <item quantity="many">%d елементів необхідно імпортувати повторно</item>
+    </plurals>
+    <plurals name="save_item_saved_summary">
+        <item quantity="other">%d елементів імпортовано та відновлено</item>
+        <item quantity="one">%d елемент імпортовано та відновлено</item>
+        <item quantity="few">%d елементи імпортовано та відновлено</item>
+        <item quantity="many">%d елементів імпортовано та відновлено</item>
+    </plurals>
+    <plurals name="save_item_saving_summary">
+        <item quantity="other">%d елементів відновлено</item>
+        <item quantity="one">%d елемент відновлено</item>
+        <item quantity="few">%d елементи відновлено</item>
+        <item quantity="many">%d елементів відновлено</item>
+    </plurals>
+    <plurals name="select_item_summary">
+        <item quantity="other">%1$s | %2$d елементів</item>
+        <item quantity="one">%1$s | %2$d елемент</item>
+        <item quantity="few">%1$s | %2$d елементи</item>
+        <item quantity="many">%1$s | %2$d елементів</item>
+    </plurals>
+    <plurals name="trans_time_format_hours">
+        <item quantity="other">%d годин</item>
+        <item quantity="one">%d година</item>
+        <item quantity="few">%d години</item>
+        <item quantity="many">%d годин</item>
+    </plurals>
+    <plurals name="trans_time_format_minute">
+        <item quantity="other">%d хвилин</item>
+        <item quantity="one">%d хвилина</item>
+        <item quantity="few">%d хвилини</item>
+        <item quantity="many">%d хвилин</item>
     </plurals>
 </resources>
