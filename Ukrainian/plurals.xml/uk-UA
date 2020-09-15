@@ -1,52 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="Ndays">
-        <item quantity="other">%d days before the event</item>
-        <item quantity="one">%d day before the event</item>
-        <item quantity="few">%d days before the event</item>
-        <item quantity="many">%d days before the event</item>
+    <plurals name="age_label_days">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+        <item quantity="few">%d days</item>
+        <item quantity="many">%d days</item>
     </plurals>
-    <plurals name="Ndays_after">
-        <item quantity="other">%1$d天后</item>
-        <item quantity="one">%1$d天后</item>
-        <item quantity="few">%1$d天后</item>
-        <item quantity="many">%1$d天后</item>
+    <plurals name="age_label_months">
+        <item quantity="other">%d months</item>
+        <item quantity="one">%d month</item>
+        <item quantity="few">%d months</item>
+        <item quantity="many">%d months</item>
     </plurals>
-    <plurals name="Ndays_after_at">
-        <item quantity="other">In %1$d days at %2$s</item>
-        <item quantity="one">In %1$d day at %2$s</item>
-        <item quantity="few">In %1$d days at %2$s</item>
-        <item quantity="many">In %1$d days at %2$s</item>
+    <plurals name="age_label_yrs">
+        <item quantity="other">years</item>
+        <item quantity="one">year</item>
+        <item quantity="few">years</item>
+        <item quantity="many">years</item>
     </plurals>
-    <plurals name="Ndays_ago">
-        <item quantity="other">%1$d天前</item>
-        <item quantity="one">%1$d天前</item>
-        <item quantity="few">%1$d天前</item>
-        <item quantity="many">%1$d天前</item>
+    <plurals name="entries">
+        <item quantity="other">%d елементів</item>
+        <item quantity="one">%d елемент</item>
+        <item quantity="few">%d елементи</item>
+        <item quantity="many">%d елементів</item>
     </plurals>
-    <plurals name="Ndays_ago_at">
-        <item quantity="other">%1$d days before the event at %2$s</item>
-        <item quantity="one">%1$d day before the event at %2$s</item>
-        <item quantity="few">%1$d days before the event at %2$s</item>
-        <item quantity="many">%1$d days before the event at %2$s</item>
+    <plurals name="loan_repayment_detail">
+        <item quantity="other">Detailed repayment (%d years)</item>
+        <item quantity="one">Detailed repayment (%d year)</item>
+        <item quantity="few">Detailed repayment (%d years)</item>
+        <item quantity="many">Detailed repayment (%d years)</item>
     </plurals>
-    <plurals name="Nhours">
-        <item quantity="other">%d hours before the event</item>
-        <item quantity="one">%d hour before the event</item>
-        <item quantity="few">%d hours before the event</item>
-        <item quantity="many">%d hours before the event</item>
+    <plurals name="loan_repayment_detail_unit">
+        <item quantity="other">Detailed repayment (%d years), CNY</item>
+        <item quantity="one">Detailed repayment (%d year), CNY</item>
+        <item quantity="few">Detailed repayment (%d years), CNY</item>
+        <item quantity="many">Detailed repayment (%d years), CNY</item>
     </plurals>
-    <plurals name="Nminutes">
-        <item quantity="other">%d minutes before the event</item>
-        <item quantity="one">%d minute before the event</item>
-        <item quantity="few">%d minutes before the event</item>
-        <item quantity="many">%d minutes before the event</item>
+    <plurals name="mortgage_summary_years">
+        <item quantity="other">%1$d years (%2$d months)</item>
+        <item quantity="one">%1$d year (%2$d months)</item>
+        <item quantity="few">%1$d years (%2$d months)</item>
+        <item quantity="many">%1$d years (%2$d months)</item>
     </plurals>
-    <plurals name="Nweeks">
-        <item quantity="other">%d weeks before the event</item>
-        <item quantity="one">%d week before the event</item>
-        <item quantity="few">%d weeks before the event</item>
-        <item quantity="many">%d weeks before the event</item>
+    <plurals name="tenure_months">
+        <item quantity="other">%d months</item>
+        <item quantity="one">%d month</item>
+        <item quantity="few">%d months</item>
+        <item quantity="many">%d months</item>
+    </plurals>
+    <plurals name="tenure_years">
+        <item quantity="other">%d years</item>
+        <item quantity="one">%d year</item>
+        <item quantity="few">%d years</item>
+        <item quantity="many">%d years</item>
     </plurals>
     <plurals name="a_hour_ago">
         <item quantity="one">1 hour ago</item>
@@ -102,90 +108,6 @@
         <item quantity="few">%d mins ago</item>
         <item quantity="many">%d mins ago</item>
     </plurals>
-    <plurals name="anniversary_day">
-        <item quantity="other">%1$s days</item>
-        <item quantity="one">%1$s day</item>
-        <item quantity="few">%1$s days</item>
-        <item quantity="many">%1$s days</item>
-    </plurals>
-    <plurals name="anniversary_notify_before_3_day_title">
-        <item quantity="other">Anniversary: %2$d years since %1$s in 3 days</item>
-        <item quantity="one">Anniversary: %2$d year since %1$s in 3 days</item>
-        <item quantity="few">Anniversary: %2$d years since %1$s in 3 days</item>
-        <item quantity="many">Anniversary: %2$d years since %1$s in 3 days</item>
-    </plurals>
-    <plurals name="anniversary_notify_title">
-        <item quantity="other">Anniversary: %2$d years since %1$s</item>
-        <item quantity="one">Anniversary: %2$d year since %1$s</item>
-        <item quantity="few">Anniversary: %2$d years since %1$s</item>
-        <item quantity="many">Anniversary: %2$d years since %1$s</item>
-    </plurals>
-    <plurals name="anniversary_year">
-        <item quantity="other">%1$s years</item>
-        <item quantity="one">%1$s year</item>
-        <item quantity="few">%1$s years</item>
-        <item quantity="many">%1$s years</item>
-    </plurals>
-    <plurals name="birthday_event_description_days_ago">
-        <item quantity="other">%1$d days since</item>
-        <item quantity="one">%1$d day since</item>
-        <item quantity="few">%1$d days since</item>
-        <item quantity="many">%1$d days since</item>
-    </plurals>
-    <plurals name="birthday_event_description_days_later">
-        <item quantity="other">%1$d days until</item>
-        <item quantity="one">%1$d day until</item>
-        <item quantity="few">%1$d days until</item>
-        <item quantity="many">%1$d days until</item>
-    </plurals>
-    <plurals name="birthday_notification_age_term">
-        <item quantity="other">%1$s-year-old</item>
-        <item quantity="one">%1$s-year-old</item>
-        <item quantity="few">%1$s-year-old</item>
-        <item quantity="many">%1$s-year-old</item>
-    </plurals>
-    <plurals name="countdown_day">
-        <item quantity="other">%1$s days left</item>
-        <item quantity="one">%1$s day left</item>
-        <item quantity="few">%1$s days left</item>
-        <item quantity="many">%1$s days left</item>
-    </plurals>
-    <plurals name="date_calculate_days_after">
-        <item quantity="other">%1$d days after</item>
-        <item quantity="one">%1$d day after</item>
-        <item quantity="few">%1$d days after</item>
-        <item quantity="many">%1$d days after</item>
-    </plurals>
-    <plurals name="date_calculate_days_ago">
-        <item quantity="other">%1$d days before</item>
-        <item quantity="one">%1$d day before</item>
-        <item quantity="few">%1$d days before</item>
-        <item quantity="many">%1$d days before</item>
-    </plurals>
-    <plurals name="date_calculate_direction_backward">
-        <item quantity="other">%1$d days after</item>
-        <item quantity="one">%1$d day after</item>
-        <item quantity="few">%1$d days after</item>
-        <item quantity="many">%1$d days after</item>
-    </plurals>
-    <plurals name="date_calculate_direction_forward">
-        <item quantity="other">%1$d days before</item>
-        <item quantity="one">%1$d day before</item>
-        <item quantity="few">%1$d days before</item>
-        <item quantity="many">%1$d days before</item>
-    </plurals>
-    <plurals name="edit_date_calculate_days_error_hint">
-        <item quantity="other">You can enter up to %1$d days</item>
-        <item quantity="one">You can enter up to %1$d day</item>
-        <item quantity="few">You can enter up to %1$d days</item>
-        <item quantity="many">You can enter up to %1$d days</item>
-    </plurals>
-    <plurals name="event_reminders_to_max">
-        <item quantity="other">Can set up to %d reminders</item>
-        <item quantity="one">Can set up to %d reminder</item>
-        <item quantity="few">Can set up to %d reminders</item>
-        <item quantity="many">Can set up to %d reminders</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="one">Half an hour ago</item>
         <item quantity="few">Half an hour ago</item>
@@ -216,124 +138,22 @@
         <item quantity="few">in %d minutes</item>
         <item quantity="many">in %d minutes</item>
     </plurals>
+    <plurals name="items_selected">
+        <item quantity="other">%d items selected</item>
+        <item quantity="one">%d item selected</item>
+        <item quantity="few">%d items selected</item>
+        <item quantity="many">%d items selected</item>
+    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="one">Just now</item>
         <item quantity="few">Just now</item>
         <item quantity="many">Just now</item>
         <item quantity="other">Just now</item>
     </plurals>
-    <plurals name="month_more_events">
-        <item quantity="other">+%d</item>
-        <item quantity="one">+1</item>
-        <item quantity="few">+%d</item>
-        <item quantity="many">+%d</item>
-    </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d new notifications</item>
-        <item quantity="one">%d new notification</item>
-        <item quantity="few">%d new notifications</item>
-        <item quantity="many">%d new notifications</item>
-    </plurals>
-    <plurals name="n_attendees">
-        <item quantity="other">%d invitations</item>
-        <item quantity="one">%d invitation</item>
-        <item quantity="few">%d invitations</item>
-        <item quantity="many">%d invitations</item>
-    </plurals>
-    <plurals name="n_weeks">
-        <item quantity="other">%d</item>
-        <item quantity="one">%d</item>
-        <item quantity="few">%d</item>
-        <item quantity="many">%d</item>
-    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutes ago</item>
         <item quantity="one">1 minute ago</item>
         <item quantity="few">%d minutes ago</item>
         <item quantity="many">%d minutes ago</item>
-    </plurals>
-    <plurals name="other_all_day_events">
-        <item quantity="other">%d more events</item>
-        <item quantity="one">%d more event</item>
-        <item quantity="few">%d more events</item>
-        <item quantity="many">%d more events</item>
-    </plurals>
-    <plurals name="reminder_custom_unit_day">
-        <item quantity="other">" days"</item>
-        <item quantity="one">" day"</item>
-        <item quantity="few">" days"</item>
-        <item quantity="many">" days"</item>
-    </plurals>
-    <plurals name="reminder_custom_unit_hour">
-        <item quantity="other">" hours"</item>
-        <item quantity="one">" hour"</item>
-        <item quantity="few">" hours"</item>
-        <item quantity="many">" hours"</item>
-    </plurals>
-    <plurals name="reminder_custom_unit_minute">
-        <item quantity="other">" minutes"</item>
-        <item quantity="one">" minute"</item>
-        <item quantity="few">" minutes"</item>
-        <item quantity="many">" minutes"</item>
-    </plurals>
-    <plurals name="reminder_later_toast">
-        <item quantity="other">Next reminder in %1$d minutes</item>
-        <item quantity="one">Next reminder in %1$d minute</item>
-        <item quantity="few">Next reminder in %1$d minutes</item>
-        <item quantity="many">Next reminder in %1$d minutes</item>
-    </plurals>
-    <plurals name="repeat_custom_prompt">
-        <item quantity="other">every %1$s on %2$s</item>
-        <item quantity="one">every %1$s on %2$s</item>
-        <item quantity="few">every %1$s on %2$s</item>
-        <item quantity="many">every %1$s on %2$s</item>
-    </plurals>
-    <plurals name="repeat_interval_frequency_day_multiple">
-        <item quantity="other">%1$d days</item>
-        <item quantity="one">%1$d day</item>
-        <item quantity="few">%1$d days</item>
-        <item quantity="many">%1$d days</item>
-    </plurals>
-    <plurals name="repeat_interval_frequency_month_multiple">
-        <item quantity="other">%1$d months</item>
-        <item quantity="one">%1$d month</item>
-        <item quantity="few">%1$d months</item>
-        <item quantity="many">%1$d months</item>
-    </plurals>
-    <plurals name="repeat_interval_frequency_week_multiple">
-        <item quantity="other">%1$d weeks</item>
-        <item quantity="one">%1$d week</item>
-        <item quantity="few">%1$d weeks</item>
-        <item quantity="many">%1$d weeks</item>
-    </plurals>
-    <plurals name="repeat_interval_frequency_year_multiple">
-        <item quantity="other">%1$d years</item>
-        <item quantity="one">%1$d year</item>
-        <item quantity="few">%1$d years</item>
-        <item quantity="many">%1$d years</item>
-    </plurals>
-    <plurals name="travel_time_range_hours">
-        <item quantity="other">%d hrs</item>
-        <item quantity="one">%d hr</item>
-        <item quantity="few">%d hrs</item>
-        <item quantity="many">%d hrs</item>
-    </plurals>
-    <plurals name="travel_time_range_mins">
-        <item quantity="other">%d mins</item>
-        <item quantity="one">%d min</item>
-        <item quantity="few">%d mins</item>
-        <item quantity="many">%d mins</item>
-    </plurals>
-    <plurals name="weekN">
-        <item quantity="one">WEEK %d</item>
-        <item quantity="few">WEEK %d</item>
-        <item quantity="many">WEEK %d</item>
-        <item quantity="other">WEEK %d</item>
-    </plurals>
-    <plurals name="work_days">
-        <item quantity="other">%d working days</item>
-        <item quantity="one">%d working day</item>
-        <item quantity="few">%d working days</item>
-        <item quantity="many">%d working days</item>
     </plurals>
 </resources>
