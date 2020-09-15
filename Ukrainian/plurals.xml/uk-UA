@@ -1,159 +1,213 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="alarm_alert_snooze_set">
-        <item quantity="other">Snoozing for %d minutes.</item>
-        <item quantity="one">Snoozing for %d minute.</item>
-        <item quantity="few">Snoozing for %d minutes.</item>
-        <item quantity="many">Snoozing for %d minutes.</item>
+    <plurals name="backup_message_wechat_video">
+        <item quantity="other">"%1$d videos in WeChat conversations are about to expire. Back them up to your device's internal storage?"</item>
+        <item quantity="one">"%1$d video in WeChat conversations is about to expire. Back it up to your device's internal storage?"</item>
+        <item quantity="few">"%1$d videos in WeChat conversations are about to expire. Back them up to your device's internal storage?"</item>
+        <item quantity="many">"%1$d videos in WeChat conversations are about to expire. Back them up to your device's internal storage?"</item>
     </plurals>
-    <plurals name="day">
-        <item quantity="other">%d days</item>
-        <item quantity="one">%d day</item>
-        <item quantity="few">%d days</item>
-        <item quantity="many">%d days</item>
+    <plurals name="clockin_day_count">
+        <item quantity="other">Checked in %1$s days in a row, keep going!</item>
+        <item quantity="one">Checked in %1$s day in a row, keep going!</item>
+        <item quantity="few">Checked in %1$s days in a row, keep going!</item>
+        <item quantity="many">Checked in %1$s days in a row, keep going!</item>
     </plurals>
-    <plurals name="delete_alarm_confirm">
-        <item quantity="other">Delete the selected alarms?</item>
-        <item quantity="one">Delete this alarm?</item>
-        <item quantity="few">Delete the selected alarms?</item>
-        <item quantity="many">Delete the selected alarms?</item>
+    <plurals name="clockin_days">
+        <item quantity="other">Checked in %1$s days in a row</item>
+        <item quantity="one">Checked in %1$s day in a row</item>
+        <item quantity="few">Checked in %1$s days in a row</item>
+        <item quantity="many">Checked in %1$s days in a row</item>
     </plurals>
-    <plurals name="delete_timezone_confirm">
-        <item quantity="other">Delete the selected timezones?</item>
-        <item quantity="one">Delete this timezone?</item>
-        <item quantity="few">Delete the selected timezones?</item>
-        <item quantity="many">Delete the selected timezones?</item>
+    <plurals name="clockin_new_chip">
+        <item quantity="other">You got &lt;font color=#faea47&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; points</item>
+        <item quantity="one">You got &lt;font color=#faea47&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; point</item>
+        <item quantity="few">You got &lt;font color=#faea47&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; points</item>
+        <item quantity="many">You got &lt;font color=#faea47&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; points</item>
     </plurals>
-    <plurals name="hour">
-        <item quantity="other">%d годин</item>
-        <item quantity="one">%d година</item>
-        <item quantity="few">%d години</item>
-        <item quantity="many">%d годин</item>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d days ago</item>
+        <item quantity="one">%1$d day ago</item>
+        <item quantity="few">%1$d days ago</item>
+        <item quantity="many">%1$d days ago</item>
     </plurals>
-    <plurals name="life_post_wake_up_item_acumu_day">
-        <item quantity="other">%1$d days</item>
-        <item quantity="one">%1$d day</item>
-        <item quantity="few">%1$d days</item>
-        <item quantity="many">%1$d days</item>
+    <plurals name="delete_files_confirm">
+        <item quantity="other">Delete %1$d files</item>
+        <item quantity="one">Delete %1$d file</item>
+        <item quantity="few">Delete %1$d files</item>
+        <item quantity="many">Delete %1$d files</item>
     </plurals>
-    <plurals name="minute">
-        <item quantity="other">%d хвилин</item>
-        <item quantity="one">%d хвилина</item>
-        <item quantity="few">%d хвилини</item>
-        <item quantity="many">%d хвилин</item>
+    <plurals name="delete_folders_confirm">
+        <item quantity="other">" and %1$d folders?"</item>
+        <item quantity="one">" and %1$d folder?"</item>
+        <item quantity="few">" and %1$d folders?"</item>
+        <item quantity="many">" and %1$d folders?"</item>
     </plurals>
-    <plurals name="minute_text">
-        <item quantity="other">" mins"</item>
-        <item quantity="one">" min"</item>
-        <item quantity="few">" mins"</item>
-        <item quantity="many">" mins"</item>
+    <plurals name="directory_item_count">
+        <item quantity="other">%d елементів</item>
+        <item quantity="one">%d елемент</item>
+        <item quantity="few">%d елементи</item>
+        <item quantity="many">%d елементів</item>
     </plurals>
-    <plurals name="second">
-        <item quantity="other">%d seconds</item>
-        <item quantity="one">%d second</item>
-        <item quantity="few">%d seconds</item>
-        <item quantity="many">%d seconds</item>
+    <plurals name="file_count">
+        <item quantity="other"> %1$d items</item>
+        <item quantity="one"> %1$d item</item>
+        <item quantity="few"> %1$d items</item>
+        <item quantity="many"> %1$d items</item>
     </plurals>
-    <plurals name="sleep_duration_hour">
-        <item quantity="other">%1$s hours</item>
-        <item quantity="one">%1$s hour</item>
-        <item quantity="few">%1$s hours</item>
-        <item quantity="many">%1$s hours</item>
+    <plurals name="follow_count">
+        <item quantity="other">&lt;font color=#fc7050&gt;%d&lt;/font&gt; followers</item>
+        <item quantity="one">&lt;font color=#fc7050&gt;%d&lt;/font&gt; follower</item>
+        <item quantity="few">&lt;font color=#fc7050&gt;%d&lt;/font&gt; followers</item>
+        <item quantity="many">&lt;font color=#fc7050&gt;%d&lt;/font&gt; followers</item>
     </plurals>
-    <plurals name="sleep_duration_hour_avg">
-        <item quantity="other">%1$s hrs</item>
-        <item quantity="one">%1$s hr</item>
-        <item quantity="few">%1$s hrs</item>
-        <item quantity="many">%1$s hrs</item>
+    <plurals name="found_new_files">
+        <item quantity="other">Found %1$d new files</item>
+        <item quantity="one">Found %1$d new file</item>
+        <item quantity="few">Found %1$d new files</item>
+        <item quantity="many">Found %1$d new files</item>
     </plurals>
-    <plurals name="sleep_duration_min">
-        <item quantity="other">%1$s minutes</item>
-        <item quantity="one">%1$s minute</item>
-        <item quantity="few">%1$s minutes</item>
-        <item quantity="many">%1$s minutes</item>
+    <plurals name="gems">
+        <item quantity="other">%1$s gems</item>
+        <item quantity="one">%1$s gem</item>
+        <item quantity="few">%1$s gems</item>
+        <item quantity="many">%1$s gems</item>
     </plurals>
-    <plurals name="sleep_duration_min_avg">
-        <item quantity="other">%1$s mins</item>
-        <item quantity="one">%1$s min</item>
-        <item quantity="few">%1$s mins</item>
-        <item quantity="many">%1$s mins</item>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d hours ago</item>
+        <item quantity="one">%1$d hour ago</item>
+        <item quantity="few">%1$d hours ago</item>
+        <item quantity="many">%1$d hours ago</item>
     </plurals>
-    <plurals name="snooze_duration_changed_info">
-        <item quantity="other">Changed the snooze interval to %d minutes</item>
-        <item quantity="one">Changed the snooze interval to %d minute</item>
-        <item quantity="few">Changed the snooze interval to %d minutes</item>
-        <item quantity="many">Changed the snooze interval to %d minutes</item>
+    <plurals name="items_picture">
+        <item quantity="other"> (%1$d items)</item>
+        <item quantity="one"> (%1$d item)</item>
+        <item quantity="few"> (%1$d items)</item>
+        <item quantity="many"> (%1$d items)</item>
     </plurals>
-    <plurals name="snooze_duration_count">
-        <item quantity="other">Go off %1$s times</item>
-        <item quantity="one">Go off %1$s time</item>
-        <item quantity="few">Go off %1$s times</item>
-        <item quantity="many">Go off %1$s times</item>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$d minutes ago</item>
+        <item quantity="one">%1$d minute ago</item>
+        <item quantity="few">%1$d minutes ago</item>
+        <item quantity="many">%1$d minutes ago</item>
     </plurals>
-    <plurals name="snooze_duration_desc">
-        <item quantity="other">Every %1$s min, go off %2$s times</item>
-        <item quantity="one">Every %1$s min, go off %2$s time</item>
-        <item quantity="few">Every %1$s min, go off %2$s times</item>
-        <item quantity="many">Every %1$s min, go off %2$s times</item>
+    <plurals name="more_gems">
+        <item quantity="other">Collect &lt;font color=#fc7050&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; more gems to participate in the lucky draw.</item>
+        <item quantity="one">Collect &lt;font color=#fc7050&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; more gem to participate in the lucky draw.</item>
+        <item quantity="few">Collect &lt;font color=#fc7050&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; more gems to participate in the lucky draw.</item>
+        <item quantity="many">Collect &lt;font color=#fc7050&gt;&lt;b&gt;%d&lt;/b&gt;&lt;/font&gt; more gems to participate in the lucky draw.</item>
     </plurals>
-    <plurals name="snooze_duration_min">
-        <item quantity="other">Every %1$s mins</item>
-        <item quantity="one">Every %1$s min</item>
-        <item quantity="few">Every %1$s mins</item>
-        <item quantity="many">Every %1$s mins</item>
+    <plurals name="numSelectedFile">
+        <item quantity="other">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+        <item quantity="few">%1$d selected</item>
+        <item quantity="many">%1$d selected</item>
     </plurals>
-    <plurals name="snooze_duration_summary">
-        <item quantity="other">Alarm will go off %2$s times (%1$s min. each)</item>
-        <item quantity="one">Alarm will go off %2$s time (%1$s min.)</item>
-        <item quantity="few">Alarm will go off %2$s times (%1$s min. each)</item>
-        <item quantity="many">Alarm will go off %2$s times (%1$s min. each)</item>
+    <plurals name="number_of_comment_flow">
+        <item quantity="other">%1$s comments</item>
+        <item quantity="one">%1$s comment</item>
+        <item quantity="few">%1$s comments</item>
+        <item quantity="many">%1$s comments</item>
     </plurals>
-    <plurals name="snooze_message">
-        <item quantity="other">Snooze for %d mins</item>
-        <item quantity="one">Snooze for %d min</item>
-        <item quantity="few">Snooze for %d mins</item>
-        <item quantity="many">Snooze for %d mins</item>
+    <plurals name="original_user_days">
+        <item quantity="other">• &lt;font color=#fc7050&gt;%1$d&lt;/font&gt; days</item>
+        <item quantity="one">• &lt;font color=#fc7050&gt;%1$d&lt;/font&gt; day</item>
+        <item quantity="few">• &lt;font color=#fc7050&gt;%1$d&lt;/font&gt; days</item>
+        <item quantity="many">• &lt;font color=#fc7050&gt;%1$d&lt;/font&gt; days</item>
     </plurals>
-    <plurals name="stopwatch_running_notification_day">
-        <item quantity="other">Stopwatch has been running for %s days. Tap to view.</item>
-        <item quantity="one">Stopwatch has been running for %s day. Tap to view.</item>
-        <item quantity="few">Stopwatch has been running for %s days. Tap to view.</item>
-        <item quantity="many">Stopwatch has been running for %s days. Tap to view.</item>
+    <plurals name="original_user_fans">
+        <item quantity="other">• You got &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; followers!</item>
+        <item quantity="one">• You got &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; follower!</item>
+        <item quantity="few">• You got &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; followers!</item>
+        <item quantity="many">• You got &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; followers!</item>
     </plurals>
-    <plurals name="stopwatch_running_notification_hour">
-        <item quantity="other">Stopwatch has been running for %s hours. Tap to view.</item>
-        <item quantity="one">Stopwatch has been running for %s hour. Tap to view.</item>
-        <item quantity="few">Stopwatch has been running for %s hours. Tap to view.</item>
-        <item quantity="many">Stopwatch has been running for %s hours. Tap to view.</item>
+    <plurals name="original_user_play_1">
+        <item quantity="other">• You uploaded &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; videos.</item>
+        <item quantity="one">• You uploaded &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; video.</item>
+        <item quantity="few">• You uploaded &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; videos.</item>
+        <item quantity="many">• You uploaded &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; videos.</item>
     </plurals>
-    <plurals name="timer_message_hour">
-        <item quantity="other">"%1$d hours "</item>
-        <item quantity="one">"%1$d hour "</item>
-        <item quantity="few">"%1$d hours "</item>
-        <item quantity="many">"%1$d hours "</item>
+    <plurals name="original_user_play_2">
+        <item quantity="other">You made &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; people happy!</item>
+        <item quantity="one">You made &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; person happy!</item>
+        <item quantity="few">You made &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; people happy!</item>
+        <item quantity="many">You made &lt;font color=#fc7050&gt;%1$s&lt;/font&gt; people happy!</item>
     </plurals>
-    <plurals name="timer_message_minute">
-        <item quantity="other">"%1$d minutes "</item>
-        <item quantity="one">"%1$d minute "</item>
-        <item quantity="few">"%1$d minutes "</item>
-        <item quantity="many">"%1$d minutes "</item>
+    <plurals name="remote_video_update">
+        <item quantity="other">Found %1$s new videos</item>
+        <item quantity="one">Found %1$s new video</item>
+        <item quantity="few">Found %1$s new videos</item>
+        <item quantity="many">Found %1$s new videos</item>
     </plurals>
-    <plurals name="timer_message_second">
-        <item quantity="other">%1$d seconds</item>
-        <item quantity="one">%1$d second</item>
-        <item quantity="few">%1$d seconds</item>
-        <item quantity="many">%1$d seconds</item>
+    <plurals name="search_head_hint_app">
+        <item quantity="other">App %1$s related files (%2$d items)</item>
+        <item quantity="one">App %1$s related files (%2$d item)</item>
+        <item quantity="few">App %1$s related files (%2$d items)</item>
+        <item quantity="many">App %1$s related files (%2$d items)</item>
     </plurals>
-    <plurals name="worldcolock_timezone_gap_fast">
-        <item quantity="other">%s hrs ahead</item>
-        <item quantity="one">%s hr ahead</item>
-        <item quantity="few">%s hrs ahead</item>
-        <item quantity="many">%s hrs ahead</item>
+    <plurals name="search_head_hint_file">
+        <item quantity="other">%1$s related files (%2$d items)</item>
+        <item quantity="one">%1$s related files (%2$d item)</item>
+        <item quantity="few">%1$s related files (%2$d items)</item>
+        <item quantity="many">%1$s related files (%2$d items)</item>
     </plurals>
-    <plurals name="worldcolock_timezone_gap_slow">
-        <item quantity="other">%s hrs behind</item>
-        <item quantity="one">%s hr behind</item>
-        <item quantity="few">%s hrs behind</item>
-        <item quantity="many">%s hrs behind</item>
+    <plurals name="search_head_hint_tag">
+        <item quantity="other">Tag %1$s related files (%2$d items)</item>
+        <item quantity="one">Tag %1$s related files (%2$d item)</item>
+        <item quantity="few">Tag %1$s related files (%2$d items)</item>
+        <item quantity="many">Tag %1$s related files (%2$d items)</item>
+    </plurals>
+    <plurals name="text_group_count">
+        <item quantity="other">%d елементів</item>
+        <item quantity="one">%d елемент</item>
+        <item quantity="few">%d елементи</item>
+        <item quantity="many">%d елементів</item>
+    </plurals>
+    <plurals name="total_topic_num">
+        <item quantity="other">%1$s topics</item>
+        <item quantity="one">%1$s topic</item>
+        <item quantity="few">%1$s topics</item>
+        <item quantity="many">%1$s topics</item>
+    </plurals>
+    <plurals name="total_user_num">
+        <item quantity="other">%1$s people</item>
+        <item quantity="one">%1$s person</item>
+        <item quantity="few">%1$s people</item>
+        <item quantity="many">%1$s people</item>
+    </plurals>
+    <plurals name="user_sign_limt">
+        <item quantity="other">You can enter %d characters</item>
+        <item quantity="one">You can enter %d character</item>
+        <item quantity="few">You can enter %d characters</item>
+        <item quantity="many">You can enter %d characters</item>
+    </plurals>
+    <plurals name="video_ad_download_tip">
+        <item quantity="other"> Downloads</item>
+        <item quantity="one"> Download</item>
+        <item quantity="few"> Downloads</item>
+        <item quantity="many"> Downloads</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">&lt;font color=#fc7050&gt;%d&lt;/font&gt; videos</item>
+        <item quantity="one">&lt;font color=#fc7050&gt;%d&lt;/font&gt; video</item>
+        <item quantity="few">&lt;font color=#fc7050&gt;%d&lt;/font&gt; videos</item>
+        <item quantity="many">&lt;font color=#fc7050&gt;%d&lt;/font&gt; videos</item>
+    </plurals>
+    <plurals name="video_items">
+        <item quantity="other"> %1$d items</item>
+        <item quantity="one"> %1$d item</item>
+        <item quantity="few"> %1$d items</item>
+        <item quantity="many"> %1$d items</item>
+    </plurals>
+    <plurals name="video_play_num">
+        <item quantity="other">%1$s views</item>
+        <item quantity="one">%1$s view</item>
+        <item quantity="few">%1$s views</item>
+        <item quantity="many">%1$s views</item>
+    </plurals>
+    <plurals name="video_publish_watchable_hint">
+        <item quantity="other">Get %1$d more followers to upgrade your status​</item>
+        <item quantity="one">Get %1$d more follower to upgrade your status</item>
+        <item quantity="few">Get %1$d more followers to upgrade your status​</item>
+        <item quantity="many">Get %1$d more followers to upgrade your status​</item>
     </plurals>
 </resources>
