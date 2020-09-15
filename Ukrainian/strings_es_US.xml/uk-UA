@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_time">EEE. dd \'de\' MMMM</string>
-    <string name="date_time_12">EEE. dd \'de\' MMMM</string>
-    <string name="desc_date_format">EEEE dd \'de\' MMM.</string>
-    <string name="desc_date_format_12">EEEE dd \'de\' MMM.</string>
-    <string name="desc_time">'hora actual\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', toque dos veces para abrir la aplicación del reloj'</string>
-    <string name="weather_type_null">'Sin datos'</string>
+    <string name="weather_null">Toque para recibir información del tiempo</string>
+    <string name="date_format">EEEE d \'de\' MMMM</string>
+    <string name="today">Hoy</string>
+    <string name="tomorrow">Mañana</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
+    <string name="weather_type_null">'No hay datos'</string>
     <string name="weather_type_0">Despejado</string>
     <string name="weather_type_1">Nublado</string>
-    <string name="weather_type_2">Bruma</string>
+    <string name="weather_type_2">Neblina</string>
     <string name="weather_type_3">Niebla</string>
     <string name="weather_type_4">Tormenta severa</string>
     <string name="weather_type_5">Tormenta</string>
@@ -31,5 +38,4 @@
     <string name="weather_type_22">Granizo</string>
     <string name="weather_type_23">Polvo</string>
     <string name="weather_type_24">Neblina</string>
-    <string name="weather_type_25">Lluvia gélida</string>
 </resources>
