@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="air_quality0">\'AQI \'+#aqi</string>
-    <string name="air_quality1">\'AQI \'+#aqi</string>
-    <string name="air_quality2">\'AQI \'+#aqi</string>
-    <string name="air_quality3">\'AQI \'+#aqi</string>
-    <string name="air_quality4">\'AQI \'+#aqi</string>
-    <string name="air_quality5">\'AQI \'+#aqi</string>
     <string name="weather_null">Ob-havo ma’lumotini yangilash</string>
-    <string name="weather_location_null">Joylashuv ma’lumoti yo‘q</string>
+    <string name="date_format">d MMMM, EEEE</string>
+    <string name="today">Bugun</string>
+    <string name="tomorrow">Ertaga</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
+    <string name="weather_type_null">'Ma’lumot yo‘q'</string>
     <string name="weather_type_0">Tiniq</string>
     <string name="weather_type_1">Bulutli</string>
     <string name="weather_type_2">Tumanli</string>
