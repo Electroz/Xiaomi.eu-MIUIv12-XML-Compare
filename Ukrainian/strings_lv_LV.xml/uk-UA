@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="air_quality0">\'AQI \'+#aqi</string>
-    <string name="air_quality1">\'AQI \'+#aqi</string>
-    <string name="air_quality2">\'AQI \'+#aqi</string>
-    <string name="air_quality3">\'AQI \'+#aqi</string>
-    <string name="air_quality4">\'AQI \'+#aqi</string>
-    <string name="air_quality5">\'AQI \'+#aqi</string>
     <string name="weather_null">Pieskarieties, lai iegūtu laikapstākļu informāciju</string>
-    <string name="weather_location_null">Nav atrašanās vietas informācijas</string>
+    <string name="date_format">EEEE, d. MMMM</string>
+    <string name="today">Šodien</string>
+    <string name="tomorrow">Rīt</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
+    <string name="weather_type_null">'Nav datu'</string>
     <string name="weather_type_0">Skaidrs</string>
     <string name="weather_type_1">Mākoņains</string>
     <string name="weather_type_2">Neskaidrs</string>
     <string name="weather_type_3">Miglains</string>
     <string name="weather_type_4">Severe rainstorm</string>
-    <string name="weather_type_5">Lietus gāze</string>
+    <string name="weather_type_5">Vētra ar lietu</string>
     <string name="weather_type_6">Ļoti spēcīgas lietusgāzes</string>
     <string name="weather_type_7">Pērkona negaiss</string>
     <string name="weather_type_8">Stiprs lietus</string>
