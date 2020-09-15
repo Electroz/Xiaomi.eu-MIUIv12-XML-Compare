@@ -63,16 +63,31 @@
         <item>@string/am</item>
         <item>@string/pm</item>
     </string-array>
-    <string-array name="auto_answer_phone_operator_bluetooth_select">
-        <item>@string/my_phone_provider_bluetooth</item>
-        <item>@string/my_phone_not_provider_bluetooth</item>
+    <string-array name="aritst_area_filter">
+        <item>@string/artist_area_all</item>
+        <item>@string/artist_area_china</item>
+        <item>@string/artist_area_korea</item>
+        <item>@string/artist_area_japan</item>
+        <item>@string/artist_area_europe_usa</item>
     </string-array>
-    <string-array name="callrecordview_menu_show_values">
-        <item>@string/callrecordview_menu_show_all</item>
-        <item>@string/callrecordview_menu_show_missed</item>
-        <item>@string/callrecordview_menu_show_called</item>
-        <item>@string/callrecordview_menu_show_accepted</item>
-        <item>@string/callrecordview_menu_show_stranger</item>
+    <string-array name="aritst_area_filter_api">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="aritst_gender_filter">
+        <item>@string/artist_gender_all</item>
+        <item>@string/artist_gender_male</item>
+        <item>@string/artist_gender_female</item>
+        <item>@string/artist_gender_group</item>
+    </string-array>
+    <string-array name="aritst_gender_filter_api">
+        <item>all</item>
+        <item>male</item>
+        <item>female</item>
+        <item>group</item>
     </string-array>
     <string-array name="chinese_days">
         <item>@string/chinese_day_1</item>
@@ -160,6 +175,32 @@
         <item>@string/evening</item>
         <item>@string/night</item>
     </string-array>
+    <string-array name="dirac_equalizer_preset_names">
+        <item>@string/eq_flat</item>
+        <item>@string/eq_rock</item>
+        <item>@string/eq_jazz</item>
+        <item>@string/eq_pop</item>
+        <item>@string/eq_classical</item>
+        <item>@string/eq_hiphop</item>
+        <item>@string/eq_blues</item>
+        <item>@string/eq_electronic</item>
+        <item>@string/eq_country</item>
+        <item>@string/eq_dance</item>
+        <item>@string/eq_metal</item>
+    </string-array>
+    <string-array name="dirac_equalizer_preset_values">
+        <item>0,0,0,0,0,0,0</item>
+        <item>4,2,-2,0,-2,-2,4</item>
+        <item>0,0,0,-2,-3,0,0</item>
+        <item>0,-3,-5,0,0,-3,0</item>
+        <item>0,0,0,0,3,6,6</item>
+        <item>3,3,-3,0,-3,0,2</item>
+        <item>2,4,-6,4,0,1,2</item>
+        <item>3,3,-1,0,-3,0,0</item>
+        <item>0,0,-2,-2,2,2,0</item>
+        <item>0,4,2,0,-2,-2,4</item>
+        <item>2,0,0,-2,-4,0,0</item>
+    </string-array>
     <string-array name="earthly_branches">
         <item>@string/earthly_branches_zi</item>
         <item>@string/earthly_branches_chou</item>
@@ -189,6 +230,20 @@
         <item>@string/heavenly_stems_xin</item>
         <item>@string/heavenly_stems_ren</item>
         <item>@string/heavenly_stems_gui</item>
+    </string-array>
+    <string-array name="month_table">
+        <item>@string/January</item>
+        <item>@string/February</item>
+        <item>@string/March</item>
+        <item>@string/April</item>
+        <item>@string/March</item>
+        <item>@string/June</item>
+        <item>@string/July</item>
+        <item>@string/August</item>
+        <item>@string/September</item>
+        <item>@string/October</item>
+        <item>@string/November</item>
+        <item>@string/December</item>
     </string-array>
     <string-array name="months">
         <item>@string/month_january</item>
@@ -232,17 +287,14 @@
         <item>@string/month_november_shortest</item>
         <item>@string/month_december_shortest</item>
     </string-array>
-    <string-array name="otherLabels">
-        <item>Organization</item>
-        <item>Note</item>
-    </string-array>
-    <string-array name="preference_dial_pad_touch_tone_entries">
-        <item>@string/preference_dial_pad_touch_tone_default</item>
-        <item>@string/preference_dial_pad_touch_tone_piano</item>
-    </string-array>
-    <string-array name="preference_dial_pad_touch_tone_entry_values">
-        <item>-1</item>
-        <item>0</item>
+    <string-array name="recommendation_desc_week">
+        <item>Sunday recommendations</item>
+        <item>Monday recommendations</item>
+        <item>Tuesday recommendations</item>
+        <item>Wednesday recommendations</item>
+        <item>Thursday recommendations</item>
+        <item>Friday recommendations</item>
+        <item>Saturday recommendations</item>
     </string-array>
     <string-array name="solar_terms">
         <item>@string/empty</item>
