@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_time">EEE, dd MMMM</string>
-    <string name="date_time_12">EEE, dd MMMM</string>
-    <string name="desc_date_format">EEEE, dd MMM</string>
-    <string name="desc_date_format_12">EEEE, dd MMM</string>
-    <string name="desc_time">'waktu sekarang\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', ketuk 2x untuk masuk ke apl jam'</string>
+    <string name="weather_null">Ketuk untuk memperoleh info cuaca</string>
+    <string name="date_format">EEEE, d MMMM</string>
+    <string name="today">Hari ini</string>
+    <string name="tomorrow">Besok</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
     <string name="weather_type_null">'Tidak ada data'</string>
     <string name="weather_type_0">Cerah</string>
     <string name="weather_type_1">Berawan</string>
@@ -31,5 +38,4 @@
     <string name="weather_type_22">Hujan es</string>
     <string name="weather_type_23">Berdebu</string>
     <string name="weather_type_24">Kabut</string>
-    <string name="weather_type_25">Hujan yang dingin</string>
 </resources>
