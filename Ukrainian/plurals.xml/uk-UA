@@ -1,75 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="article_num">
-        <item quantity="other">%d articles</item>
-        <item quantity="one">%d article</item>
-        <item quantity="few">%d articles</item>
-        <item quantity="many">%d articles</item>
+    <plurals name="antispam_marked_count">
+        <item quantity="other">Reported by %d MIUI users</item>
+        <item quantity="one">Reported by %d MIUI user</item>
+        <item quantity="few">Reported by %d MIUI users</item>
+        <item quantity="many">Reported by %d MIUI users</item>
     </plurals>
-    <plurals name="feed_article_entrance_title">
-        <item quantity="other">View %s articles recommended to you</item>
-        <item quantity="one">View %s article recommended to you</item>
-        <item quantity="few">View %s articles recommended to you</item>
-        <item quantity="many">View %s articles recommended to you</item>
+    <plurals name="call_recording_notification_complete">
+        <item quantity="other">Recorded %d calls.</item>
+        <item quantity="one">Recorded %d call.</item>
+        <item quantity="few">Recorded %d calls.</item>
+        <item quantity="many">Recorded %d calls.</item>
     </plurals>
-    <plurals name="llks_tools_remote_control_data">
-        <item quantity="other">%s items</item>
-        <item quantity="one">%s item</item>
-        <item quantity="few">%s items</item>
-        <item quantity="many">%s items</item>
+    <plurals name="call_title_redialing_with_times">
+        <item quantity="other">Redialed %d times</item>
+        <item quantity="one">Redialed %d time</item>
+        <item quantity="few">Redialed %d times</item>
+        <item quantity="many">Redialed %d times</item>
     </plurals>
-    <plurals name="llks_tools_smart_devices_data">
-        <item quantity="other">%s devices</item>
-        <item quantity="one">%s device</item>
-        <item quantity="few">%s devices</item>
-        <item quantity="many">%s devices</item>
+    <plurals name="conference_call_number">
+        <item quantity="other">%s people</item>
+        <item quantity="one">%s person</item>
+        <item quantity="few">%s people</item>
+        <item quantity="many">%s people</item>
     </plurals>
-    <plurals name="lockscreen_magazine_subscribe">
-        <item quantity="other">%1$s people subscribed</item>
-        <item quantity="one">%1$s person subscribed</item>
-        <item quantity="few">%1$s people subscribed</item>
-        <item quantity="many">%1$s people subscribed</item>
+    <plurals name="duration_hours">
+        <item quantity="other">%d годин</item>
+        <item quantity="one">%d година</item>
+        <item quantity="few">%d години</item>
+        <item quantity="many">%d годин</item>
     </plurals>
-    <plurals name="lockscreen_magazine_system_subscribe">
-        <item quantity="other">%1$s wallpapers</item>
-        <item quantity="one">%1$s wallpaper</item>
-        <item quantity="few">%1$s wallpapers</item>
-        <item quantity="many">%1$s wallpapers</item>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d хвилин</item>
+        <item quantity="one">%d хвилина</item>
+        <item quantity="few">%d хвилини</item>
+        <item quantity="many">%d хвилин</item>
     </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d new notifications</item>
-        <item quantity="one">%d new notification</item>
-        <item quantity="few">%d new notifications</item>
-        <item quantity="many">%d new notifications</item>
-    </plurals>
-    <plurals name="photo_count">
-        <item quantity="other">%s photos</item>
-        <item quantity="one">%s photo</item>
-        <item quantity="few">%s photos</item>
-        <item quantity="many">%s photos</item>
-    </plurals>
-    <plurals name="time_day_ago">
-        <item quantity="other">%d days ago</item>
-        <item quantity="one">%d day ago</item>
-        <item quantity="few">%d days ago</item>
-        <item quantity="many">%d days ago</item>
-    </plurals>
-    <plurals name="time_hour_ago">
-        <item quantity="other">%d hrs ago</item>
-        <item quantity="one">%d hr ago</item>
-        <item quantity="few">%d hrs ago</item>
-        <item quantity="many">%d hrs ago</item>
-    </plurals>
-    <plurals name="time_minute_ago">
-        <item quantity="other">%d mins ago</item>
-        <item quantity="one">%d min ago</item>
-        <item quantity="few">%d mins ago</item>
-        <item quantity="many">%d mins ago</item>
-    </plurals>
-    <plurals name="wm_cw_count">
-        <item quantity="other">%d images</item>
-        <item quantity="one">%d image</item>
-        <item quantity="few">%d images</item>
-        <item quantity="many">%d images</item>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">%d second</item>
+        <item quantity="few">%d seconds</item>
+        <item quantity="many">%d seconds</item>
     </plurals>
 </resources>
