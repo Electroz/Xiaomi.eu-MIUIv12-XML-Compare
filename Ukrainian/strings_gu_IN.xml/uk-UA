@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_time">EEE, dd MMMM</string>
-    <string name="date_time_12">EEE, dd MMMM</string>
-    <string name="desc_date_format">EEEE, dd MMM</string>
-    <string name="desc_date_format_12">EEEE, dd MMM</string>
-    <string name="desc_time">'ઘડિયાળ ઍપ્લિકેશનમાં દાખલ થવા માટે વર્તમાન સમય\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', ને બેવાર ટૅપ કરો'</string>
-    <string name="weather_type_null">'કોઇ ડેટા નથી'</string>
+    <string name="air_quality0">\'AQI \'+#aqi</string>
+    <string name="air_quality1">\'AQI \'+#aqi</string>
+    <string name="air_quality2">\'AQI \'+#aqi</string>
+    <string name="air_quality3">\'AQI \'+#aqi</string>
+    <string name="air_quality4">\'AQI \'+#aqi</string>
+    <string name="air_quality5">\'AQI \'+#aqi</string>
+    <string name="weather_null">હવામાનની માહિતી મેળવવા માટે ટૅપ કરો</string>
+    <string name="weather_location_null">કોઈ સ્થાન માહિતી નથી</string>
     <string name="weather_type_0">સાફ</string>
     <string name="weather_type_1">વાદળછાયું</string>
     <string name="weather_type_2">ધૂંધળું</string>
     <string name="weather_type_3">ધુમ્મસભર્યું</string>
-    <string name="weather_type_4">અતિથી અતિ ભારે વાવાઝોડું</string>
+    <string name="weather_type_4">અતિ ભારે વરસાદ સાથે વાવાઝોડું</string>
     <string name="weather_type_5">વરસાદ સાથે વાવાઝોડું</string>
     <string name="weather_type_6">બહુ ભારે વરસાદ</string>
     <string name="weather_type_7">ગાજવીજ સાથે વાવાઝોડું</string>
@@ -31,5 +33,4 @@
     <string name="weather_type_22">કરા</string>
     <string name="weather_type_23">ઉડતી ધૂળ</string>
     <string name="weather_type_24">ધુમ્મસ</string>
-    <string name="weather_type_25">થીજવી નાંખે એવો વરસાદ</string>
 </resources>
