@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_time">ཟླ M ཚེས d E</string>
-    <string name="date_time_12">ཟླ་ M ཚེས་ d ཉིན། Eaa</string>
-    <string name="desc_date_format">ཟླ་ M ཚེས་ d E</string>
-    <string name="desc_date_format_12">ཟླ་ M ཚེས་ d ཉིན། Eaa</string>
-    <string name="desc_time">ifelse(eq(#time_format,0),#hour12,eq(#time_format,1),#hour24,#hour24)+\'点\'+ifelse(gt(#minute,0)*le(#minute,9),0,\'\')+ifelse(#minute,#minute+\'སྐར་མ་\',\'ཏག་ཏག\')+\', ཉིས་རེག་བྱས་ནས་ཆུ་ཚོད་App\'ལ་འཛུལ་བ།</string>
-    <string name="desc_weather">\@weather_description+\', \'+#weather_temperature+\'ཏུའུ།\'</string>
-    <string name="desc_weather_null">'གནས་སྐབས་སུ་གཞི་གྲངས་མི་འདུག'</string>
-    <string name="weather_type_null">'གནས་སྐབས་གཞི་གྲངས་མི་འདུག'</string>
+    <string name="air_quality0">'མཁའ་དབུགས་རབ།'</string>
+    <string name="air_quality1">'མཁའ་དབུགས་བཟང་།'</string>
+    <string name="air_quality2">'སྦགས་བཙོག་ཚད་ཆུང་།'</string>
+    <string name="air_quality3">'སྦགས་བཙོག་ཚད་འབྲིང་།'</string>
+    <string name="air_quality4">'སྦགས་བཙོག་ཚད་མཐོ།'</string>
+    <string name="air_quality5">'སྦགས་བཙོག་ཚབས་ཆེན།'</string>
+    <string name="weather_null">གནམ་གཤིས་གཞི་གྲངས་རེག་ནས་ཐོབ་ལེན།</string>
+    <string name="weather_location_null">ས་གནས་ཆ་འཕྲིན་མེད།</string>
     <string name="weather_type_0">གནམ་དྭངས།</string>
     <string name="weather_type_1">སྤྲིན་མང་།</string>
     <string name="weather_type_2">གནམ་འཐིབས།</string>
@@ -33,5 +33,4 @@
     <string name="weather_type_22">སེར་བ།</string>
     <string name="weather_type_23">ཐལ་རྡུལ།</string>
     <string name="weather_type_24">རྡུལ་ཞག</string>
-    <string name="weather_type_25">འཁྱགས་ཆར།</string>
 </resources>
