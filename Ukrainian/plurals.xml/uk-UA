@@ -1,117 +1,219 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="comment_model_watch_reply">
-        <item quantity="other">View %d replies</item>
-        <item quantity="one">View %d reply</item>
-        <item quantity="few">View %d replies</item>
-        <item quantity="many">View %d replies</item>
+    <plurals name="a_hour_ago">
+        <item quantity="one">1 hour ago</item>
+        <item quantity="few">1 hour ago</item>
+        <item quantity="many">1 hour ago</item>
+        <item quantity="other">1 hour ago</item>
     </plurals>
-    <plurals name="feed_back_home">
-        <item quantity="other">Going back to the home page in %1$d seconds…</item>
-        <item quantity="one">Going back to the home page in %1$d second…</item>
-        <item quantity="few">Going back to the home page in %1$d seconds…</item>
-        <item quantity="many">Going back to the home page in %1$d seconds…</item>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="one">1 hour ago</item>
+        <item quantity="few">1 hour ago</item>
+        <item quantity="many">1 hour ago</item>
+        <item quantity="other">1 hour ago</item>
     </plurals>
-    <plurals name="lv_subtitle_offset_advance_times">
-        <item quantity="other">Subtitles will be shown %.1f seconds earlier</item>
-        <item quantity="one">Subtitles will be shown %.1f second earlier</item>
-        <item quantity="few">Subtitles will be shown %.1f seconds earlier</item>
-        <item quantity="many">Subtitles will be shown %.1f seconds earlier</item>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="one">Half an hour ago</item>
+        <item quantity="few">Half an hour ago</item>
+        <item quantity="many">Half an hour ago</item>
+        <item quantity="other">Half an hour ago</item>
     </plurals>
-    <plurals name="lv_subtitle_offset_delay_times">
-        <item quantity="other">Subtitles will be shown %.1f seconds later</item>
-        <item quantity="one">Subtitles will be shown %.1f second later</item>
-        <item quantity="few">Subtitles will be shown %.1f seconds later</item>
-        <item quantity="many">Subtitles will be shown %.1f seconds later</item>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="one">In 1 hour</item>
+        <item quantity="few">In 1 hour</item>
+        <item quantity="many">In 1 hour</item>
+        <item quantity="other">In 1 hour</item>
     </plurals>
-    <plurals name="lv_subtitle_onlinesub_size_float_kb">
-        <item quantity="other">Size: %.2fKB</item>
-        <item quantity="one">Size: %.2fKB</item>
-        <item quantity="few">Size: %.2fKB</item>
-        <item quantity="many">Size: %.2fKB</item>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="one">In half an hour</item>
+        <item quantity="few">In half an hour</item>
+        <item quantity="many">In half an hour</item>
+        <item quantity="other">In half an hour</item>
     </plurals>
-    <plurals name="lv_video_count">
-        <item quantity="other">%d videos</item>
-        <item quantity="one">%d video</item>
-        <item quantity="few">%d videos</item>
-        <item quantity="many">%d videos</item>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="one">Immediately</item>
+        <item quantity="few">Immediately</item>
+        <item quantity="many">Immediately</item>
+        <item quantity="other">Immediately</item>
     </plurals>
-    <plurals name="notice_user_banned">
-        <item quantity="other">Your content contains items (%1$s) that violate our community standards. Your account is suspended for %2$d days until %3$s.</item>
-        <item quantity="one">Your content contains items (%1$s) that violate our community standards. Your account is suspended for %2$d day until %3$s.</item>
-        <item quantity="few">Your content contains items (%1$s) that violate our community standards. Your account is suspended for %2$d days until %3$s.</item>
-        <item quantity="many">Your content contains items (%1$s) that violate our community standards. Your account is suspended for %2$d days until %3$s.</item>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">in %d mins</item>
+        <item quantity="one">in 1 min</item>
+        <item quantity="few">in %d mins</item>
+        <item quantity="many">in %d mins</item>
     </plurals>
-    <plurals name="notification_close_tip">
-        <item quantity="other">This feature will be turned off for %s days</item>
-        <item quantity="one">This feature will be turned off for %s day</item>
-        <item quantity="few">This feature will be turned off for %s days</item>
-        <item quantity="many">This feature will be turned off for %s days</item>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="one">Just now</item>
+        <item quantity="few">Just now</item>
+        <item quantity="many">Just now</item>
+        <item quantity="other">Just now</item>
     </plurals>
-    <plurals name="ovp_detail_v_video_count">
-        <item quantity="other">%d videos</item>
-        <item quantity="one">%d video</item>
-        <item quantity="few">%d videos</item>
-        <item quantity="many">%d videos</item>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d mins ago</item>
+        <item quantity="one">1 min ago</item>
+        <item quantity="few">%d mins ago</item>
+        <item quantity="many">%d mins ago</item>
     </plurals>
-    <plurals name="ovp_home_item_unit">
-        <item quantity="other">%d videos</item>
-        <item quantity="one">%d video</item>
-        <item quantity="few">%d videos</item>
-        <item quantity="many">%d videos</item>
+    <plurals name="batch_delete_confirm_dialog_message">
+        <item quantity="other">Delete %1$s messages?</item>
+        <item quantity="one">Delete %1$s message?</item>
+        <item quantity="few">Delete %1$s messages?</item>
+        <item quantity="many">Delete %1$s messages?</item>
     </plurals>
-    <plurals name="plus_edit_delete_comfire_text">
-        <item quantity="other">Delete %s items now?</item>
-        <item quantity="one">Delete %s item now?</item>
-        <item quantity="few">Delete %s items now?</item>
-        <item quantity="many">Delete %s items now?</item>
+    <plurals name="cloud_sms_count">
+        <item quantity="other">%d messages</item>
+        <item quantity="one">%d message</item>
+        <item quantity="few">%d messages</item>
+        <item quantity="many">%d messages</item>
     </plurals>
-    <plurals name="plus_edit_top_titletext">
-        <item quantity="other">Selected %s items</item>
-        <item quantity="one">Selected %s item</item>
-        <item quantity="few">Selected %s items</item>
-        <item quantity="many">Selected %s items</item>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="other">"%d messages haven't been synced"</item>
+        <item quantity="one">"%d message hasn't been synced"</item>
+        <item quantity="few">"%d messages haven't been synced"</item>
+        <item quantity="many">"%d messages haven't been synced"</item>
     </plurals>
-    <plurals name="plus_player_subtitle_online_size">
-        <item quantity="other">File size: %.2fKB</item>
-        <item quantity="one">File size: %.2fKB</item>
-        <item quantity="few">File size: %.2fKB</item>
-        <item quantity="many">File size: %.2fKB</item>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Delete %1$s selected conversations?</item>
+        <item quantity="one">Delete %1$s selected conversation?</item>
+        <item quantity="few">Delete %1$s selected conversations?</item>
+        <item quantity="many">Delete %1$s selected conversations?</item>
     </plurals>
-    <plurals name="plus_search_result_title">
-        <item quantity="other">%2$s results for \"%1$s\"</item>
-        <item quantity="one">%2$s result for \"%1$s\"</item>
-        <item quantity="few">%2$s results for \"%1$s\"</item>
-        <item quantity="many">%2$s results for \"%1$s\"</item>
+    <plurals name="custom_select_title_items_selected">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+        <item quantity="few">%d selected</item>
+        <item quantity="many">%d selected</item>
     </plurals>
-    <plurals name="plus_serval_pictures">
-        <item quantity="other">%d images</item>
-        <item quantity="one">%d image</item>
-        <item quantity="few">%d images</item>
-        <item quantity="many">%d images</item>
+    <plurals name="delivery_toast_body_more_plurals">
+        <item quantity="other">Message received by %1$s and %2$d other people</item>
+        <item quantity="one">Message received by %1$s and %2$d other person</item>
+        <item quantity="few">Message received by %1$s and %2$d other people</item>
+        <item quantity="many">Message received by %1$s and %2$d other people</item>
     </plurals>
-    <plurals name="plus_serval_videos">
-        <item quantity="other">%d videos</item>
-        <item quantity="one">%d video</item>
-        <item quantity="few">%d videos</item>
-        <item quantity="many">%d videos</item>
+    <plurals name="group_message_failed_title">
+        <item quantity="other">"Couldn't send to %d contacts"</item>
+        <item quantity="one">"Couldn't send to %d contact"</item>
+        <item quantity="few">"Couldn't send to %d contacts"</item>
+        <item quantity="many">"Couldn't send to %d contacts"</item>
     </plurals>
-    <plurals name="subscriber">
-        <item quantity="other">%s subscribers</item>
-        <item quantity="one">%s subscriber</item>
-        <item quantity="few">%s subscribers</item>
-        <item quantity="many">%s subscribers</item>
+    <plurals name="half_hour_ago">
+        <item quantity="one">Half an hour ago</item>
+        <item quantity="few">Half an hour ago</item>
+        <item quantity="many">Half an hour ago</item>
+        <item quantity="other">Half an hour ago</item>
     </plurals>
-    <plurals name="subtitle_offset_advance_times">
-        <item quantity="other">Subtitles are moved %.1f seconds forward</item>
-        <item quantity="one">Subtitles are moved %.1f second forward</item>
-        <item quantity="few">Subtitles are moved %.1f seconds forward</item>
-        <item quantity="many">Subtitles are moved %.1f seconds forward</item>
+    <plurals name="hint_search_sms">
+        <item quantity="other">%d messages</item>
+        <item quantity="one">%d message</item>
+        <item quantity="few">%d messages</item>
+        <item quantity="many">%d messages</item>
     </plurals>
-    <plurals name="subtitle_offset_delay_times">
-        <item quantity="other">Subtitles are delayed for %.1f seconds</item>
-        <item quantity="one">Subtitles are delayed for %.1f second</item>
-        <item quantity="few">Subtitles are delayed for %.1f seconds</item>
-        <item quantity="many">Subtitles are delayed for %.1f seconds</item>
+    <plurals name="in_a_hour">
+        <item quantity="one">In 1 hour</item>
+        <item quantity="few">In 1 hour</item>
+        <item quantity="many">In 1 hour</item>
+        <item quantity="other">In 1 hour</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="one">In half an hour</item>
+        <item quantity="few">In half an hour</item>
+        <item quantity="many">In half an hour</item>
+        <item quantity="other">In half an hour</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="one">Immediately</item>
+        <item quantity="few">Immediately</item>
+        <item quantity="many">Immediately</item>
+        <item quantity="other">Immediately</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">in %d minutes</item>
+        <item quantity="one">in 1 minute</item>
+        <item quantity="few">in %d minutes</item>
+        <item quantity="many">in %d minutes</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="one">Just now</item>
+        <item quantity="few">Just now</item>
+        <item quantity="many">Just now</item>
+        <item quantity="other">Just now</item>
+    </plurals>
+    <plurals name="mark_number_dialog_subtitle">
+        <item quantity="other">Marked as %2$s by %1$d people</item>
+        <item quantity="one">Marked as %2$s by %1$d people</item>
+        <item quantity="few">Marked as %2$s by %1$d people</item>
+        <item quantity="many">Marked as %2$s by %1$d people</item>
+    </plurals>
+    <plurals name="message_count">
+        <item quantity="other">%1$s messages</item>
+        <item quantity="one">%1$s message</item>
+        <item quantity="few">%1$s messages</item>
+        <item quantity="many">%1$s messages</item>
+    </plurals>
+    <plurals name="notification_multiple">
+        <item quantity="other">"%s messages | "</item>
+        <item quantity="one">"%s message | "</item>
+        <item quantity="few">"%s messages | "</item>
+        <item quantity="many">"%s messages | "</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">1 minute ago</item>
+        <item quantity="few">%d minutes ago</item>
+        <item quantity="many">%d minutes ago</item>
+    </plurals>
+    <plurals name="rcs_group_notification_invitation_receive">
+        <item quantity="other">You received %d group chat invitations</item>
+        <item quantity="one">You received %d group chat invitation</item>
+        <item quantity="few">You received %d group chat invitations</item>
+        <item quantity="many">You received %d group chat invitations</item>
+    </plurals>
+    <plurals name="recipient_count">
+        <item quantity="other">%1$s people</item>
+        <item quantity="one">%1$s person</item>
+        <item quantity="few">%1$s people</item>
+        <item quantity="many">%1$s people</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s results for \"%2$s\"</item>
+        <item quantity="one">%1$s result for \"%2$s\"</item>
+        <item quantity="few">%1$s results for \"%2$s\"</item>
+        <item quantity="many">%1$s results for \"%2$s\"</item>
+    </plurals>
+    <plurals name="send_to_count">
+        <item quantity="other">Sent %1$s messages</item>
+        <item quantity="one">Sent %1$s message</item>
+        <item quantity="few">Sent %1$s messages</item>
+        <item quantity="many">Sent %1$s messages</item>
+    </plurals>
+    <plurals name="slide_audio_duration">
+        <item quantity="other">%d secs</item>
+        <item quantity="one">%d sec</item>
+        <item quantity="few">%d secs</item>
+        <item quantity="many">%d secs</item>
+    </plurals>
+    <plurals name="slide_duration">
+        <item quantity="other">%d secs</item>
+        <item quantity="one">%d sec</item>
+        <item quantity="few">%d secs</item>
+        <item quantity="many">%d secs</item>
+    </plurals>
+    <plurals name="timed_message_expired_title">
+        <item quantity="other">"%d timed messages haven't been sent"</item>
+        <item quantity="one">"%d timed message haven't been sent"</item>
+        <item quantity="few">"%d timed messages haven't been sent"</item>
+        <item quantity="many">"%d timed messages haven't been sent"</item>
+    </plurals>
+    <plurals name="timed_message_in_total">
+        <item quantity="other">(%d messages)</item>
+        <item quantity="one">(%d message)</item>
+        <item quantity="few">(%d messages)</item>
+        <item quantity="many">(%d messages)</item>
+    </plurals>
+    <plurals name="to_count">
+        <item quantity="other">%d recipients</item>
+        <item quantity="one">%d recipient</item>
+        <item quantity="few">%d recipients</item>
+        <item quantity="many">%d recipients</item>
     </plurals>
 </resources>
