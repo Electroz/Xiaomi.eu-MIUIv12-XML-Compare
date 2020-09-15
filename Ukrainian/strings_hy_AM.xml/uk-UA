@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="air_quality0">\'AQI \'+#aqi</string>
-    <string name="air_quality1">\'AQI \'+#aqi</string>
-    <string name="air_quality2">\'AQI \'+#aqi</string>
-    <string name="air_quality3">\'AQI \'+#aqi</string>
-    <string name="air_quality4">\'AQI \'+#aqi</string>
-    <string name="air_quality5">\'AQI \'+#aqi</string>
     <string name="weather_null">Հպեք, եղանակի մասին տեղեկություններ ստանալու համար</string>
-    <string name="weather_location_null">Գտնվելու վայրի մասին տեղեկություններ չկան</string>
+    <string name="date_format">EEEE, d MMMM</string>
+    <string name="today">Այսօր</string>
+    <string name="tomorrow">Վաղը</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqileve</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel
+ </string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel
+ </string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
+    <string name="weather_type_null">'Տվյալներ չկան'</string>
     <string name="weather_type_0">Մաքրել</string>
     <string name="weather_type_1">Ամպոտ է</string>
     <string name="weather_type_2">Ամպամած է</string>
@@ -23,9 +30,9 @@
     <string name="weather_type_12">Ձյունախառն անձրև</string>
     <string name="weather_type_13">Ձնաբուք</string>
     <string name="weather_type_14">Տեղ-տեղ ձյուն</string>
-    <string name="weather_type_15">Ձյան առատ տեղումներ</string>
-    <string name="weather_type_16">Ձյունատեղում</string>
-    <string name="weather_type_17">Թեթև ձյունատեղում</string>
+    <string name="weather_type_15">Ծանր ձյուն</string>
+    <string name="weather_type_16">Ձյուն</string>
+    <string name="weather_type_17">Թեթև ձյուն</string>
     <string name="weather_type_18">Ուժեղ ավազահողմ</string>
     <string name="weather_type_19">Ավազահողմ</string>
     <string name="weather_type_20">Թեթև ավազահողմ</string>
