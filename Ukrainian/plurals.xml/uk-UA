@@ -1,105 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="items_selected">
-        <item quantity="other">%d items selected</item>
-        <item quantity="one">%d item selected</item>
-        <item quantity="few">%d items selected</item>
-        <item quantity="many">%d items selected</item>
+    <plurals name="cloud_backup_detail_frequence_day">
+        <item quantity="other">Back up every %d days</item>
+        <item quantity="one">Back up every day</item>
+        <item quantity="few">Back up every %d days</item>
+        <item quantity="many">Back up every %d days</item>
     </plurals>
-    <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="one">Just now</item>
-        <item quantity="few">Just now</item>
-        <item quantity="many">Just now</item>
-        <item quantity="other">Just now</item>
+    <plurals name="cloud_backup_detail_manage_summary">
+        <item quantity="other">%1$s резервних копіювань (%2$s)</item>
+        <item quantity="one">%1$s резервне копіювання (%2$s)</item>
+        <item quantity="few">%1$s резервних копіювань (%2$s)</item>
+        <item quantity="many">%1$s резервних копіювань (%2$s)</item>
     </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Just now</item>
-        <item quantity="few">Just now</item>
-        <item quantity="many">Just now</item>
-        <item quantity="other">Just now</item>
+    <plurals name="restore_app_order_installed">
+        <item quantity="other">%d apps on this device</item>
+        <item quantity="one">%d app on this device</item>
+        <item quantity="few">%d apps on this device</item>
+        <item quantity="many">%d apps on this device</item>
     </plurals>
-    <plurals name="abbrev_in_less_than_one_minute">
-        <item quantity="one">Immediately</item>
-        <item quantity="few">Immediately</item>
-        <item quantity="many">Immediately</item>
-        <item quantity="other">Immediately</item>
+    <plurals name="restore_app_order_normal">
+        <item quantity="other">Regular priority: %d apps</item>
+        <item quantity="one">Regular priority: %d app</item>
+        <item quantity="few">Regular priority: %d apps</item>
+        <item quantity="many">Regular priority: %d apps</item>
     </plurals>
-    <plurals name="in_less_than_one_minute">
-        <item quantity="one">Immediately</item>
-        <item quantity="few">Immediately</item>
-        <item quantity="many">Immediately</item>
-        <item quantity="other">Immediately</item>
+    <plurals name="restore_app_order_prior">
+        <item quantity="other">High priority: %d apps</item>
+        <item quantity="one">High priority: %d app</item>
+        <item quantity="few">High priority: %d apps</item>
+        <item quantity="many">High priority: %d apps</item>
     </plurals>
-    <plurals name="abbrev_a_hour_ago">
-        <item quantity="one">1 hour ago</item>
-        <item quantity="few">1 hour ago</item>
-        <item quantity="many">1 hour ago</item>
-        <item quantity="other">1 hour ago</item>
-    </plurals>
-    <plurals name="abbrev_half_hour_ago">
-        <item quantity="one">Half an hour ago</item>
-        <item quantity="few">Half an hour ago</item>
-        <item quantity="many">Half an hour ago</item>
-        <item quantity="other">Half an hour ago</item>
-    </plurals>
-    <plurals name="a_hour_ago">
-        <item quantity="one">1 hour ago</item>
-        <item quantity="few">1 hour ago</item>
-        <item quantity="many">1 hour ago</item>
-        <item quantity="other">1 hour ago</item>
-    </plurals>
-    <plurals name="half_hour_ago">
-        <item quantity="one">Half an hour ago</item>
-        <item quantity="few">Half an hour ago</item>
-        <item quantity="many">Half an hour ago</item>
-        <item quantity="other">Half an hour ago</item>
-    </plurals>
-    <plurals name="abbrev_in_a_hour">
-        <item quantity="one">In 1 hour</item>
-        <item quantity="few">In 1 hour</item>
-        <item quantity="many">In 1 hour</item>
-        <item quantity="other">In 1 hour</item>
-    </plurals>
-    <plurals name="abbrev_in_half_hour">
-        <item quantity="one">In half an hour</item>
-        <item quantity="few">In half an hour</item>
-        <item quantity="many">In half an hour</item>
-        <item quantity="other">In half an hour</item>
-    </plurals>
-    <plurals name="in_a_hour">
-        <item quantity="one">In 1 hour</item>
-        <item quantity="few">In 1 hour</item>
-        <item quantity="many">In 1 hour</item>
-        <item quantity="other">In 1 hour</item>
-    </plurals>
-    <plurals name="in_half_hour">
-        <item quantity="one">In half an hour</item>
-        <item quantity="few">In half an hour</item>
-        <item quantity="many">In half an hour</item>
-        <item quantity="other">In half an hour</item>
-    </plurals>
-    <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d mins ago</item>
-        <item quantity="one">1 min ago</item>
-        <item quantity="few">%d mins ago</item>
-        <item quantity="many">%d mins ago</item>
-    </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="other">%d minutes ago</item>
-        <item quantity="one">1 minute ago</item>
-        <item quantity="few">%d minutes ago</item>
-        <item quantity="many">%d minutes ago</item>
-    </plurals>
-    <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">in %d mins</item>
-        <item quantity="one">in 1 min</item>
-        <item quantity="few">in %d mins</item>
-        <item quantity="many">in %d mins</item>
-    </plurals>
-    <plurals name="in_num_minutes">
-        <item quantity="other">in %d minutes</item>
-        <item quantity="one">in 1 minute</item>
-        <item quantity="few">in %d minutes</item>
-        <item quantity="many">in %d minutes</item>
+    <plurals name="restoring_file_tile">
+        <item quantity="other">Restoring %d files</item>
+        <item quantity="one">Restoring %d file</item>
+        <item quantity="few">Restoring %d files</item>
+        <item quantity="many">Restoring %d files</item>
     </plurals>
 </resources>
