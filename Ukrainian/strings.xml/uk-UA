@@ -22,9 +22,9 @@
   <string name="HIPS_Perm_Contact_Desc">зміна і видалення контактів</string>
   <string name="HIPS_Perm_External_Storage">Читання та запис файлів до внутрішньої пам\'яті</string>
   <string name="HIPS_Perm_External_Storage_Desc">"Додавання і видалення файлів з пам'яті пристрою"</string>
-  <string name="HIPS_Perm_Intl_group_desc_audio_recorder">Recording audio and making calls</string>
-  <string name="HIPS_Perm_Intl_group_desc_auto_start">Launching apps in the background automatically</string>
-  <string name="HIPS_Perm_Intl_group_desc_calendar">Accessing calendar events</string>
+  <string name="HIPS_Perm_Intl_group_desc_audio_recorder">Запис звуку і здійснення дзвінків</string>
+  <string name="HIPS_Perm_Intl_group_desc_auto_start">Автоматичний запуск програм у фоновому режимі</string>
+  <string name="HIPS_Perm_Intl_group_desc_calendar">Доступ до подій календаря</string>
   <string name="HIPS_Perm_Intl_group_desc_call_log">Accessing and editing call history</string>
   <string name="HIPS_Perm_Intl_group_desc_camera">Taking photos and making videos</string>
   <string name="HIPS_Perm_Intl_group_desc_contact">Editing and deleting contacts</string>
